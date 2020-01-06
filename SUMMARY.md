@@ -139,6 +139,7 @@
       + [Rxjava 2.0](Rxjava 2.0.md)
     + [Rxbinding](Rxbinding.md)
     + RxLifecycle
+  + [Retrofit](Retrofit.md)
   + [Util](Util.md)
     + [Guava](Guava.md)
 + 注解

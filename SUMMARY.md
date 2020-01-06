@@ -65,7 +65,7 @@
         * [TextView](TextView.md)
         * ProgressBar
           * [SeekBar](SeekBar.md)
-      * [自定义view](https://developer.android.com/guide/topics/ui/custom-components)
+      * 自定义view
         * [Creating a View Class](Creating a View Class.md)
         * [Optimizing the View](Optimizing the View.md)
 * 图片和图形

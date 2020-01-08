@@ -142,6 +142,8 @@
   + [Retrofit](Retrofit.md)
   + [Util](Util.md)
     + [Guava](Guava.md)
++ 函数和Lamdba表达式
+  + [内联函数](内联函数.md)
 + 注解
   - [注解](注解.md)
   - 编写注解处理器

@@ -47,7 +47,7 @@
       * [RecyclerView](RecyclerView.md)
   * [Dialogs](Dialogs.md)
     * [自定义Dialog](自定义Dialog.md)
-  * [View](View.md)
+  * View
     * 机制
       * [绘制](绘制.md)
       * 滚动
@@ -142,6 +142,7 @@
   + [Retrofit](Retrofit.md)
   + [Util](Util.md)
     + [Guava](Guava.md)
++ [Android面试](Android面试.md)
 + 开始
   + [基本语法](基本语法.md)
 + 基础

@@ -39,4 +39,3 @@
 *CircularProgressDrawable*
 
 *RoundedDrawable*
-

@@ -55,4 +55,4 @@ Activity 生命周期与片段生命周期之间的最显著差异在于它们�
 
 [通过源码解析 Fragment 启动过程](https://www.jianshu.com/p/f2fcc670afd6)
 
-[Activity/Fragment Purge and Restore Best Practices](Activity/Fragment Purge and Restore Best Practices)
+Activity/Fragment Purge and Restore Best Practices

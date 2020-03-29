@@ -176,6 +176,19 @@
 
 + 后台
   + 服务
+    + 服务的整个生命周期从调用 onCreate() 开始起，到 onDestroy() 返回时结束
+    + 服务的有效生命周期
+      - 对于启动服务，从调用 onStartCommand()开始起，到 onDestroy() 返回时结束
+      - 对于绑定服务，从调用 onBind()开始起，到 onUnbind() 返回时结束
+    + 启动服务
+      + 为确保应用的安全性，在启动 Service 时，请始终使用显式 Intent，且不要为服务声明 Intent 过滤器。使用隐式 Intent 启动服务存在安全隐患，因为您无法确定哪些服务会响应 Intent，而用户也无法看到哪些服务已启动
+      + startService() 方法将立即返回，且 Android 系统调用服务的 onStartCommand() 方法。如果服务尚未运行，则系统会先调用 onCreate()，然后再调用 onStartCommand()
+      + 多个服务启动请求会导致多次对服务的 onStartCommand() 进行相应的调用。但是，要停止服务，只需一个服务停止请求（使用 stopSelf() 或 stopService()）即可
+      + START_NOT_STICKY
+        如果系统在 onStartCommand() 返回后终止服务，则除非有待传递的挂起 Intent，否则系统不会重建服务
+      + START_STICKY
+        如果系统在 onStartCommand() 返回后终止服务，则其会重建服务并调用onStartCommand()，但不会重新传递最后一个 Intent。相反，除非有挂起 Intent 要启动服务，否则系统会调用包含空 Intent 的 onStartCommand()。在此情况下，系统会传递这些 Intent。此常量适用于不执行命令、但无限期运行并等待作业的媒体播放器（或类似服务）
+      +  START_REDELIVER_INTENT
     + 绑定服务
       + 如果您的服务已启动并接受绑定，则当系统调用您的 onUnbind() 方法时，如果您想在客户端下一次绑定到服务时接收 onRebind() 调用，则可选择返回 true。onRebind() 返回空值，但客户端仍在其 onServiceConnected() 回调中接收 IBinder
     + AIDL
@@ -328,4 +341,115 @@
       + 包含具有 0 个参数且返回使用 @Dao 注释的类的抽象方法
         在运行时，您可以通过调用 Room.databaseBuilder() 或 Room.inMemoryDatabaseBuilder() 获取 Database 的实例
 
-      
+
++ 内容提供器
+  + 通过配置内容提供程序，您可以使其他应用安全地访问和修改您的应用数据
+  + Android 框架内的某些内容提供程序可管理音频、视频、图像和个人联系信息等数据。android.provider 软件包参考文档中列出了其中的部分提供程序。虽然存在一些限制，但任何 Android 应用均可访问这些提供程序
+  + 内容提供程序以一个或多个表的形式将数据呈现给外部应用，这些表与在关系型数据库中找到的表类似。行表示提供程序收集的某种数据类型实例，行中的每个列表示为实例所收集的每条数据
+  + 如要访问内容提供程序中的数据，您可以客户端的形式使用应用的 Context 中的 ContentResolver 对象，从而与提供程序进行通信。ContentResolver 对象会与提供程序对象（即实现 ContentProvider 的类实例）进行通信
+  + 内容 URI 包括整个提供程序的符号名称（其授权）和指向表的名称（路径）
++ 广播
+  + 一般来说，广播可作为跨应用和普通用户流之外的消息传递系统。但是，您必须小心，不要滥用在后台响应广播和运行作业的机会，因为这会导致系统变慢
+  + 此对象仅在调用 onReceive(Context, Intent) 期间有效。一旦从此方法返回代码，系统便会认为该组件不再活跃
+    + 您不应从广播接收器启动长时间运行的后台线程。onReceive() 完成后，系统可以随时终止进程来回收内存，在此过程中，也会终止进程中运行的派生线程。要避免这种情况，您应该调用 goAsync()（如果您希望在后台线程中多花一点时间来处理广播）或者使用 JobScheduler
+  + 接收广播
+    + 清单声明的接收器
+      + 如果您在清单中声明广播接收器，系统会在广播发出后启动您的应用（如果应用尚未运行）
+      + 如果您的应用以 API 级别 26 或更高级别的平台版本为目标，则不能使用清单为隐式广播（没有明确针对您的应用的广播）声明接收器，但一些不受此限制的隐式广播除外
+    + 上下文注册的接收器
+      + 只要注册上下文有效，上下文注册的接收器就会接收广播。例如，如果您在 Activity 上下文中注册，只要 Activity 没有被销毁，您就会收到广播。如果您在应用上下文中注册，只要应用在运行，您就会收到广播
+      + 当您不再需要接收器或上下文不再有效时，请务必注销接收器
+  + 发送广播
+    + sendOrderedBroadcast(Intent, String) 方法一次向一个接收器发送广播。当接收器逐个顺序执行时，接收器可以向下传递结果，也可以完全中止广播，使其不再传递给其他接收器。接收器的运行顺序可以通过匹配的 intent-filter 的 android:priority 属性来控制；具有相同优先级的接收器将按随机顺序运行
+    + sendBroadcast(Intent) 方法会按随机的顺序向所有接收器发送广播。这称为常规广播。这种方法效率更高，但也意味着接收器无法从其他接收器读取结果，无法传递从广播中收到的数据，也无法中止广播
+    + LocalBroadcastManager.sendBroadcast 方法会将广播发送给与发送器位于同一应用中的接收器。如果您不需要跨应用发送广播，请使用本地广播。这种实现方法的效率更高（无需进行进程间通信），而且您无需担心其他应用在收发您的广播时带来的任何安全问题
+  + 权限
+    + 不是谁都能收到我发的广播 收件人设置
+    + 我不接收垃圾短信
+  + 安全注意事项和最佳做法
+    + 请优先使用上下文注册而不是清单声明
+    + 请勿从广播接收器启动 Activity，否则会影响用户体验，尤其是有多个接收器
+    + 如果您不需要向应用以外的组件发送广播，则可以使用支持库中提供的 LocalBroadcastManager 来收发本地广播。LocalBroadcastManager 效率更高（无需进行进程间通信），并且您无需考虑其他应用在收发您的广播时带来的任何安全问题。本地广播可在您的应用中作为通用的发布/订阅事件总线，而不会产生任何系统级广播开销
+    + 请勿使用隐式 intent 广播敏感信息。任何注册接收广播的应用都可以读取这些信息
+    + 广播操作的命名空间是全局性的。请确保在您自己的命名空间中编写操作名称和其他字符串
++ activity
+  + 定义
+    + 当一个应用调用另一个应用时，调用方应用会调用另一个应用中的 Activity，而不是整个应用。通过这种方式，Activity 充当了应用与用户互动的入口点
+  + 生命周期
+    + 无论您选择在哪个构建事件中执行初始化操作，都请务必使用相应的生命周期事件来释放资源
+  + 保持状态
+    + 系统永远不会直接终止 Activity 以释放内存，而是会终止 Activity 所在的进程。系统不仅会销毁 Activity，还会销毁在该进程中运行的所有其他内容
+    + ViewModel 非常适合在用户正活跃地使用应用时存储和管理界面相关数据。它支持快速访问界面数据，并且有助于避免在发生旋转、窗口大小调整和其他常见的配置更改后从网络或磁盘中重新获取数据
+    + 已保存实例状态捆绑包在配置更改和进程终止后都会保留，但受限于存储容量和速度，因为 onSavedInstanceState() 会将数据序列化到磁盘
+    + 对复杂或大型数据使用本地持久性存储来处理进程终止
+  + 跳转
+    + startActivity()
+    + startActivityForResult()
+  + 任务和返回栈
+    + 任务是用户在执行某项工作时与之互动的一系列 Activity 的集合。这些 Activity 按照每个 Activity 打开的顺序排列在一个返回堆栈中
+    + 使用清单文件
+      + standard
+      + singleTop
+      + singleTask
+        + 虽然 Activity 在新任务中启动，但用户按返回按钮仍会返回到上一个 Activity
+      + singleInstance
+    + 使用 Intent 标记
+    + 亲和性
+      + When the intent that launches an activity contains the FLAG_ACTIVITY_NEW_TASK flag
+      + When an activity has its allowTaskReparenting attribute set to "true"
++ fragment
+  + 您可以将片段视为 Activity 的模块化组成部分，它具有自己的生命周期，能接收自己的输入事件，并且您可以在 Activity 运行时添加或移除片段（这有点像可以在不同 Activity 中重复使用的“子 Activity”）
+  + 片段必须始终托管在 Activity 中，其生命周期直接受宿主 Activity 生命周期的影响
+    + When auto-created, an activity also auto creates and attaches all added fragments
+    + The member variables of activities and fragments are NOT restored after they are auto-created
+  + 向 Activity 添加片段
+    + 在 Activity 的布局文件内声明片段
+    + 如要在您的 Activity 中执行片段事务（如添加、移除或替换片段），则必须使用 FragmentTransaction 中的 API
+  + 事务管理
+    + 在调用 commit() 之前，您可能希望调用 addToBackStack()，以将事务添加到片段事务返回栈。该返回栈由 Activity 管理，允许用户通过按返回按钮返回上一片段状态
+    + 向 FragmentTransaction 添加更改的顺序无关紧要，不过
+      + 您必须最后调用 commit()，异步的
+        + 如有必要，您也可以从界面线程调用 executePendingTransactions()，以立即执行 commit() 提交的事务。通常不必这样做，除非其他线程中的作业依赖该事务
+      + 如果您要向同一容器添加多个片段，则您添加片段的顺序将决定它们在视图层次结构中出现的顺序
+      + 您只能在 Activity 保存其状态（当用户离开 Activity）之前使用 commit() 提交事务。如果您试图在该时间点后提交，则会引发异常。这是因为如需恢复 Activity，则提交后的状态可能会丢失。对于丢失提交无关紧要的情况，请使用 commitAllowingStateLoss()
+  + 注意事项
+    + 你在pop了Fragment之后，该Fragment的异步任务仍然在执行，并且在执行完成后调用了getActivity()方法，这样就会空指针
+    + 高耦合
+      + 通过接口抽象的方法，通过接口去调用宿主Activity的方法
+    + 由于采用创建对象的方式去初始化Fragment对象，当宿主Activity在界面销毁或者界面重新执行onCreate()方法时,就有可能再一次的执行Fragment的创建初始，而之前已经存在的 Fragment 实例也会销毁再次创建，这不就与 Activity 中 onCreate() 方法里面第二次创建的 Fragment 同时显示从而发生 UI 重叠的问题
+      + 利用savedInstanceState判断
++ 视图绑定
+  + 与使用 findViewById 相比，视图绑定具有一些很显著的优点
+    + Null 安全：由于视图绑定会创建对视图的直接引用，因此不存在因视图 ID 无效而引发 Null 指针异常的风险。此外，如果视图仅出现在布局的某些配置中，则绑定类中包含其引用的字段会使用 @Nullable 标记
+    + 类型安全
+  + 与数据绑定比较
+    + 数据绑定库仅处理使用  layout 代码创建的数据绑定布局
+    + 视图绑定不支持布局变量或布局表达式，因此它不能用于在 XML 中将布局与数据绑定
++ 数据绑定库
+  + 您可以使用声明性格式（而非程序化地）将布局中的界面组件绑定到应用中的数据源
+  + 数据绑定布局文件略有不同，以根标记 layout 开头，后跟 data 元素和 view 根元素
++ Lifecycle
+  + 引入
+    + 在真实的应用中，最终会有太多管理界面和其他组件的调用，以响应生命周期的当前状态。管理多个组件会在生命周期方法（如 onStart() 和 onStop()）中放置大量的代码，这使得它们难以维护
+    + 无法保证组件会在 Activity 或 Fragment 停止之前启动。在我们需要执行长时间运行的操作（如 onStart() 中的某种配置检查）时尤其如此。这可能会导致出现一种竞争条件，在这种条件下，onStop() 方法会在 onStart() 之前结束，这使得组件留存的时间比所需的时间要长
++ livedata
+  + 常规的可观察类不同，LiveData 具有生命周期感知能力，意指它遵循其他应用组件（如 Activity、Fragment 或 Service）的生命周期。这种感知能力可确保 LiveData 仅更新处于活跃生命周期状态的应用组件观察者
++ paging
++ viewmodel
+  + 引入的缘由
+    + 如果系统销毁或重新创建界面控制器，则存储在其中的任何临时性界面相关数据都会丢失。对于简单的数据，Activity 可以使用 onSaveInstanceState() 方法从 onCreate() 中的捆绑包恢复其数据，但此方法仅适合可以序列化再反序列化的少量数据，而不适合数量可能较大的数据
+    + 界面控制器经常需要进行异步调用，这些调用可能需要一些时间才能返回结果。界面控制器需要管理这些调用，并确保系统在其销毁后清理这些调用以避免潜在的内存泄露。此项管理需要大量的维护工作，并且在因配置更改而重新创建对象的情况下，会造成资源的浪费，因为对象可能需要重新发出已经发出过的调用
+  + 架构组件为界面控制器提供了 ViewModel 辅助程序类，该类负责为界面准备数据。 在配置更改期间会自动保留 ViewModel 对象，以便它们存储的数据立即可供下一个 Activity 或 Fragment 实例使用
+    + setRetainInstance(true) 底层实现
+  + 生命周期
+    + ViewModel 对象存在的时间范围是获取 ViewModel 时传递给 ViewModelProvider 的 Lifecycle。ViewModel 将一直留在内存中，直到限定其存在时间范围的 Lifecycle 永久消失：对于 Activity，是在 Activity 完成时；而对于 Fragment，是在 Fragment 分离时
+  + 在 Fragment 之间共享数据
++ WorkManager
+  + 可延迟运行（即不需要立即运行）并且在应用退出或设备重启时必须能够可靠运行的任务
+
+
+
++ 保活
+  + 黑色保活：不同的app进程，用广播相互唤醒（包括利用系统提供的广播进行唤醒）
+  + 白色保活：启动前台Service
+

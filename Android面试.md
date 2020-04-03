@@ -194,7 +194,14 @@
     + AIDL
       + 不应从 Activity 的主线程调用该服务，因为这可能会使应用挂起（Android 可能会显示“Application is Not Responding”对话框）— 通常，您应从客户端内的单独线程调用服务
       + IBinder 方法必须实现为线程安全方法，远程调用时线程是不确定的
+    + 怎么在Service中创建Dialog对话框
+      + 在我们取得Dialog对象后，需给它设置类型，即：
+        dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT)
+      + 在Manifest中加上权限:
+        uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" 
+
 + 进程 线程
+
   + 进程，是计算机中的程序关于某数据集合上的一次运行活动，是系统进行资源分配和调度的基本单位，是操作系统结构的基础。它的执行需要系统分配资源创建实体之后，才能进行
   + 进程是资源分配的基本单位，线程是调度的基本单位
   + 进程的个体间是完全独立的，而线程间是彼此依存的。多进程环境中，任何一个进程的终止，不会影响到其他进程。而多线程环境中，父线程终止，全部子线程被迫终止(没有了资源)。而任何一个子线程终止一般不会影响其他线程，除非子线程执行了exit()系统调用。任何一个子线程执行exit()，全部线程同时灭亡
@@ -257,6 +264,9 @@
       + 不要在 UI 线程之外访问 Android UI 工具包
         + 我们建议您不要在应用的线程处理工作任务中包含对界面对象的显式引用。避免此类引用有助于防止这些类型的内存泄漏，同时避开线程处理争用
         + 内部类隐式引用外部activity
+        + 非UI线程可以更新UI吗?
+          + 当访问UI时，ViewRootImpl会调用checkThread方法去检查当前访问UI的线程是哪个，如果不是UI线程则会抛出异常。执行onCreate方法的那个时候ViewRootImpl还没创建，无法去检查当前线程。ViewRootImpl的创建在onResume方法回调之后
+          + 非UI线程是可以刷新UI的呀，前提是它要拥有自己的ViewRoot。如果想直接创建ViewRoot实例，你会发现找不到这个类。那怎么做呢？通过WindowManager
     + 工作线程
       + 在应用中创建和管理线程时，请务必设置线程的优先级
     + 切线程
@@ -341,13 +351,22 @@
       + 包含具有 0 个参数且返回使用 @Dao 注释的类的抽象方法
         在运行时，您可以通过调用 Room.databaseBuilder() 或 Room.inMemoryDatabaseBuilder() 获取 Database 的实例
 
+  + 缓存
+
+    + LruCache
+      + A cache that holds strong references to a limited number of values. Each time a value is accessed, it is moved to the head of a queue. When a value is added to a full cache, the value at the end of that queue is evicted and may become eligible for garbage collection
+      + By default, the cache size is measured in the number of entries. Override sizeOf(K, V) to size the cache in different units
+      + This class is thread-safe
+      + key 和 value 不接受 null
 
 + 内容提供器
+
   + 通过配置内容提供程序，您可以使其他应用安全地访问和修改您的应用数据
   + Android 框架内的某些内容提供程序可管理音频、视频、图像和个人联系信息等数据。android.provider 软件包参考文档中列出了其中的部分提供程序。虽然存在一些限制，但任何 Android 应用均可访问这些提供程序
   + 内容提供程序以一个或多个表的形式将数据呈现给外部应用，这些表与在关系型数据库中找到的表类似。行表示提供程序收集的某种数据类型实例，行中的每个列表示为实例所收集的每条数据
   + 如要访问内容提供程序中的数据，您可以客户端的形式使用应用的 Context 中的 ContentResolver 对象，从而与提供程序进行通信。ContentResolver 对象会与提供程序对象（即实现 ContentProvider 的类实例）进行通信
   + 内容 URI 包括整个提供程序的符号名称（其授权）和指向表的名称（路径）
+
 + 广播
   + 一般来说，广播可作为跨应用和普通用户流之外的消息传递系统。但是，您必须小心，不要滥用在后台响应广播和运行作业的机会，因为这会导致系统变慢
   + 此对象仅在调用 onReceive(Context, Intent) 期间有效。一旦从此方法返回代码，系统便会认为该组件不再活跃
@@ -372,11 +391,16 @@
     + 如果您不需要向应用以外的组件发送广播，则可以使用支持库中提供的 LocalBroadcastManager 来收发本地广播。LocalBroadcastManager 效率更高（无需进行进程间通信），并且您无需考虑其他应用在收发您的广播时带来的任何安全问题。本地广播可在您的应用中作为通用的发布/订阅事件总线，而不会产生任何系统级广播开销
     + 请勿使用隐式 intent 广播敏感信息。任何注册接收广播的应用都可以读取这些信息
     + 广播操作的命名空间是全局性的。请确保在您自己的命名空间中编写操作名称和其他字符串
+
 + activity
   + 定义
     + 当一个应用调用另一个应用时，调用方应用会调用另一个应用中的 Activity，而不是整个应用。通过这种方式，Activity 充当了应用与用户互动的入口点
   + 生命周期
     + 无论您选择在哪个构建事件中执行初始化操作，都请务必使用相应的生命周期事件来释放资源
+    + 横竖屏切换时Activity的生命周期变化
+      + 如果自己没有配置android:ConfigChanges，这时默认让系统处理，就会重建Activity，此时Activity的生命周期会走一遍
+      + 如果设置  android:configChanges="orientation|keyboardHidden|screenSize">，此时Activity的生命周期不会重走一遍，Activity不会重建，只会回调onConfigurationChanged方法
+
   + 保持状态
     + 系统永远不会直接终止 Activity 以释放内存，而是会终止 Activity 所在的进程。系统不仅会销毁 Activity，还会销毁在该进程中运行的所有其他内容
     + ViewModel 非常适合在用户正活跃地使用应用时存储和管理界面相关数据。它支持快速访问界面数据，并且有助于避免在发生旋转、窗口大小调整和其他常见的配置更改后从网络或磁盘中重新获取数据
@@ -385,6 +409,8 @@
   + 跳转
     + startActivity()
     + startActivityForResult()
+    + 从Activity中启动新的Activity时可以直接mContext.startActivity(intent)就好
+    + 如果从其他Context中启动Activity则必须给intent设置Flag FLAG_ACTIVITY_NEW_TASK
   + 任务和返回栈
     + 任务是用户在执行某项工作时与之互动的一系列 Activity 的集合。这些 Activity 按照每个 Activity 打开的顺序排列在一个返回堆栈中
     + 使用清单文件
@@ -397,6 +423,7 @@
     + 亲和性
       + When the intent that launches an activity contains the FLAG_ACTIVITY_NEW_TASK flag
       + When an activity has its allowTaskReparenting attribute set to "true"
+
 + fragment
   + 您可以将片段视为 Activity 的模块化组成部分，它具有自己的生命周期，能接收自己的输入事件，并且您可以在 Activity 运行时添加或移除片段（这有点像可以在不同 Activity 中重复使用的“子 Activity”）
   + 片段必须始终托管在 Activity 中，其生命周期直接受宿主 Activity 生命周期的影响
@@ -418,23 +445,39 @@
       + 通过接口抽象的方法，通过接口去调用宿主Activity的方法
     + 由于采用创建对象的方式去初始化Fragment对象，当宿主Activity在界面销毁或者界面重新执行onCreate()方法时,就有可能再一次的执行Fragment的创建初始，而之前已经存在的 Fragment 实例也会销毁再次创建，这不就与 Activity 中 onCreate() 方法里面第二次创建的 Fragment 同时显示从而发生 UI 重叠的问题
       + 利用savedInstanceState判断
+
++ Window
+
+  + 应用窗口 1-99 activity dialog
+  + 子窗口 1000-1999 popupwindow 
+    + 所以称为子窗口，即它的父窗口显示时，子窗口才显示。父窗口不显示，它也不显示。追随父窗口
+  + 系统窗口 2000-2999 toast
+  + 层级大的会覆盖在层级小的Window上面
+
 + 视图绑定
+
   + 与使用 findViewById 相比，视图绑定具有一些很显著的优点
     + Null 安全：由于视图绑定会创建对视图的直接引用，因此不存在因视图 ID 无效而引发 Null 指针异常的风险。此外，如果视图仅出现在布局的某些配置中，则绑定类中包含其引用的字段会使用 @Nullable 标记
     + 类型安全
   + 与数据绑定比较
     + 数据绑定库仅处理使用  layout 代码创建的数据绑定布局
     + 视图绑定不支持布局变量或布局表达式，因此它不能用于在 XML 中将布局与数据绑定
+
 + 数据绑定库
   + 您可以使用声明性格式（而非程序化地）将布局中的界面组件绑定到应用中的数据源
   + 数据绑定布局文件略有不同，以根标记 layout 开头，后跟 data 元素和 view 根元素
+
 + Lifecycle
   + 引入
     + 在真实的应用中，最终会有太多管理界面和其他组件的调用，以响应生命周期的当前状态。管理多个组件会在生命周期方法（如 onStart() 和 onStop()）中放置大量的代码，这使得它们难以维护
     + 无法保证组件会在 Activity 或 Fragment 停止之前启动。在我们需要执行长时间运行的操作（如 onStart() 中的某种配置检查）时尤其如此。这可能会导致出现一种竞争条件，在这种条件下，onStop() 方法会在 onStart() 之前结束，这使得组件留存的时间比所需的时间要长
+
 + livedata
+
   + 常规的可观察类不同，LiveData 具有生命周期感知能力，意指它遵循其他应用组件（如 Activity、Fragment 或 Service）的生命周期。这种感知能力可确保 LiveData 仅更新处于活跃生命周期状态的应用组件观察者
+
 + paging
+
 + viewmodel
   + 引入的缘由
     + 如果系统销毁或重新创建界面控制器，则存储在其中的任何临时性界面相关数据都会丢失。对于简单的数据，Activity 可以使用 onSaveInstanceState() 方法从 onCreate() 中的捆绑包恢复其数据，但此方法仅适合可以序列化再反序列化的少量数据，而不适合数量可能较大的数据
@@ -444,12 +487,138 @@
   + 生命周期
     + ViewModel 对象存在的时间范围是获取 ViewModel 时传递给 ViewModelProvider 的 Lifecycle。ViewModel 将一直留在内存中，直到限定其存在时间范围的 Lifecycle 永久消失：对于 Activity，是在 Activity 完成时；而对于 Fragment，是在 Fragment 分离时
   + 在 Fragment 之间共享数据
+
 + WorkManager
+
   + 可延迟运行（即不需要立即运行）并且在应用退出或设备重启时必须能够可靠运行的任务
 
++ ANR
 
+  + 触发
+
+    + 当您的 Activity 位于前台时，您的应用在 5 秒钟内未响应输入事件或BroadcastReceiver（如按键或屏幕轻触事件）
+
+    + 虽然前台没有 Activity，但您的 BroadcastReceiver 用了10 秒的时间仍未执行完毕 
+
+    + BroadcastQueue Timeout ：前台广播在10s内、后台广播在20秒内未执行完成；
+
+      Service Timeout ：前台服务在20s内、后台服务在200秒内未执行完成；
+
+      ContentProvider Timeout ：内容提供者,在publish过超时10s
+
+  + 原因
+
+    + 应用在主线程上非常缓慢地执行涉及 I/O 的操作
+    + 应用在主线程上进行长时间的计算
+    + 主线程在对另一个进程进行同步 binder 调用，而后者需要很长时间才能返回
+    + 主线程处于阻塞状态，为发生在另一个线程上的长操作等待同步的块
+    + 主线程在进程中或通过 binder 调用与另一个线程之间发生死锁。主线程不只是在等待长操作执行完毕，而且处于死锁状态
+    + 其他进程的CPU占用率高，使得当前应用进程无法抢占到CPU时间片
+
+  + 诊断
+
+    + traceview
+    + /data/anr/trace文件
+
+  + 修复方式
+
+    + 切线程执行耗时操作 IO 计算
+    + 如果某工作线程持有对某项资源的锁，而该资源是主线程完成其工作所必需的，这种情况下就可能会发生 ANR
+      + 注意检测锁
+    + 广播anr
+      + 以下情况下会发生 ANR
+        + 广播接收器用了相当长的时间仍未执行完 onReceive()
+        + 广播接收器对 PendingResult 对象调用了 goAsync()，但未能调用 finish()
+      + 我们建议将长时间运行的操作移至 IntentService
+
++ 崩溃
+
+  + 触发
+    + 使用 Java 编写的应用会在抛出未处理的异常（由 Throwable 类表示）时崩溃。使用原生代码语言编写的应用，会在执行过程中遇到未处理的信号（如 SIGSEGV）时崩溃
+  + 检测
+    + bugly
+    + logcat
+
++ 呈现速度缓慢
+
+  + 检测
+    + 目视检查方法
+      + 启用 GPU 呈现模式分析功能。GPU 呈现模式分析功能会在屏幕上显示一些条形，以相对于每帧 16ms 的基准，快速直观地显示呈现界面窗口帧所花的时间
+      + 某些组件（如 RecyclerView）是卡顿的常见来源。如果您的应用使用了这些组件，您最好查看一下应用的这些部分
+      + 您可以尝试在速度较慢的设备上运行您的应用，以突显此问题
+    + Systrace
+  + 常见的卡顿来源
+    + RecyclerView：notifyDataSetChanged
+    + 嵌套 RecyclerView 很常见，对于由水平滚动列表组成的纵向列表（例如 Play 商店主页面上的应用网格），尤其如此。这种方法效果很好，但它也会导致大量来回移动的视图。在首次向下滚动页面时，如果您看到大量内部内容出现扩充，则可能需要检查内部（水平）RecyclerView 之间是否正在共享 RecyclerView.RecycledViewPool
+    + 布局性能，改约束布局
+    + 一般来说，动画应以 View 的绘制属性（例如 setTranslationX/Y/Z()、setRotation()、setAlpha() 等等）运行。与布局属性（例如，内边距或外边距）相比，这些属性的更改开销要低得多
+    + 一般来说，解决方法是避免调用进行 binder 调用的函数；如果不可避免，则应该缓存相应值，或将工作转移到后台线程
+    + 请记住，每次分配都会产生开销。如果它处于被频繁调用的紧密循环中，请考虑避免分配以减轻 GC 上的负载
+
++ 应用启动时间
+
+  + 冷启动 系统进程在冷启动后才创建应用进程
+  + 热启动 在热启动中，系统的所有工作就是将您的 Activity 带到前台。如果应用的所有 Activity 都还驻留在内存中，则应用可以无须重复对象初始化、布局扩充和呈现
+  + 温启动
+    + 系统将您的应用从内存中逐出，然后用户又重新启动它。进程和 Activity 需要重启，但传递到 onCreate() 的已保存实例状态包对于完成此任务有一定助益
+  + 诊断
+    +  ActivityManager: Displayed com.android.myexample/.StartupTiming: +3s534ms
+    + traceview
+  + 修复
+    + 解决方案都需要延迟初始化对象：仅初始化立即需要的对象
+    + 此外，考虑使用依赖注入框架（如 Dagger），它们会在首次注入时创建对象和依赖项
+    + 通过减少冗余或嵌套布局，展平您的视图层次结构
+    + 不要扩充在启动期间无需显示的界面部分。而是使用 ViewStub
+    + application设置windowBackground，避免长时间黑屏
+
++ 减小apk大小
+
+  + 移除未使用的资源
+  + 要仅包含您的应用所需的库部分，您可以编辑库的文件（如果库许可允许您修改库）
+  + 仅支持特定密度
+  + 使用可绘制对象 矢量图
+  + 压缩png
+  + 移除不必要的生成代码
+  + 避免使用枚举
+
++ 内存
+
+  + 指标
+
+    + USS	Unique Set Size	物理内存	进程独占的内存
+      PSS	Proportional Set Size	物理内存	PSS= USS+ 按比例包含共享库
+      RSS	Resident Set Size	物理内存	RSS= USS+ 包含共享库
+      VSS	Virtual Set Size	虚拟内存	VSS= RSS+ 未分配实际物理内存
+
+  + 检测内存使用情况
+
+    + Android Monitor
+    + 捕捉堆转储
+      + 堆转储是应用堆中所有对象的快照。堆转储以一种名称为 HPROF 的二进制格式存储
+      + 要分析堆转储，您可以使用标准工具，如 jhat。要使用 jhat，您需要将 HPROF 文件从 Android 格式转换为 Java SE HPROF 格式。要转换为 Java SE HPROF 格式
+
+  + 垃圾回收
+
+    + Android 的内存堆是分代的，这意味着它会根据分配对象的预期寿命和大小跟踪不同的分配存储分区。例如，最近分配的对象属于“新生代”。当某个对象保持活动状态达足够长的时间时，可将其提升为较老代，然后是永久代
+
+      堆的每一代对相应对象可占用的内存量都有其自身的专用上限。每当一代开始填满时，系统便会执行垃圾回收事件以释放内存。垃圾回收的持续时间取决于它回收的是哪一代对象以及每一代有多少个活动对象
+
+      尽管垃圾回收速度非常快，但仍会影响应用的性能。通常情况下，您无法从代码中控制何时发生垃圾回收事件。系统有一套专门确定何时执行垃圾回收的标准。当条件满足时，系统会停止执行进程并开始垃圾回收
+
+  + 共享内存
+
+    + 为了在 RAM 中容纳所需的一切，Android 会尝试跨进程共享 RAM 页面
+
+  + 使用内存效率更高的代码结构
+
+    + 谨慎使用服务
+    + 使用经过优化的数据容器
+      + Android 框架包含几个经过优化的数据容器，包括 SparseArray、SparseBooleanArray 和 LongSparseArray
+    + 避免内存抖动
+      + 您可以在 for 循环中分配多个临时对象。或者，您也可以在视图的 onDraw() 函数中创建新的 Paint 或 Bitmap 对象。在这两种情况下，应用都会快速创建大量对象。这些操作可以快速消耗新生代 (young generation) 区域中的所有可用内存，从而迫使垃圾回收事件发生
 
 + 保活
+
   + 黑色保活：不同的app进程，用广播相互唤醒（包括利用系统提供的广播进行唤醒）
   + 白色保活：启动前台Service
 

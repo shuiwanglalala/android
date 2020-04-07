@@ -64,3 +64,73 @@
       + 标记-压缩（Mark-Compact）
         + 标记-压缩和标记-清除一样，是对活的对象进行标记，但是在清除后的处理不一样，标记-压缩在清除对象占用的内存后，会把所有活的对象向左端空闲空间移动，然后再更新引用其对象的指针
         + 很明显，标记-压缩在标记-清除的基础上对存活的对象进行了移动规整动作，解决了内存碎片问题，得到更多连续的内存空间以提高分配效率，但由于需要对对象进行移动，因此成本也比较高
+
++ CLass类型信息
+
+  + [Class类](https://www.liaoxuefeng.com/wiki/1252599548343744/1264799402020448)
+
+    + 每加载一种class，JVM就为其创建一个Class类型的实例，并关联起来。这个Class实例是JVM内部创建的，如果我们查看JDK源码，可以发现Class类的构造方法是private，只有JVM能创建Class实例，我们自己的Java程序是无法创建Class实例的
+
+      由于JVM为每个加载的class创建了对应的Class实例，并在实例中保存了该class的所有信息，包括类名、包名、父类、实现的接口、所有方法、字段等，因此，如果获取了某个Class实例，我们就可以通过这个Class实例获取到该实例对应的class的所有信息
+
+      这种通过Class实例获取class信息的方法称为反射（Reflection）
+
+      如果获取到了一个Class实例，我们就可以通过该Class实例来创建对应类型的实例。通过Class.newInstance()可以创建类实例，它的局限是：只能调用public的无参数构造方法。带参数的构造方法，或者非public的构造方法都无法通过Class.newInstance()被调用
+
+      + 动态加载
+        + JVM在执行Java程序的时候，并不是一次性把所有用到的class全部加载到内存，而是第一次需要用到class时才加载
+        + 动态加载class的特性对于Java程序非常重要。利用JVM动态加载class的特性，我们才能在运行期根据条件加载不同的实现类
+
+  + 访问字段
+
+    + api
+      + Field getField(name)：根据字段名获取某个public的field（包括父类）
+      + Field getDeclaredField(name)：根据字段名获取当前类的某个field（不包括父类）
+      + Field[] getFields()：获取所有public的field（包括父类）
+      + Field[] getDeclaredFields()：获取当前类的所有field（不包括父类）
+    + 一个Field对象包含了一个字段的所有信息
+      + getName()：返回字段名称，例如，"name"
+      + getType()：返回字段类型，也是一个Class实例，例如，String.class
+      + getModifiers()：返回字段的修饰符，它是一个int，不同的bit表示不同的含义
+      + 用Field.get(Object)获取指定实例的指定字段的值
+        + 调用Field.setAccessible(true)的意思是，别管这个字段是不是public，一律允许访问
+        + 此外，setAccessible(true)可能会失败。如果JVM运行期存在SecurityManager，那么它会根据规则进行检查，有可能阻止setAccessible(true)。例如，某个SecurityManager可能不允许对java和javax开头的package的类调用setAccessible(true)，这样可以保证JVM核心库的安全
+      + 设置字段值是通过Field.set(Object, Object)实现的，其中第一个Object参数是指定的实例，第二个Object参数是待修改的值
+
+  + 调用方法
+
+    + api
+      + Method getMethod(name, Class...)：获取某个public的Method（包括父类）
+      + Method getDeclaredMethod(name, Class...)：获取当前类的某个Method（不包括父类）
+      + Method[] getMethods()：获取所有public的Method（包括父类）
+      + Method[] getDeclaredMethods()：获取当前类的所有Method（不包括父类）
+    + 一个Method对象包含一个方法的所有信息
+      + getName()：返回方法名称，例如："getScore"
+      + getReturnType()：返回方法返回值类型，也是一个Class实例，例如：String.class
+      + getParameterTypes()：返回方法的参数类型，是一个Class数组，例如：{String.class, int.class}
+      + getModifiers()：返回方法的修饰符，它是一个int，不同的bit表示不同的含义
+      + 对Method实例调用invoke就相当于调用该方法，invoke的第一个参数是对象实例，即在哪个实例上调用该方法，后面的可变参数要与方法参数一致，否则将报错
+        + 为了调用非public方法，我们通过Method.setAccessible(true)允许其调用
+        + 此外，setAccessible(true)可能会失败。如果JVM运行期存在SecurityManager，那么它会根据规则进行检查，有可能阻止setAccessible(true)。例如，某个SecurityManager可能不允许对java和javax开头的package的类调用setAccessible(true)，这样可以保证JVM核心库的安全
+      + 如果获取到的Method表示一个静态方法，调用静态方法时，由于无需指定实例对象，所以invoke方法传入的第一个参数永远为null
+    + 使用反射调用方法时，仍然遵循多态原则：即总是调用实际类型的覆写方法（如果存在）
+
+  + 调用构造方法
+
+    + api
+      + getConstructor(Class...)：获取某个public的Constructor
+      + getDeclaredConstructor(Class...)：获取某个Constructor
+      + getConstructors()：获取所有public的Constructor
+      + getDeclaredConstructors()：获取所有Constructor
+
+  + 动态代理
+
+    + 我们仍然先定义了接口Hello，但是我们并不去编写实现类，而是直接通过JDK提供的一个Proxy.newProxyInstance()创建了一个Hello接口对象。这种没有实现类但是在运行期动态创建了一个接口对象的方式，我们称为动态代码。JDK提供的动态创建接口对象的方式，就叫动态代理
+    + 方式
+      + 定义一个InvocationHandler实例，它负责实现接口的方法调用
+      + 通过Proxy.newProxyInstance()创建interface实例，它需要3个参数
+        + 使用的ClassLoader，通常就是接口类的ClassLoader
+        + 需要实现的接口数组，至少需要传入一个接口进去
+        + 用来处理接口方法调用的InvocationHandler实例
+      + 将返回的Object强制转型为接口
+    + [Java动态代理](https://juejin.im/post/5ad3e6b36fb9a028ba1fee6a)

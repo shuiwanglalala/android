@@ -142,11 +142,12 @@
   + [Retrofit](Retrofit.md)
   + [Util](Util.md)
     + [Guava](Guava.md)
-+ [Android面试](Android面试.md)
-+ [Java面试](Java面试.md)
-+ [设计模式面试](设计模式面试.md)
++ [Android](Android.md)
++ [Java](Java.md)
++ [设计模式](设计模式.md)
 + [开源库](开源库.md)
-+ [其他面试](其他面试.md)
++ [其他1](其他1.md)
++ 
 + 开始
   + [基本语法](基本语法.md)
 + 基础

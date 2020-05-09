@@ -1,11 +1,14 @@
 # Summary
 
+* [熟悉yct app使用和代码](熟悉yct app使用和代码.md)
 * [问题](问题.md)
 * 编程语言
 * [编程语言设计](编程语言设计.md)
 * java
 * kotlin
 * android
+* android studio
+* [android studio概述](android studio概述.md)
 * [Introduction](README.md)
 * [应用权限](应用权限.md)
   * [Permissions overview](Permissions overview.md)

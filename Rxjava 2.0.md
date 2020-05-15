@@ -1,6 +1,4 @@
-# [Rxjava 2.0](https://github.com/ReactiveX/RxJava/tree/2.x)
-
-[关于 RxJava 最友好的文章—— RxJava 2.0 全新来袭](https://juejin.im/post/582b2c818ac24700618ff8f5#heading-7)
+# Rxjava 2.0
 
 [RxJava-Android-Samples](https://github.com/kaushikgopal/RxJava-Android-Samples)
 
@@ -38,3 +36,9 @@
 [RxJava2-Android-Samples](https://github.com/amitshekhariitbhu/RxJava2-Android-Samples)
 
 [RxJava: Single, Maybe and Completable](https://android.jlelse.eu/rxjava-single-maybe-and-completable-8686db42bac8)
+
+
+
+[关于 RxJava 最友好的文章—— RxJava 2.0 全新来袭](https://juejin.im/post/582b2c818ac24700618ff8f5#heading-7)
+
+[关于RxJava最友好的文章——背压（Backpressure）](https://juejin.im/post/582d413c8ac24700619cceed)

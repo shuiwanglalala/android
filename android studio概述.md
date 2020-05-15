@@ -4,14 +4,22 @@
 
 + [Android Studio 设置 sublime 主题](https://blog.csdn.net/wangxueming/article/details/52585958)
 
-+ studio关联android源码
++ editor
 
-  [突然就不能在 Android Studio 点击跳转看源码了](https://juejin.im/post/5b921042f265da0ac07c30d4)
+  + studio关联android源码
 
-  android support库源码无法关联，可尝试改为androidx的依赖导入
+    [突然就不能在 Android Studio 点击跳转看源码了](https://juejin.im/post/5b921042f265da0ac07c30d4)
 
-+ build window中文显示乱码
+    android support库源码无法关联，可尝试改为androidx的依赖导入
 
-  [Android Studio Build窗口出现中文乱码问题解决](https://blog.csdn.net/Bearin/article/details/105224840)
+  + 生成注释的快捷键
 
+    [Android Studio 给方法添加注释自动生成参数的快捷设置](https://blog.csdn.net/viking_xhg/article/details/79072232)
+
++ build
+
+  + build window中文显示乱码
+
+    [Android Studio Build窗口出现中文乱码问题解决](https://blog.csdn.net/Bearin/article/details/105224840)
+  
   

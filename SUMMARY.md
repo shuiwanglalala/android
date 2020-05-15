@@ -1,6 +1,8 @@
 # Summary
 
-* [熟悉yct app使用和代码](熟悉yct app使用和代码.md)
+* yct
+  * [yct app功能](yct app功能.md)
+  * [yct app代码](yct app代码.md)
 * [问题](问题.md)
 * 编程语言
 * [编程语言设计](编程语言设计.md)
@@ -9,7 +11,14 @@
 * android
 * android studio
 * [android studio概述](android studio概述.md)
-* [Introduction](README.md)
+* 框架/库
+  * [ReactiveX](ReactiveX.md)
+    * Rxjava
+      + [Rxjava 1.0](Rxjava 1.0.md)
+      + [Rxjava 2.0](Rxjava 2.0.md)
+    * [Rxbinding](Rxbinding.md)
+    * [RxLifecycle](RxLifecycle.md)
+    * [AutoDispose](AutoDispose.md)
 * [应用权限](应用权限.md)
   * [Permissions overview](Permissions overview.md)
   * [在运行时请求权限](在运行时请求权限.md)
@@ -140,14 +149,6 @@
   + 使用 Memory Profiler 查看 Java 堆和内存分配
     + [调查 RAM 使用情况](调查 RAM 使用情况.md)
 + 库
-  + [响应式](响应式.md)
-    + [ReactiveX](ReactiveX.md)
-    + Awesome-RxJava
-    + Rxjava
-      + [Rxjava 1.0](Rxjava 1.0.md)
-      + [Rxjava 2.0](Rxjava 2.0.md)
-    + [Rxbinding](Rxbinding.md)
-    + RxLifecycle
   + [Retrofit](Retrofit.md)
   + [Util](Util.md)
     + [Guava](Guava.md)

@@ -1,4 +1,4 @@
-# 熟悉yct app使用和代码
+# yct app功能
 
 ## 主要tab
 

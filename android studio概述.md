@@ -12,9 +12,15 @@
 
     android support库源码无法关联，可尝试改为androidx的依赖导入
 
-  + 生成注释的快捷键
+  + 生成注释的快捷键 O
 
     [Android Studio 给方法添加注释自动生成参数的快捷设置](https://blog.csdn.net/viking_xhg/article/details/79072232)
+    
+  + 修改livetemplates中的logd loge等
+
++ logcat
+
+  + [Android Studio －修改LogCat的颜色＊美爆了＊](https://blog.csdn.net/yy1300326388/article/details/45825123)
 
 + build
 
@@ -23,3 +29,8 @@
     [Android Studio Build窗口出现中文乱码问题解决](https://blog.csdn.net/Bearin/article/details/105224840)
   
   
+
++ 插件
+  + A8translate  alt+T
+  + ADB idea   D
+  + layoutformatter

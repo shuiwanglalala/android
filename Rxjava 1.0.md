@@ -57,3 +57,4 @@
 
 [浅谈RxJava中的线程管理](http://zjutkz.net/2017/04/26/%E6%B5%85%E8%B0%88RxJava%E4%B8%AD%E7%9A%84%E7%BA%BF%E7%A8%8B%E7%AE%A1%E7%90%86/)
 
+[用RxJava实现事件总线(Event Bus)](https://www.jianshu.com/p/ca090f6e2fe2)

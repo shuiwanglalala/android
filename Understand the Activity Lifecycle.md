@@ -8,7 +8,11 @@
 
 The system calls [`onRestoreInstanceState()`](https://developer.android.com/reference/android/app/Activity?hl=zh-cn#onrestoreinstancestate) only if there is a saved state to restore, so you do not need to check whether the [`Bundle`](https://developer.android.com/reference/android/os/Bundle?hl=zh-cn) is null
 
-------
+## 其他
+
+[checking-if-an-android-application-is-running-in-the-background](https://stackoverflow.com/questions/3667022/checking-if-an-android-application-is-running-in-the-background/5862048#5862048)
+
+[android-lifecycle](https://github.com/xxv/android-lifecycle)
 
 |                        |                                                              |                                                              |                        |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- |
@@ -33,8 +37,4 @@ The system calls [`onRestoreInstanceState()`](https://developer.android.com/refe
 | onWindowFocusChanged   | the best indicator of whether this activity is visible to the user |                                                              | Window.Callback        |
 | onDetachedFromWindow   |                                                              |                                                              | Window.Callback        |
 | onNewIntent            |                                                              |                                                              | singleTop              |
-
-------
-
-[android-lifecycle](https://github.com/xxv/android-lifecycle)
 

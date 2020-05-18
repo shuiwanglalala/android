@@ -8,7 +8,21 @@
 * [编程语言设计](编程语言设计.md)
 * java
 * kotlin
-* android
+* [android](android.md)
+* Activities
+  * [Introduction to Activities](Introduction to Activities.md)
+  * [Understand the Activity Lifecycle](Understand the Activity Lifecycle.md)
+  * [Tasks and Back Stack](Tasks and Back Stack.md)
+  * [Parcelables and Bundles](Parcelables and Bundles.md)
+  * [Fragments](Fragments.md)
+    * 构建灵活的界面
+    * 与其他 Fragment 通信
+    * [Fragments的弊端](Fragments的弊端.md)
+  * [Application](Application.md)
+  * [Window](Window.md)
+* [界面](界面.md)
+  * [对话框](对话框.md)
+* [基于网络的内容](基于网络的内容.md)
 * android studio
 * [android studio概述](android studio概述.md)
 * 框架/库
@@ -23,17 +37,6 @@
 * [应用权限](应用权限.md)
   * [Permissions overview](Permissions overview.md)
   * [在运行时请求权限](在运行时请求权限.md)
-* Activities
-  * [Introduction to Activities](Introduction to Activities.md)
-  * [Understand the Activity Lifecycle](Understand the Activity Lifecycle.md)
-  * [Tasks and Back Stack](Tasks and Back Stack.md)
-  * [Parcelables and Bundles](Parcelables and Bundles.md)
-  * [Fragments](Fragments.md)
-    * 构建灵活的界面
-    * 与其他 Fragment 通信
-    * [Fragments的弊端](Fragments的弊端.md)
-  * [Application](Application.md)
-  * [Window](Window.md)
 * Architecture Components
   * [数据绑定库](数据绑定库.md)
   * [Handling Lifecycles with Lifecycle-Aware Components](Handling Lifecycles with Lifecycle-Aware Components.md)
@@ -64,8 +67,6 @@
   * Layouts
     * Create a List with RecyclerView
       * [RecyclerView](RecyclerView.md)
-  * [Dialogs](Dialogs.md)
-    * [自定义Dialog](自定义Dialog.md)
   * View
     * 机制
       * [绘制](绘制.md)
@@ -153,8 +154,8 @@
   + [Retrofit](Retrofit.md)
   + [Util](Util.md)
     + [Guava](Guava.md)
-+ [Android](Android.md)
-+ [Java](Java.md)
++ [Android面试](Android面试.md)
++ [Java面试](Java面试.md)
 + [设计模式](设计模式.md)
 + [开源库](开源库.md)
 + [其他1](其他1.md)

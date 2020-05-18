@@ -34,3 +34,4 @@
   + A8translate  alt+T
   + ADB idea   D
   + layoutformatter
+  + lifecycle sorter

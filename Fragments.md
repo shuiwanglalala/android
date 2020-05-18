@@ -53,6 +53,6 @@ Activity 生命周期与片段生命周期之间的最显著差异在于它们�
 
 片段所在的 Activity 的生命周期会直接影响片段的生命周期，其表现为，Activity 的每次生命周期回调都会引发每个片段的类似回调
 
-[通过源码解析 Fragment 启动过程](https://www.jianshu.com/p/f2fcc670afd6)
+
 
 Activity/Fragment Purge and Restore Best Practices

@@ -12,6 +12,10 @@
 
 [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
 
+[RecyclerView剖析](https://blog.csdn.net/qq_23012315/article/details/50807224)
+
+## api
+
 + ViewHolder
   + getAdapterPosition
     + [RecyclerView.ViewHolder - getLayoutPosition vs getAdapterPosition](https://stackoverflow.com/questions/29684154/recyclerview-viewholder-getlayoutposition-vs-getadapterposition)
@@ -39,15 +43,7 @@
 + smoothScrollToPosition
 + getViewTreeObserver
 
-
-
-[RecyclerView剖析](https://blog.csdn.net/qq_23012315/article/details/50807224)
-
-
-
-
-
-bug
+## bug
 
 + [recyclerview-no-scrollbar-when-overscroll-is-turned-off](https://stackoverflow.com/questions/32575323/recyclerview-no-scrollbar-when-overscroll-is-turned-off)
 + [Why hasn't Google fixed the scrollbar length problem in Android?](https://www.quora.com/Why-hasnt-Google-fixed-the-scrollbar-length-problem-in-Android)

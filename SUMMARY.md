@@ -22,6 +22,13 @@
   * [Window](Window.md)
 * [界面](界面.md)
   * [对话框](对话框.md)
+* 动画和过渡
+  * [使用ViewPager在Fragment之间滑动](使用ViewPager在Fragment之间滑动.md)
+* [图片和图形](图片和图形.md)
+  * [Drawables overview](Drawables overview.md)
+  * [Vector drawables overview](Vector drawables overview.md)
+  * [Handling bitmaps](Handling bitmaps.md)
+  * [Hardware acceleration](Hardware acceleration.md)
 * [基于网络的内容](基于网络的内容.md)
 * android studio
 * [android studio概述](android studio概述.md)
@@ -88,11 +95,7 @@
       * 自定义view
         * [Creating a View Class](Creating a View Class.md)
         * [Optimizing the View](Optimizing the View.md)
-* 图片和图形
-  * [Drawables overview](Drawables overview.md)
-  * [Vector drawables overview](Vector drawables overview.md)
-  * [Handling bitmaps](Handling bitmaps.md)
-  * [Hardware acceleration](Hardware acceleration.md)
+* * 
 * 音频和视频
   * [MediaPlayer 概览](MediaPlayer 概览.md)
   * [MediaRecorder overview](MediaRecorder overview.md)

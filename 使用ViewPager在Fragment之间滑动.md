@@ -6,6 +6,10 @@
 
 [ViewPager 超详解：玩出十八般花样](https://juejin.im/post/5a4c2f496fb9a044fd122631)
 
++ 轮播 自定义切换效果 还没有深入了解
+
+[各种姿势使用ViewPager](http://yourbay.me/all-about-tech/2017/07/20/view-pager/)
+
 
 
 [Tablayout使用全解，一篇就够了](https://www.jianshu.com/p/fde38f367019)

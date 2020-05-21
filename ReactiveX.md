@@ -80,3 +80,5 @@
   + SubscribeOn unsubscribeOn
   + Subscribe foreach
   + To
+
+[如何形象地描述RxJava中的背压和流控机制？](http://zhangtielei.com/posts/blog-rxjava-backpressure.html)

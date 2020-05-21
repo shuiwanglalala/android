@@ -6,7 +6,7 @@
 * [问题](问题.md)
 * 编程语言
 * [编程语言设计](编程语言设计.md)
-* java
+* [java](java.md)
 * kotlin
 * [android](android.md)
 * Activities
@@ -95,7 +95,6 @@
       * 自定义view
         * [Creating a View Class](Creating a View Class.md)
         * [Optimizing the View](Optimizing the View.md)
-* * 
 * 音频和视频
   * [MediaPlayer 概览](MediaPlayer 概览.md)
   * [MediaRecorder overview](MediaRecorder overview.md)

@@ -24,6 +24,8 @@
   * [Window](Window.md)
 * [界面](界面.md)
   * [对话框](对话框.md)
+  * 其他
+    * [下拉滑动刷新](下拉滑动刷新.md)
 * 动画和过渡
   * [使用ViewPager在Fragment之间滑动](使用ViewPager在Fragment之间滑动.md)
 * [图片和图形](图片和图形.md)
@@ -86,7 +88,6 @@
         * [ConstraintLayout](ConstraintLayout.md)
           * MotionLayout
         * DrawerLayout
-        * [SwipeRefreshLayout](SwipeRefreshLayout.md)
         * FrameLayout
           * [CardView](CardView.md)
       * View
@@ -94,6 +95,7 @@
         * [TextView](TextView.md)
         * ProgressBar
           * [SeekBar](SeekBar.md)
+          * RatingBar
       * 自定义view
         * [Creating a View Class](Creating a View Class.md)
         * [Optimizing the View](Optimizing the View.md)

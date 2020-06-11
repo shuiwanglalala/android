@@ -14,6 +14,8 @@
 
 [RecyclerView剖析](https://blog.csdn.net/qq_23012315/article/details/50807224)
 
+[探究RecyclerView的ViewHolder复用](https://www.jianshu.com/p/d7ec36aa8e4b)
+
 ## api
 
 + ViewHolder

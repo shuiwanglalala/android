@@ -18,6 +18,8 @@
 
 [Material Design 之 TabLayout 使用](https://www.jianshu.com/p/13f334eb16ce)
 
+[TabLayout您可能不知道的实用用法](https://www.cnblogs.com/duan-xue-bin/p/10059516.html)
+
 
 
 [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)

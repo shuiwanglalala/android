@@ -1,6 +1,6 @@
 # git
 
-[git本地创建新分支并推送到远程](http://www.luyixian.cn/news_show_6285.aspx)
+[Git 本地创建分支并提交远程分支](https://www.cnblogs.com/lianxisheng/p/10632873.html)
 
 [git合并分支（一看就懂）](https://www.jianshu.com/p/26d050497abb)
 

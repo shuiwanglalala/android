@@ -4,6 +4,8 @@
 
 [The Operators of ReactiveX](http://reactivex.io/documentation/operators.html)
 
+[RxJava Essentials 中文翻译版](https://wiki.jikexueyuan.com/project/rxjava/)
+
 + Creating Observables
   + Create
     + 谨慎使用，努力合乎规范
@@ -58,10 +60,13 @@
     + 从数量和时间间隔两方面，丢弃/获取元素
 + Combining Observables
   + zip
+    + [RxJava应用场景：使用zip操作符等待多个网络请求完成](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0325/4080.html)
+  + and then when
+    + [RxJava操作符实践：4_结合操作之4_andThenWhen](https://www.dazhuanlan.com/2019/12/10/5deebd14e2a2f/)
   + CombineLatest
     + 当两个Observables中的任何一个发射了数据时，使用一个函数结合每个Observable发射的最
       近数据项，并且基于这个函数的结果发射数据
-  + Join？？？
+  + Join
   + merge
   + StartWith Concat
   + Switch
@@ -83,4 +88,3 @@
 
 [如何形象地描述RxJava中的背压和流控机制？](http://zhangtielei.com/posts/blog-rxjava-backpressure.html)
 
-[RxJava应用场景：使用zip操作符等待多个网络请求完成](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0325/4080.html)

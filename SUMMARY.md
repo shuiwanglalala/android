@@ -12,7 +12,9 @@
   * [数据链路层](数据链路层.md)
   * [网络层](网络层.md)
   * [传输层](传输层.md)
-  * [TCP/IP协议](TCP/IP协议.md)
+  * 应用层
+    * [MIME](MIME.md)
+    * [URI](URI.md)
 * software
   * [git](git.md)
 * [java](java.md)
@@ -27,6 +29,9 @@
     * 构建灵活的界面
     * 与其他 Fragment 通信
     * [Fragments的弊端](Fragments的弊端.md)
+  * 与其他应用互动
+    * [获取 Activity 的结果](获取 Activity 的结果.md)
+    * [允许其他应用启动您的 Activity](允许其他应用启动您的 Activity.md)
   * [Application](Application.md)
   * [Window](Window.md)
 * Intent和Intent过滤器

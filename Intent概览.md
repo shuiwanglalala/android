@@ -4,14 +4,14 @@
   
   + 启动activity
   + 启动service
-+ 启动广播
+  + 启动广播
   
 + Intent 类型
   + 显式 Intent
   + 隐式 Intent 
     
-  + 为了确保应用的安全性，启动 Service 时，请始终使用显式 Intent，且不要为服务声明 Intent 过滤器
-    
+    + 为了确保应用的安全性，启动 Service 时，请始终使用显式 Intent，且不要为服务声明 Intent 过滤器
+      
     + 用户可能没有任何应用处理您发送到 startActivity() 的隐式 Intent。或者，由于配置文件限制或管理员执行的设置，可能无法访问应用。如果发生这样的情况，调用失败，应用也会崩溃。要验证 Activity 是否会接收 Intent，请对 Intent 对象调用 resolveActivity()。如果结果为非空，则至少有一个应用能够处理该 Intent，并且可以安全调用 startActivity()。如果结果为空，不要使用该 Intent。如有可能，您应停用发出该 Intent 的功能
     
       ```java
@@ -58,7 +58,6 @@
     }
     ```
 
-+ 
 + Intent 解析
   + 操作测试
     + 要通过此过滤器，您在 Intent 中指定的操作必须与过滤器中列出的某一操作匹配

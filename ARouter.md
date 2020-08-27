@@ -2,8 +2,10 @@
 
 [开源最佳实践：Android平台页面路由框架ARouter](https://yq.aliyun.com/articles/71687)
 
-[Android 路由框架ARouter最佳实践](https://blog.csdn.net/zhaoyanjun6/article/details/76165252)
-
-+ github代码无法debug安装
-
-[ARouter 使用教程](https://www.jianshu.com/p/a57dd8c8f10e)
++ 页面跳转
+  + 在无法耦合到当前类的时候可以直接使用ARouter的API并通过Path的方式跳转进来。在可以依赖到这个类的场景下，可以直接调用这个类的静态方法跳转到这个页面，这样就解决了我们在日常开发中同一个模块之间的跳转还需要使用Route的非常尴尬的情况，而且这样也可以最终实现所有的页面都被Route管理
++ 从外部导航到内部页面
++ 处理登录逻辑 : 拦截器的运用
++ 标识目标页面信息 : 配置extra参数
+  + 一个int值就可以提供31个开关。目前而言没有一个目标页面需要配置30多个属性，所以使用int是足够的，而开发者只需要实现一个简单的位运算的工具类就可以提取出二进制int中的每一位，并对其中每一个值进行判断
++ 

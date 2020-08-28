@@ -75,3 +75,8 @@
   + 要接收隐式 Intent，必须将 CATEGORY_DEFAULT 类别包括在 Intent 过滤器中。方法 startActivity() 和 startActivityForResult() 将按照其声明 CATEGORY_DEFAULT 类别的方式处理所有 Intent
   + 使用 Intent 过滤器时，无法安全地防止其他应用启动组件。尽管 Intent 过滤器将组件限制为仅响应特定类型的隐式 Intent，但如果开发者确定您的组件名称，则其他应用有可能通过使用显式 Intent 启动您的应用组件。如果必须确保只有您自己的应用才能启动您的某一组件，请勿在您的清单中声明 Intent 过滤器。而是将该组件的 exported 属性设置为 "false"
   + 对于所有 Activity，您必须在清单文件中声明 Intent 过滤器。但是，广播接收器的过滤器可以通过调用 registerReceiver() 动态注册。稍后，您可以使用 unregisterReceiver() 注销该接收器。这样一来，应用便可仅在应用运行时的某一指定时间段内侦听特定的广播
+
++ 使用待定 Intent
+  + PendingIntent 对象是 Intent 对象的包装器。PendingIntent 的主要目的是授权外部应用使用包含的 Intent，就像是它从您应用本身的进程中执行的一样
+  + [what-is-an-android-pendingintent](https://stackoverflow.com/questions/2808796/what-is-an-android-pendingintent)
+    + A PendingIntent is a token that you give to a foreign application (e.g. NotificationManager, AlarmManager, Home Screen AppWidgetManager, or other 3rd party applications), which allows the foreign application to use your application's permissions to execute a predefined piece of code. If you give the foreign application an Intent, it will execute your Intent with its own permissions. But if you give the foreign application a PendingIntent, that application will execute your Intent using your application's permission

@@ -40,3 +40,13 @@ OpenWXinActivity
 两个/mrt/paysetting
 
 NoPayPswDetailActivity
+
+
+
+alipay改成zhaopay
+
+价格都是一分钱
+
+TransferAccountActivity整理
+
+主动获取招行支付结果

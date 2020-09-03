@@ -35,11 +35,9 @@ WebChromeClient
 
 
 
-OpenWXinActivity
+测试招行支付签约 解约 在settinhg和乘车码页面的ui变化
 
-两个/mrt/paysetting
-
-NoPayPswDetailActivity
+京东 支付宝 微信签约后，状态无法更新
 
 
 

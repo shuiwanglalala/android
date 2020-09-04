@@ -1,9 +1,5 @@
 # 使用ViewPager在Fragment之间滑动
 
-[android-SlidingTabsBasic](https://github.com/googlearchive/android-SlidingTabsBasic)
-
-+ demo不好
-
 [ViewPager 超详解：玩出十八般花样](https://juejin.im/post/5a4c2f496fb9a044fd122631)
 
 + 轮播 自定义切换效果 还没有深入了解
@@ -23,3 +19,7 @@
 
 
 [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
+
+
+
+[Banner](https://github.com/youth5201314/banner)

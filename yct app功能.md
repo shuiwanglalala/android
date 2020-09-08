@@ -23,9 +23,11 @@ WebChromeClient
 
 升级banner控件
 
+OssService
 
 
-测试招行支付签约 解约 在settinhg和乘车码页面的ui变化
+
+测试招行支付签约 解约 在settin hg和乘车码页面的ui变化
 
 
 

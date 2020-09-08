@@ -1,10 +1,12 @@
 # 使用ViewPager在Fragment之间滑动
 
+[Android ViewPager Example Tutorial](https://www.journaldev.com/10096/android-viewpager-example-tutorial)
+
 [ViewPager 超详解：玩出十八般花样](https://juejin.im/post/5a4c2f496fb9a044fd122631)
 
-+ 轮播 自定义切换效果 还没有深入了解
-
 [各种姿势使用ViewPager](http://yourbay.me/all-about-tech/2017/07/20/view-pager/)
+
+viewpager2暂时没去了解
 
 
 

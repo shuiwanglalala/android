@@ -31,18 +31,14 @@ OssService
 
 
 
-
-
-alipay改成zhaopay
-
-价格都是一分钱
-
 TransferAccountActivity整理
 
 主动获取招行支付结果
 
 
 
-
-
 各类卡统一页面后，各项功能是否正常，需要测试
+
+
+
+理赔item 的按压态

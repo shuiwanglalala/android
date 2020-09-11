@@ -41,10 +41,8 @@ TransferAccountActivity整理
 
 
 
-理赔item 的按压态
+下载保单 下载发票点击事件
 
-保单数据获取 
+时间都日期 很长 显示不全
 
-保单list空ui
-
-过期item能否点击出详情
+空ui在别的地方有使用吗

@@ -8,7 +8,8 @@ https://github.com/liu-xiao-dong/JD-Test
 
 
 
-guava
++ DialogFragment
++ guava
 
 
 
@@ -45,4 +46,8 @@ TransferAccountActivity整理
 
 
 
-保单下载
+姓名 身份证号 手机号 的获取渠道是否正确
+
+如何判断实名认证    以及如何实名认证后结束后进入更改页
+
+下载改成跳浏览器

@@ -42,6 +42,10 @@ TransferAccountActivity整理
 
 
 
-设置---更改预留手机号，需要真实数据的测试
+断网时点击卡片，详情出现后finish
 
+只有一张卡后，解绑再回退至card页，ui显示错误
 
+card缓存的有效期和有效性
+
+card缓存使用有问题，每次onresume都清空内存data数据不对

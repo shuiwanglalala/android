@@ -8,7 +8,16 @@ https://github.com/liu-xiao-dong/JD-Test
 
 
 
-+ DialogFragment
++ DialogFragment dialog popupwindow 框架 Utils内是否有dialog框架 dialog theme
++ dialog的各自子类
++ 您应避免直接实例化 Dialog
+
+整理所有的dialog，考虑通用的对话框放置在common模块内
+
+删除不再使用的dialog 的xml layout
+
+
+
 + guava
 
 

@@ -61,21 +61,19 @@ card缓存使用有问题，每次onresume都清空内存data数据不对
 
 
 
-联调yctb.real.name.sync.verify接口 由两个调用
-
-每次都没有检测flag
-
-用户授权协议
-
-gotobindcardactivity
-
-
-
 三个点击
 
 入口
 
-3个背景图的竖线 文字高度调整
 
 
+已经绑了卡再次绑，返回errcode为0，没有toast
+
+非普通卡的数字长度限制
+
+绑定普通卡 全国卡的接口调试 。跳转至对应的详情页
+
+
+
+rxjava 多个输入等待满足的判断
 

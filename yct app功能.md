@@ -58,3 +58,24 @@ TransferAccountActivity整理
 card缓存的有效期和有效性
 
 card缓存使用有问题，每次onresume都清空内存data数据不对
+
+
+
+联调yctb.real.name.sync.verify接口 由两个调用
+
+每次都没有检测flag
+
+用户授权协议
+
+gotobindcardactivity
+
+
+
+三个点击
+
+入口
+
+3个背景图的竖线 文字高度调整
+
+
+

@@ -25,7 +25,7 @@ https://github.com/liu-xiao-dong/JD-Test
 客厅推荐页无网络下无法刷新
 
 星权益的ui
-TransferAccountActivity 超过5张卡时，卡片弹窗显示是有问题的
+
 
 showFileChooserWithRequestCode
 京东 支付宝 微信签约后，状态无法更新
@@ -51,8 +51,6 @@ TransferAccountActivity整理
 
 
 
-断网时点击卡片，详情出现后finish
-
 只有一张卡后，解绑再回退至card页，ui显示错误
 
 card缓存的有效期和有效性
@@ -61,22 +59,9 @@ card缓存使用有问题，每次onresume都清空内存data数据不对
 
 
 
-已经绑了卡再次绑，返回errcode为0，没有toast
-
-非普通卡的数字长度限制
-
-记名卡 绑定普通卡 全国卡的接口调试
+记名卡的接口调试
 
 跳转至对应的详情页
 
+绑定时更改预留手机号弹窗需要检验
 
-
-子女 父母 的歧义
-
-记名卡点击前的实名认证
-
-
-
-对照产品的pdf过一遍
-
-判空trim 还没处理

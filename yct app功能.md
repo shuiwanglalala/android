@@ -26,6 +26,10 @@ https://github.com/liu-xiao-dong/JD-Test
 
 星权益的ui
 
+cardactivity banner图片变形
+
+card缓存的有效期和有效性
+
 
 showFileChooserWithRequestCode
 京东 支付宝 微信签约后，状态无法更新
@@ -51,17 +55,9 @@ TransferAccountActivity整理
 
 
 
-只有一张卡后，解绑再回退至card页，ui显示错误
-
-card缓存的有效期和有效性
-
-card缓存使用有问题，每次onresume都清空内存data数据不对
+已经实名认证但无法升级
 
 
 
-记名卡的接口调试
 
-跳转至对应的详情页
-
-绑定时更改预留手机号弹窗需要检验
 

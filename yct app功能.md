@@ -16,11 +16,7 @@ https://github.com/liu-xiao-dong/JD-Test
 
 删除不再使用的dialog 的xml layout
 
-
-
-+ guava
-
-
+guava
 
 客厅推荐页无网络下无法刷新
 
@@ -32,7 +28,6 @@ card缓存的有效期和有效性
 
 
 showFileChooserWithRequestCode
-京东 支付宝 微信签约后，状态无法更新
 
 
 webview 使用 封装 架构 性能 内存泄漏 页面回退
@@ -45,17 +40,25 @@ OssService
 
 
 
+已经实名认证但无法升级
+
+
+
 测试招行支付签约 解约 在settin hg和乘车码页面的ui变化
-
-
 
 TransferAccountActivity整理
 
 主动获取招行支付结果
 
+京东 支付宝 微信签约后，状态无法更新
+
+dialog_sel_pay_channel 4页面使用到，注意只在卡充值页面出行招行支付
 
 
-已经实名认证但无法升级
+
+
+
+
 
 
 

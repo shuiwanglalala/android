@@ -38,27 +38,24 @@ WebChromeClient
 
 OssService
 
-
-
-已经实名认证但无法升级
+遇到支付dialog后，再统一使用
 
 
 
 测试招行支付签约 解约 在settin hg和乘车码页面的ui变化
 
-TransferAccountActivity整理
-
 主动获取招行支付结果
 
 京东 支付宝 微信签约后，状态无法更新
 
-dialog_sel_pay_channel 4页面使用到，注意只在卡充值页面出行招行支付
 
 
+旧paydialog 
 
-
-
-
++ onactivityresult 充值
++ dismiss 所有dialog
++ 不支持支付宝 招行 查看ui
++ 订单编号
 
 
 

@@ -42,11 +42,13 @@ OssService
 
 
 
+
+
 测试招行支付签约 解约 在settin hg和乘车码页面的ui变化
 
 主动获取招行支付结果
 
-京东 支付宝 微信签约后，状态无法更新
+
 
 
 
@@ -57,7 +59,28 @@ OssService
 + 不支持支付宝 招行 查看ui
 + 订单编号
 
+NoPayPswDetailActivity
+
+NoPayPswListActivity
+
+XtcRechargeViewModel
+
+LossReportPayAdapter
+
+ChildrenCardPayAdapter
+
+StudentCardApplyPayViewModel
+
+NFCMainActivity
 
 
 
+WXINNoPayPswDetailActivity 删除
 
+OpenWXinActivity 删除
+
+UrbanRailCodeFragment
+
+com.yctapp.subway.paysetting.NoPayPswDetailActivity 能否被替代
+
+京东 微信签约后，状态无法更新

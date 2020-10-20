@@ -42,16 +42,6 @@ OssService
 
 
 
-
-
-测试招行支付签约 解约 在settin hg和乘车码页面的ui变化
-
-主动获取招行支付结果
-
-
-
-
-
 旧paydialog 
 
 + onactivityresult 充值
@@ -75,12 +65,14 @@ NFCMainActivity
 
 
 
-WXINNoPayPswDetailActivity 删除
-
-OpenWXinActivity 删除
-
-UrbanRailCodeFragment
-
-com.yctapp.subway.paysetting.NoPayPswDetailActivity 能否被替代
-
 京东 微信签约后，状态无法更新
+
+所有接口统一
+
+前端没有icon
+
+后台 缺少icon url 签约时间signtime 
+
+开通和关闭 后台查询状态不对 
+
+是否能真正免密扣钱

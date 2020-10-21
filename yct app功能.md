@@ -67,8 +67,6 @@ NFCMainActivity
 
 京东 微信签约后，状态无法更新
 
-所有接口统一
-
 前端没有icon
 
 后台 缺少icon url 签约时间signtime 

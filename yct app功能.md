@@ -40,6 +40,8 @@ OssService
 
 遇到支付dialog后，再统一使用
 
+京东 微信签约后，状态无法更新
+
 
 
 旧paydialog 
@@ -65,12 +67,8 @@ NFCMainActivity
 
 
 
-京东 微信签约后，状态无法更新
-
-前端没有icon
-
-后台 缺少icon url 签约时间signtime 
-
-开通和关闭 后台查询状态不对 
-
 是否能真正免密扣钱
+
+
+
+2019.8.14

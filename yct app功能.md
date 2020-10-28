@@ -71,4 +71,4 @@ NFCMainActivity
 
 
 
-2019.8.14
+id verify 失败后的页面 bindcardactivty是否会有2个

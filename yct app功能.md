@@ -68,7 +68,3 @@ NFCMainActivity
 
 
 是否能真正免密扣钱
-
-
-
-id verify 失败后的页面 bindcardactivty是否会有2个

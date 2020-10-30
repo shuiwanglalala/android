@@ -64,7 +64,3 @@ ChildrenCardPayAdapter
 StudentCardApplyPayViewModel
 
 NFCMainActivity
-
-
-
-是否能真正免密扣钱

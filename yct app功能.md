@@ -44,18 +44,6 @@ OssService
 
 
 
-XtcRechargeViewModel
-
-LossReportPayAdapter
-
-ChildrenCardPayAdapter
-
-StudentCardApplyPayViewModel
-
-NFCMainActivity
-
-
-
 + 重点测试部分
   + 卡充值页内支持招行支付（分已安装招行app和未安装招行app两种情况）
     + 测试选择卡号的弹窗是否正常，绑5张卡后查看弹窗是否正常滑动显示
@@ -71,4 +59,6 @@ NFCMainActivity
 
   + 5.9.1记名卡优化的部分
 
+  + 学生卡/小天才的申办支付，挂失支付，充值支付， 儿童卡的申办支付，NFC充值支付（验证这些场景下，各类支付渠道正常切换，并能正常付款）
+  
     

@@ -66,6 +66,8 @@ OssService
 
 
 
-selectdialog整个ui改为最新样式
+后台改YCTB字段
 
-广州二维码页面，选择渠道，招行icon会变小，改为统一使用PayChanelDialog
+测试 弹窗 yctb充值 公交二维码 羊城通卡充值
+
+统一各打车页的ui

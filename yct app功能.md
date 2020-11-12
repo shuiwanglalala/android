@@ -46,9 +46,18 @@ OssService
 
 全国卡无法充值
 
+yctb.user.session.check 是否有用
+
+主页点击 切换
+
+招行免密异常状态
+
 
 
 mass
 
-+ 线路说说 附近站点 线路详情 的实时信息
++ 线路说说 附近站点 线路详情
 + 我的关注 搜索线路
+
+之前的infofragment是否改为activity形式
+

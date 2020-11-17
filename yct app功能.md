@@ -61,3 +61,10 @@ mass
 + 切换北京 广州公交
 + 
 
+LocationUtils
+
+CoordinateTransformUtil
+
+晚上在地铁上测试是否主动回调
+
+运行时动态确认权限

@@ -82,8 +82,15 @@ CoordinateTransformUtil
   + 回家 去公司
   + 搜索结果列表
   + 搜索word text的颜色
+  + 地铁3号线北延段
 
-搜索栏低3dp
++ poiinfo
+  + 判断该poi是否已经收藏了 ui不一样的
+  + 地图移动后需要复归
+  + 点击事件
+    + 取消
+    + 添加常用地址
+    + 线路规划
 
 
 

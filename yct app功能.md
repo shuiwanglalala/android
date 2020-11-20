@@ -59,9 +59,9 @@ LocationUtils
 
 CoordinateTransformUtil
 
-晚上在地铁上测试是否主动回调
-
 运行时动态确认权限
+
+首页fragment进入后需要登录判断
 
 
 
@@ -77,19 +77,15 @@ CoordinateTransformUtil
 
 
 + 搜索
-  + 搜索历史 搜索空时的ui
-  + 地图选点
-  + 回家 去公司
+  + 搜索结果为空的ui
   + 搜索结果列表 去线路规划 先显示10个
+  + 各类方式进入搜索后，item的点击效果是不同的
+  + 点击 busStation
+  + 地铁线路 道路 提供图标
   
 + poiinfo
-  + 判断该poi是否已经收藏了 ui不一样的
   + 地图移动后需要复归
   + 点击事件
-    + 取消 pass
-    + 添加常用地址
     + 线路规划
 
 
-
-首页fragment进入后需要登录判断

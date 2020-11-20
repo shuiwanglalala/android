@@ -80,20 +80,16 @@ CoordinateTransformUtil
   + 搜索历史 搜索空时的ui
   + 地图选点
   + 回家 去公司
-  + 搜索结果列表
-  + 搜索word text的颜色
-  + 地铁3号线北延段
-
+  + 搜索结果列表 去线路规划 先显示10个
+  
 + poiinfo
   + 判断该poi是否已经收藏了 ui不一样的
   + 地图移动后需要复归
   + 点击事件
-    + 取消
+    + 取消 pass
     + 添加常用地址
     + 线路规划
 
 
 
-Poiinfo 
-
-detail 
+首页fragment进入后需要登录判断

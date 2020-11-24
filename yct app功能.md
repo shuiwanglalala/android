@@ -82,6 +82,7 @@ CoordinateTransformUtil
   + 各类方式进入搜索后，item的点击效果是不同的
   + 点击 busStation
   + 地铁线路 道路 提供图标
+  + 多个搜索item被同时点击的过滤
   
 + poiinfo
   + 地图移动后需要复归

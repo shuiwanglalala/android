@@ -63,6 +63,8 @@ CoordinateTransformUtil
 
 首页fragment进入后需要登录判断
 
+所有搜索sdk数据时的加载动画
+
 
 
 + 搜索入口
@@ -85,7 +87,7 @@ CoordinateTransformUtil
   + 多个搜索item被同时点击的过滤
     + 一个item点击后，再点击第二个item，取消第一个item的订阅
     + 点击间隔放长一点
-  + 搜索结果的错误码 文档说明
+  + 搜索结果的错误码 文档说明 以及对应list的处理
   + 从route页进入，设置editText座标位置
   
 + poiinfo
@@ -97,3 +99,9 @@ CoordinateTransformUtil
   + 搜索结果为空的ui
   + 过滤无效的规划line
   + 没有时间设置
+  + 切换的deounce延迟
+  + 两个请求的判断和取消 防止数据错误
+  + 搜索结果的错误码 文档说明 以及对应list的处理
+  + 多点item同时点击
+  + 快速点击过滤
+  + 不更改node，进入搜索再回来，重新查了一遍

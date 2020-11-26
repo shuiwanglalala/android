@@ -42,7 +42,7 @@ OssService
 
 京东 微信签约后，状态无法更新
 
-
+引入流式布局
 
 小程序在哪里
 
@@ -85,9 +85,15 @@ CoordinateTransformUtil
   + 多个搜索item被同时点击的过滤
     + 一个item点击后，再点击第二个item，取消第一个item的订阅
     + 点击间隔放长一点
+  + 搜索结果的错误码 文档说明
+  + 从route页进入，设置editText座标位置
   
 + poiinfo
   + 地图移动后需要复归
   + 地铁线路 公交线路 隐藏route按钮
 
-
++ roure plan
+  + 执行新的线路规划前，清空之前的数据
+  + 搜索结果为空的ui
+  + 过滤无效的规划line
+  + 没有时间设置

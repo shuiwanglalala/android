@@ -98,3 +98,9 @@ CoordinateTransformUtil
   + 切换的deounce延迟
   + 不更改node，进入搜索再回来，重新查了一遍
   + 下拉刷新
+
++ home
+  + 附近站的刷新 更多
+  + 附近的站 空ui
+  + item 点击事件 parcelable
+    + 2.12.8与2.11.2的查询结果是否一致

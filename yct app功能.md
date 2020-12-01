@@ -91,16 +91,13 @@ CoordinateTransformUtil
   + 地铁线路 公交线路 隐藏route按钮
 
 + roure plan
-  + 执行新的线路规划前，清空之前的数据
   + 搜索结果为空的ui
-  + 过滤无效的规划line
   + 没有时间设置
   + 切换的deounce延迟
-  + 不更改node，进入搜索再回来，重新查了一遍
   + 下拉刷新
 
 + home
-  + 附近站的刷新 更多
+  + 附近站的刷新
   + 附近的站 空ui
   + item 点击事件 parcelable
     + 2.12.8与2.11.2的查询结果是否一致

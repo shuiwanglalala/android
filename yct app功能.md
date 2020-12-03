@@ -85,7 +85,8 @@ CoordinateTransformUtil
   + 点击 busStation
     + 完成了一点点
   + 地铁线路 道路 提供图标
-
++ 限定只搜广州
+  
 + poiinfo
   + 地图移动后需要复归
   + 地铁线路 公交线路 隐藏route按钮
@@ -95,6 +96,10 @@ CoordinateTransformUtil
   + 没有时间设置
   + 切换的deounce延迟
   + 下拉刷新
++ 1
+  + 1
+  + 搜索策略
+  
 
 + home
   + 附近站的刷新

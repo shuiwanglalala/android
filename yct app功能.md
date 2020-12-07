@@ -76,7 +76,6 @@ CoordinateTransformUtil
   + 多个搜索item被同时点击的过滤
   + 一个item点击后，再点击第二个item，取消第一个item的订阅
   + 点击间隔放长一点
-  + 多点item同时点击
   + 快速点击过滤
 
 
@@ -97,17 +96,23 @@ CoordinateTransformUtil
   + 搜索结果为空的ui
   + 没有时间设置
   + 切换的deounce延迟
-  + 下拉刷新
 + 1
   + 1
   + 搜索策略
-  
-+ 详情页
-    + 起点icon
-    + 
   
 + home
   + 附近站的刷新
   + 附近的站 空ui
   + item 点击事件 parcelable
     + 2.12.8与2.11.2的查询结果是否一致
+
+
+
+
+
+
+
++ route transit
+  + 起点icon
+  + line  .9.png
+  + 丑

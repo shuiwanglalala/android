@@ -38,15 +38,9 @@ WebChromeClient
 
 OssService
 
-遇到支付dialog后，再统一使用
-
 京东 微信签约后，状态无法更新
 
-引入流式布局
-
 小程序在哪里
-
-数据绑定更新list，如果只更新list中item的字段，如何更新ui呢
 
 
 
@@ -57,62 +51,15 @@ mass
 + 附近站点 线路详情 线路列表
 + 我的关注 搜索线路
 + 切换北京 广州公交
-+ 
 
 LocationUtils
 
 CoordinateTransformUtil
 
-运行时动态确认权限
-
-首页fragment进入后需要登录判断
-
-所有搜索sdk数据时的加载动画
-
-+ 请求的错乱
-  + 两个请求的判断和取消 防止数据错误
-  + route 百度sdk请求和我们后台请求的冲突问题 不对应问题
-+ 点击的错乱
-  + 多个搜索item被同时点击的过滤
-  + 一个item点击后，再点击第二个item，取消第一个item的订阅
-  + 点击间隔放长一点
-  + 快速点击过滤
-
-
-
-+ 搜索
-  + 搜索结果为空的ui
-  + 搜索结果列表 去线路规划 先显示10个
-  + 点击 busStation
-    + 完成了一点点
-  + 地铁线路 道路 提供图标
-+ 限定只搜广州
-  
-+ poiinfo
-  + 地图移动后需要复归
-  + 地铁线路 公交线路 隐藏route按钮
-
-+ roure plan
-  + 搜索结果为空的ui
-  + 没有时间设置
-  + 切换的deounce延迟
-+ 1
-  + 1
-  + 搜索策略
-  
-+ home
-  + 附近站的刷新
-  + 附近的站 空ui
-  + item 点击事件 parcelable
-    + 2.12.8与2.11.2的查询结果是否一致
-
-
-
-
-
-
-
 + route transit
-  + 起点icon
-  + line  .9.png
   + 丑
++ 搜索
++ route
+  + 推荐路线flag
++ home
+  + 正式地铁url地址

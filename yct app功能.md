@@ -52,14 +52,9 @@ mass
 + 我的关注 搜索线路
 + 切换北京 广州公交
 
-LocationUtils
-
-CoordinateTransformUtil
-
 + route transit
   + 丑
-+ 搜索
-+ route
-  + 推荐路线flag
++ 站点详情
+  + 地图显示范围
 + home
   + 正式地铁url地址

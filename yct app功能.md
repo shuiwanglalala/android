@@ -14,11 +14,7 @@ https://github.com/liu-xiao-dong/JD-Test
 
 整理所有的dialog，考虑通用的对话框放置在common模块内
 
-删除不再使用的dialog 的xml layout
-
 guava
-
-客厅推荐页无网络下无法刷新
 
 星权益的ui
 
@@ -38,23 +34,8 @@ WebChromeClient
 
 OssService
 
-京东 微信签约后，状态无法更新
-
 小程序在哪里
 
 
 
 用户隐私弹框
-
-mass
-
-+ 附近站点 线路详情 线路列表
-+ 我的关注 搜索线路
-+ 切换北京 广州公交
-
-+ route transit
-  + 丑
-+ 站点详情
-  + 地图显示范围
-+ home
-  + 正式地铁url地址

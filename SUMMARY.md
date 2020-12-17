@@ -26,6 +26,7 @@
     * [URI](URI.md)
 * 数据结构
 * software
+  
   * [git](git.md)
 * [java](java.md)
 * kotlin
@@ -48,11 +49,19 @@
   * [Intent概览](Intent概览.md)
   * [ARouter](ARouter.md)
 * [界面](界面.md)
+  * 外观与风格
+    * [文本](文本.md)
+      * [自动调整 TextView 的大小](自动调整 TextView 的大小.md)
+      * [Span](Span.md)
+    * [复选框](复选框.md)
+    * [切换按钮](切换按钮.md)
   * [对话框](对话框.md)
+  * [搜索](搜索.md)
   * 其他
     * [下拉滑动刷新](下拉滑动刷新.md)
     * [滑动-嵌套滑动](滑动-嵌套滑动.md)
 * 动画和过渡
+  
   * [使用ViewPager在Fragment之间滑动](使用ViewPager在Fragment之间滑动.md)
 * [图片和图形](图片和图形.md)
   * [Drawables overview](Drawables overview.md)
@@ -60,6 +69,7 @@
   * [Handling bitmaps](Handling bitmaps.md)
   * [Hardware acceleration](Hardware acceleration.md)
 * [基于网络的内容](基于网络的内容.md)
+  
   * [WebView](WebView.md)
 * android studio
 * [android studio概述](android studio概述.md)
@@ -102,9 +112,8 @@
     * [mvp-rxjava](mvp-rxjava.md)
     * [todo-mvvm-databinding](todo-mvvm-databinding.md)
 * User interface
-  * Layouts
-    * Create a List with RecyclerView
-      * [RecyclerView](RecyclerView.md)
+  * [RecyclerView](RecyclerView.md)
+
   * View
     * 机制
       * [绘制](绘制.md)
@@ -119,7 +128,6 @@
           * [CardView](CardView.md)
       * View
         * [Snackbar-Toast](Snackbar-Toast.md)
-        * [TextView](TextView.md)
         * ProgressBar
           * [SeekBar](SeekBar.md)
           * RatingBar

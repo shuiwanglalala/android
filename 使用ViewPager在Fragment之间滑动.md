@@ -10,14 +10,6 @@ viewpager2暂时没去了解
 
 
 
-[Tablayout使用全解，一篇就够了](https://www.jianshu.com/p/fde38f367019)
-
-[XTabLayout](https://github.com/AndroidKun/XTabLayout)
-
-[Material Design 之 TabLayout 使用](https://www.jianshu.com/p/13f334eb16ce)
-
-[TabLayout您可能不知道的实用用法](https://www.cnblogs.com/duan-xue-bin/p/10059516.html)
-
 
 
 [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)

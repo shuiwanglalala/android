@@ -52,6 +52,8 @@
   * 布局
     * 线性布局
       * [Tablayout](Tablayout.md)
+    * FrameLayout
+      * [CalendarView](CalendarView.md)
   * 外观与风格
     * [文本](文本.md)
       * [自动调整 TextView 的大小](自动调整 TextView 的大小.md)
@@ -59,6 +61,8 @@
     * [按钮](按钮.md)
     * [复选框](复选框.md)
     * [切换按钮](切换按钮.md)
+    * [Pickers](Pickers.md)
+  * [消息框概览](消息框概览.md)
   * [对话框](对话框.md)
   * [搜索](搜索.md)
   * 其他
@@ -131,7 +135,6 @@
         * FrameLayout
           * [CardView](CardView.md)
       * View
-        * [Snackbar-Toast](Snackbar-Toast.md)
         * ProgressBar
           * [SeekBar](SeekBar.md)
           * RatingBar

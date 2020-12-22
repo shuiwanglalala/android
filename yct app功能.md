@@ -4,11 +4,23 @@ https://material.io/
 
 十分重要啊
 
-scrollview
+scrollview 
 
-viewpager
+滑动 嵌套滑动 NestedScrollingParent2 NestedScrollingParent3
+
+viewpager PagerTabStrip
 
 banner
+
+recyclerview
+
+CoordinatorLayout
+
+SwipeRefreshLayout 下拉刷新
+
+MotionLayout
+
+
 
 
 

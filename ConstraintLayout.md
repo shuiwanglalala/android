@@ -1,13 +1,5 @@
 # ConstraintLayout
 
-[使用 ConstraintLayout 构建自适应界面](https://developer.android.com/training/constraint-layout)
-
-**关键帧动画**
-
-+ 在 ConstraintLayout 中，您可以使用 ConstraintSet 和 TransitionManager 为尺寸和位置元素的变化添加动画效果
-  + **ConstraintSet 动画仅为子元素的尺寸和位置添加动画效果。它们不会为其他属性（例如颜色）添加动画效果**
-+ [ConstraintSetExampleActivity](https://github.com/android/views-widgets-samples/blob/master/ConstraintLayoutExamples/constraintlayout/src/main/java/com/example/android/constraintlayoutexamples/ConstraintSetExampleActivity.java)
-
 [约束布局ConstraintLayout看这一篇就够了](https://juejin.im/post/5bac92f2f265da0aba70c1bf)
 
 + layout_constraintBaseline_toBaselineOf

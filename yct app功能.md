@@ -63,3 +63,9 @@ WebChromeClient
 OssService
 
 小程序在哪里
+
+
+
+删除人脸识别旧代码 及camera库
+
+react native facebook库

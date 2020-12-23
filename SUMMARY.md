@@ -52,6 +52,8 @@
   
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
+    * [RecyclerView](RecyclerView.md)
+      * [flowlayout](flowlayout.md)
     * [CardView](CardView.md)
     * 线性布局
       * [Tablayout](Tablayout.md)
@@ -125,7 +127,7 @@
     * [mvp-rxjava](mvp-rxjava.md)
     * [todo-mvvm-databinding](todo-mvvm-databinding.md)
 * User interface
-  * [RecyclerView](RecyclerView.md)
+  * 
 
   * View
     * 机制
@@ -134,15 +136,8 @@
       * [事件分发](事件分发.md)
     * 实例
       * [ViewGroup](ViewGroup.md)
-
-        * MotionLayout
-
-        * DrawerLayout
-        * FrameLayout
       * View
-        * ProgressBar
-          * [SeekBar](SeekBar.md)
-          * RatingBar
+        * [SeekBar](SeekBar.md)
       * 自定义view
         * [Creating a View Class](Creating a View Class.md)
         * [Optimizing the View](Optimizing the View.md)

@@ -69,3 +69,9 @@ OssService
 删除人脸识别旧代码 及camera库
 
 react native facebook库
+
+
+
+主页与家
+
++ 主页家列表的更新 onactivityresult

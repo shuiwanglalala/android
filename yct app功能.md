@@ -72,6 +72,6 @@ react native facebook库
 
 
 
-主页与家
+PoiInfoActivity
 
-+ 主页家列表的更新 onactivityresult
++ 判断是否已收藏 ui

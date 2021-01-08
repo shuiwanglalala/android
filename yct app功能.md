@@ -72,6 +72,20 @@ react native facebook库
 
 
 
+主页fragment
+
++ 显示home，及rxbus更新
+
+routeplan
+
++ history 设置家 公司
++ 显示home，及rxbus更新
+
 PoiInfoActivity
 
 + 判断是否已收藏 ui
++ 地址收藏/取消删除后，NaviCollectActivity的显示
+
+NaviSearchActivity
+
++ 显示home，及rxbus更新

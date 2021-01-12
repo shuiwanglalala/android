@@ -4,6 +4,10 @@ https://material.io/
 
 十分重要啊
 
+https://github.com/google/agera
+
+google 编程范式
+
 scrollview 
 
 滑动 嵌套滑动 NestedScrollingParent2 NestedScrollingParent3
@@ -14,15 +18,33 @@ https://github.com/florent37/MaterialViewPager
 
 https://github.com/ToxicBakery/ViewPagerTransforms
 
+上下滑动viewpager 抖音页面
+
 banner
 
 recyclerview
 
+https://github.com/timusus/RecyclerView-FastScroll
+
+https://github.com/iPaulPro/Android-ItemTouchHelper-Demo
+
+https://github.com/h6ah4i/android-advancedrecyclerview
+
+吸顶
+
+https://github.com/timehop/sticky-headers-recyclerview
+
+https://github.com/ShamylZakariya/StickyHeaders
+
 https://github.com/donkingliang/GroupedRecyclerViewAdapter
+
+github搜索layoutmanager
 
 CoordinatorLayout
 
 SwipeRefreshLayout 下拉刷新
+
+https://github.com/scwang90/SmartRefreshLayout
 
 MotionLayout
 

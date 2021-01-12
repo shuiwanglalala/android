@@ -10,9 +10,15 @@ scrollview
 
 viewpager PagerTabStrip
 
+https://github.com/florent37/MaterialViewPager
+
+https://github.com/ToxicBakery/ViewPagerTransforms
+
 banner
 
 recyclerview
+
+https://github.com/donkingliang/GroupedRecyclerViewAdapter
 
 CoordinatorLayout
 
@@ -70,22 +76,24 @@ OssService
 
 react native facebook库
 
+pagebottomtab
+
+realnamecamera-release
+
 
 
 主页fragment
 
-+ 显示home，及rxbus更新
++ 显示home
 
 routeplan
 
-+ history 设置家 公司
-+ 显示home，及rxbus更新
++ 显示home
 
 PoiInfoActivity
 
-+ 判断是否已收藏 ui
-+ 地址收藏/取消删除后，NaviCollectActivity的显示
++ 显示是否已收藏 ui
 
 NaviSearchActivity
 
-+ 显示home，及rxbus更新
++ 显示home

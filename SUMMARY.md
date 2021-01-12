@@ -49,7 +49,6 @@
   * [Intent概览](Intent概览.md)
   * [ARouter](ARouter.md)
 * [界面](界面.md)
-  
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
     * [RecyclerView](RecyclerView.md)
@@ -59,6 +58,8 @@
       * [Tablayout](Tablayout.md)
     * FrameLayout
       * [CalendarView](CalendarView.md)
+      * [ScrollView](ScrollView.md)
+      * [NestedScrollView](NestedScrollView.md)
   * 外观与风格
     * [文本](文本.md)
       * [自动调整 TextView 的大小](自动调整 TextView 的大小.md)
@@ -73,7 +74,6 @@
   * [搜索](搜索.md)
   * 其他
     * [下拉滑动刷新](下拉滑动刷新.md)
-    * [滑动-嵌套滑动](滑动-嵌套滑动.md)
 * 动画和过渡
   
   * [使用ViewPager在Fragment之间滑动](使用ViewPager在Fragment之间滑动.md)

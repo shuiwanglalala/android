@@ -8,19 +8,7 @@ https://github.com/google/agera
 
 google 编程范式
 
-scrollview 
 
-滑动 嵌套滑动 NestedScrollingParent2 NestedScrollingParent3
-
-viewpager PagerTabStrip
-
-https://github.com/florent37/MaterialViewPager
-
-https://github.com/ToxicBakery/ViewPagerTransforms
-
-上下滑动viewpager 抖音页面
-
-banner
 
 recyclerview
 
@@ -76,8 +64,6 @@ guava
 
 cardactivity banner图片变形
 
-card缓存的有效期和有效性
-
 
 showFileChooserWithRequestCode
 
@@ -85,8 +71,6 @@ showFileChooserWithRequestCode
 webview 使用 封装 架构 性能 内存泄漏 页面回退
 
 WebChromeClient
-
-升级banner控件
 
 OssService
 

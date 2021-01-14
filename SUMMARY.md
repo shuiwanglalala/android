@@ -49,6 +49,8 @@
   * [Intent概览](Intent概览.md)
   * [ARouter](ARouter.md)
 * [界面](界面.md)
+  * View
+    * [Table](Table.md)
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
     * [RecyclerView](RecyclerView.md)
@@ -60,6 +62,7 @@
       * [CalendarView](CalendarView.md)
       * [ScrollView](ScrollView.md)
       * [NestedScrollView](NestedScrollView.md)
+    * [ViewPager](ViewPager.md)
   * 外观与风格
     * [文本](文本.md)
       * [自动调整 TextView 的大小](自动调整 TextView 的大小.md)
@@ -75,8 +78,7 @@
   * 其他
     * [下拉滑动刷新](下拉滑动刷新.md)
 * 动画和过渡
-  
-  * [使用ViewPager在Fragment之间滑动](使用ViewPager在Fragment之间滑动.md)
+
   * [Ramotion](Ramotion.md)
 * [图片和图形](图片和图形.md)
   * [Drawables overview](Drawables overview.md)

@@ -34,9 +34,7 @@ SmartSwipe SmartSwipeBack还行
 
 SmartSwipeRefresh意义不大
 
-https://github.com/ikew0ng/SwipeBackLayout
-
-侧滑finish当前页面，但需要更改baseActivity，不好用
+https://github.com/bingoogolapple/BGASwipeBackLayout-Android
 
 https://github.com/klinker41/android-slidingactivity
 

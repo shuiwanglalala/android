@@ -12,6 +12,8 @@ google 编程范式
 
 recyclerview
 
+https://github.com/CymChad/BaseRecyclerViewAdapterHelper
+
 https://github.com/timusus/RecyclerView-FastScroll
 
 https://github.com/iPaulPro/Android-ItemTouchHelper-Demo

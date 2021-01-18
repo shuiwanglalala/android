@@ -4,9 +4,15 @@
 
 
 
+https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 
+动画 header empty 多类型item 分组 node dragAndSwipe
 
+3.x与2.x不兼容，升级风险大
 
+https://www.jianshu.com/p/b343fcff51b0
+
+2.x文档
 
 ## ItemDecoration
 

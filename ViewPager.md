@@ -24,9 +24,17 @@ https://github.com/Devlight/InfiniteCycleViewPager
 
 很好看
 
+https://github.com/Azoft/CarouselLayoutManager
+
+有点同上
+
 https://github.com/ToxicBakery/ViewPagerTransforms
 
 https://github.com/florent37/MaterialViewPager
+
+https://github.com/yarolegovich/DiscreteScrollView
+
+不错，貌似ViewPager2都能实现类似的效果
 
 ## Banner
 

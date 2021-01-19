@@ -8,39 +8,17 @@ https://github.com/google/agera
 
 google 编程范式
 
+https://fblitho.com/
+
+ui架构
 
 
-recyclerview
-
-https://github.com/CymChad/BaseRecyclerViewAdapterHelper
-
-https://github.com/timusus/RecyclerView-FastScroll
-
-https://github.com/iPaulPro/Android-ItemTouchHelper-Demo
-
-https://github.com/h6ah4i/android-advancedrecyclerview
-
-吸顶
-
-https://github.com/timehop/sticky-headers-recyclerview
-
-https://github.com/ShamylZakariya/StickyHeaders
-
-https://github.com/donkingliang/GroupedRecyclerViewAdapter
-
-github搜索layoutmanager
 
 CoordinatorLayout
-
-SwipeRefreshLayout 下拉刷新
-
-https://github.com/scwang90/SmartRefreshLayout
 
 MotionLayout
 
 
-
-https://www.one-tab.com/page/AV0Pz7PCS_-wqp1QuTUNlA
 
 
 

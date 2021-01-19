@@ -63,6 +63,7 @@
       * [ScrollView](ScrollView.md)
       * [NestedScrollView](NestedScrollView.md)
     * [ViewPager](ViewPager.md)
+    * [SwipeRefreshLayout](SwipeRefreshLayout.md)
   * 外观与风格
     * [文本](文本.md)
       * [自动调整 TextView 的大小](自动调整 TextView 的大小.md)
@@ -75,8 +76,6 @@
   * [消息框概览](消息框概览.md)
   * [对话框](对话框.md)
   * [搜索](搜索.md)
-  * 其他
-    * [下拉滑动刷新](下拉滑动刷新.md)
 * 动画和过渡
 
   * [Ramotion](Ramotion.md)

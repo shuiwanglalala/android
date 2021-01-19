@@ -2,7 +2,15 @@
 
 [recyclerview-no-scrollbar-when-overscroll-is-turned-off](https://stackoverflow.com/questions/32575323/recyclerview-no-scrollbar-when-overscroll-is-turned-off)
 
+https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf
 
+
+
+https://github.com/mikepenz/FastAdapter
+
+异常强大的adapter，貌似功能是最全的
+
+sticky header 多选
 
 https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 
@@ -14,9 +22,31 @@ https://www.jianshu.com/p/b343fcff51b0
 
 2.x文档
 
+https://github.com/davideas/FlexibleAdapter
+
+只看demo，是很不错的，代码暂没时间看
+
+sticky header
+
+https://github.com/h6ah4i/android-advancedrecyclerview
+
+与上面大部分类似 drag swipe expand header 
+
+
+
+https://github.com/lisawray/groupie
+
+功能不是很清楚
+
 ## ItemDecoration
 
 [Android Recyclerview GridLayoutManager column spacing](https://stackoverflow.com/questions/28531996/android-recyclerview-gridlayoutmanager-column-spacing/30701422#30701422)
+
+## 动画
+
+https://github.com/wasabeef/recyclerview-animators
+
+可借鉴的各类动画
 
 ## recyclerview-selection
 
@@ -32,8 +62,24 @@ https://github.com/guenodz/recyclerview-selection-demo
 
 java demo
 
+https://github.com/afollestad/drag-select-recyclerview
+
+滑动多选，不错
+
 ## 数据绑定
 
 views-widgets-samples
 
 不错的封装
+
+## 特殊类型ui
+
+https://github.com/vipulasri/Timeline-View
+
+很不错
+
+https://github.com/yqritc/RecyclerView-FlexibleDivider
+
+https://github.com/TakuSemba/MultiSnapRecyclerView
+
+放手后回弹至指定位置 snap

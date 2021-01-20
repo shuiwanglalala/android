@@ -38,6 +38,10 @@ https://github.com/lisawray/groupie
 
 功能不是很清楚
 
+## LayoutManager 
+
+https://github.com/google/flexbox-layout
+
 ## ItemDecoration
 
 [Android Recyclerview GridLayoutManager column spacing](https://stackoverflow.com/questions/28531996/android-recyclerview-gridlayoutmanager-column-spacing/30701422#30701422)
@@ -47,6 +51,14 @@ https://github.com/lisawray/groupie
 https://github.com/wasabeef/recyclerview-animators
 
 可借鉴的各类动画
+
+## Snap
+
+[让你明明白白的使用RecyclerView——SnapHelper详解](https://www.jianshu.com/p/e54db232df62)
+
+https://github.com/TakuSemba/MultiSnapRecyclerView
+
+放手后回弹至指定位置 snap
 
 ## recyclerview-selection
 
@@ -80,6 +92,3 @@ https://github.com/vipulasri/Timeline-View
 
 https://github.com/yqritc/RecyclerView-FlexibleDivider
 
-https://github.com/TakuSemba/MultiSnapRecyclerView
-
-放手后回弹至指定位置 snap

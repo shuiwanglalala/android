@@ -53,8 +53,9 @@
     * [Table](Table.md)
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
+    * [CoordinatorLayout](CoordinatorLayout.md)
     * [RecyclerView](RecyclerView.md)
-      * [flowlayout](flowlayout.md)
+    * [FlexboxLayout](FlexboxLayout.md)
     * [CardView](CardView.md)
     * 线性布局
       * [Tablayout](Tablayout.md)
@@ -64,7 +65,6 @@
       * [NestedScrollView](NestedScrollView.md)
     * [ViewPager](ViewPager.md)
     * [SwipeRefreshLayout](SwipeRefreshLayout.md)
-    * [FlexboxLayout](FlexboxLayout.md)
   * 外观与风格
     * [文本](文本.md)
       * [自动调整 TextView 的大小](自动调整 TextView 的大小.md)

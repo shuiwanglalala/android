@@ -39,3 +39,7 @@ https://github.com/bingoogolapple/BGASwipeBackLayout-Android
 https://github.com/klinker41/android-slidingactivity
 
 类似CoordinatorLayout的滑动效果
+
+
+
+https://developer.android.com/reference/com/google/android/material/behavior/SwipeDismissBehavior

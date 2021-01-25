@@ -12,15 +12,23 @@ https://fblitho.com/
 
 ui架构
 
-
-
-CoordinatorLayout
-
-MotionLayout
+https://github.com/JessYanCoding/AndroidAutoSize/blob/master/README-zh.md
 
 
 
 
+
+
+
+动画
+
+https://github.com/nikhilpanju/FabFilter
+
+https://github.com/airbnb/lottie-android
+
+炸天的动画
+
+https://github.com/facebook/shimmer-android
 
 
 

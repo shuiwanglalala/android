@@ -40,6 +40,8 @@ https://github.com/klinker41/android-slidingactivity
 
 类似CoordinatorLayout的滑动效果
 
+下滑finish页面，需继承SlidingActivity。。。
+
 
 
 https://developer.android.com/reference/com/google/android/material/behavior/SwipeDismissBehavior

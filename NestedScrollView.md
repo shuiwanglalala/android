@@ -15,6 +15,3 @@ https://github.com/donkingliang/ConsecutiveScroller
 持续连贯滑动的容器
 
 吸顶
-
-## 动画
-

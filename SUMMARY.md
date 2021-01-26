@@ -137,13 +137,8 @@
       * [绘制](绘制.md)
       * 滚动
       * [事件分发](事件分发.md)
-    * 实例
-      * [ViewGroup](ViewGroup.md)
-      * View
-        * [SeekBar](SeekBar.md)
-      * 自定义view
-        * [Creating a View Class](Creating a View Class.md)
-        * [Optimizing the View](Optimizing the View.md)
+      
+      * [SeekBar](SeekBar.md)
 * 音频和视频
   * [MediaPlayer 概览](MediaPlayer 概览.md)
   * [MediaRecorder overview](MediaRecorder overview.md)

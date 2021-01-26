@@ -51,6 +51,7 @@
 * [界面](界面.md)
   * View
     * [Table](Table.md)
+    * [ProgressBar](ProgressBar.md)
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
       * [MotionLayout](MotionLayout.md)
@@ -75,6 +76,8 @@
     * [切换按钮](切换按钮.md)
     * [Spinner](Spinner.md)
     * [Pickers](Pickers.md)
+  * 通知
+    * [通知概览](通知概览.md)
   * [消息框概览](消息框概览.md)
   * [对话框](对话框.md)
   * [搜索](搜索.md)
@@ -186,6 +189,7 @@
   + [性能提示](性能提示.md)
 + 其他
   + [PackageManager](PackageManager.md)
++ [工具](工具.md)
 + 编写您的应用
   + [利用注解改进代码检查](利用注解改进代码检查.md)
 + Debug your app

@@ -12,7 +12,9 @@ https://github.com/ImangazalievM/CircleMenu
 
 和上面相比，ui细节差一点，自定义多一些
 
+https://github.com/Nightonke/BoomMenu
 
+可以尝试使用
 
 
 

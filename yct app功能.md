@@ -40,7 +40,7 @@ arouter 获取fragment有什么意义
 
 https://github.com/liu-xiao-dong/JD-Test
 
-
+drag android拖放机制是怎么样的
 
 
 

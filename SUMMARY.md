@@ -83,6 +83,10 @@
   * [对话框](对话框.md)
   * [Menu](Menu.md)
   * [搜索](搜索.md)
+  * 机制
+    * [绘制](绘制.md)
+    * 滚动
+    * [事件分发](事件分发.md)
 * 动画和过渡
 
   * [Ramotion](Ramotion.md)
@@ -91,8 +95,10 @@
   * [Vector drawables overview](Vector drawables overview.md)
   * [Handling bitmaps](Handling bitmaps.md)
   * [Hardware acceleration](Hardware acceleration.md)
+* 触摸和输入
+  * 使用触摸手势
+    * [检测常用手势](检测常用手势.md)
 * [基于网络的内容](基于网络的内容.md)
-  
   * [WebView](WebView.md)
 * android studio
 * [android studio概述](android studio概述.md)
@@ -134,16 +140,6 @@
     * [mvp-dagger](mvp-dagger.md)
     * [mvp-rxjava](mvp-rxjava.md)
     * [todo-mvvm-databinding](todo-mvvm-databinding.md)
-* User interface
-  * 
-
-  * View
-    * 机制
-      * [绘制](绘制.md)
-      * 滚动
-      * [事件分发](事件分发.md)
-      
-      * [SeekBar](SeekBar.md)
 * 音频和视频
   * [MediaPlayer 概览](MediaPlayer 概览.md)
   * [MediaRecorder overview](MediaRecorder overview.md)
@@ -166,9 +162,8 @@
       - [SnappyDB](SnappyDB.md)
     - orm
       - [Ormlite](Ormlite.md)
-+ [Touch and input](Touch and input.md)
++ Touch and input
   + Using touch gestures
-    + [Detect common gestures](Detect common gestures.md)
     + [Track touch and pointer movements](Track touch and pointer movements.md)
     + [处理多点触控手势](处理多点触控手势.md)
     + [拖动和缩放](拖动和缩放.md)

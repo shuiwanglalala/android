@@ -46,6 +46,10 @@ https://github.com/google/flexbox-layout
 
 [Android Recyclerview GridLayoutManager column spacing](https://stackoverflow.com/questions/28531996/android-recyclerview-gridlayoutmanager-column-spacing/30701422#30701422)
 
+https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf
+
+https://github.com/iPaulPro/Android-ItemTouchHelper-Demo
+
 ## 动画
 
 https://github.com/wasabeef/recyclerview-animators

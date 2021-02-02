@@ -86,7 +86,6 @@
   * 机制
     * [绘制](绘制.md)
     * 滚动
-    * [事件分发](事件分发.md)
 * 动画和过渡
 
   * [Ramotion](Ramotion.md)
@@ -95,9 +94,10 @@
   * [Vector drawables overview](Vector drawables overview.md)
   * [Handling bitmaps](Handling bitmaps.md)
   * [Hardware acceleration](Hardware acceleration.md)
-* 触摸和输入
-  * 使用触摸手势
+* [触摸和输入](触摸和输入.md)
+  * [使用触摸手势](使用触摸手势.md)
     * [检测常用手势](检测常用手势.md)
+  * [处理键盘输入](处理键盘输入.md)
 * [基于网络的内容](基于网络的内容.md)
   * [WebView](WebView.md)
 * android studio
@@ -162,15 +162,10 @@
       - [SnappyDB](SnappyDB.md)
     - orm
       - [Ormlite](Ormlite.md)
-+ Touch and input
-  + Using touch gestures
-    + [Track touch and pointer movements](Track touch and pointer movements.md)
-    + [处理多点触控手势](处理多点触控手势.md)
-    + [拖动和缩放](拖动和缩放.md)
-    + [Manage touch events in a ViewGroup](Manage touch events in a ViewGroup.md)
-  + Handling keyboard input
-    + [Specify the input method type](Specify the input method type.md)
-    + [Handle input method visibility](Handle input method visibility.md)
++ Handling keyboard input
+  + [Specify the input method type](Specify the input method type.md)
+  + [Handle input method visibility](Handle input method visibility.md)
+
 + Performance
   + Android vitals
     + [ANRs](ANRs.md)

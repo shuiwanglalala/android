@@ -49,7 +49,7 @@
   * [Intent概览](Intent概览.md)
   * [ARouter](ARouter.md)
 * [界面](界面.md)
-  * View
+  * [View](View.md)
     * [Table](Table.md)
     * [ProgressBar](ProgressBar.md)
   * 布局
@@ -61,7 +61,7 @@
     * [CardView](CardView.md)
     * 线性布局
       * [Tablayout](Tablayout.md)
-    * FrameLayout
+    * [FrameLayout](FrameLayout.md)
       * [CalendarView](CalendarView.md)
       * [ScrollView](ScrollView.md)
       * [NestedScrollView](NestedScrollView.md)
@@ -92,7 +92,7 @@
 * [图片和图形](图片和图形.md)
   * [Drawables overview](Drawables overview.md)
   * [Vector drawables overview](Vector drawables overview.md)
-  * [Handling bitmaps](Handling bitmaps.md)
+  * [处理位图](处理位图.md)
   * [Hardware acceleration](Hardware acceleration.md)
 * [触摸和输入](触摸和输入.md)
   * [使用触摸手势](使用触摸手势.md)

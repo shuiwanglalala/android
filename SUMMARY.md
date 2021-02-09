@@ -103,6 +103,8 @@
     * [连接到网络](连接到网络.md)
 * [基于网络的内容](基于网络的内容.md)
   * [WebView](WebView.md)
+* [Rxjava](Rxjava.md)
+  * [Rxjava Opeartor](Rxjava Opeartor.md)
 * android studio
 * [android studio概述](android studio概述.md)
 * 框架/库
@@ -113,7 +115,6 @@
     * [Rxbinding](Rxbinding.md)
     * [RxLifecycle](RxLifecycle.md)
     * [AutoDispose](AutoDispose.md)
-  * [ARouter](ARouter.md)
 * [应用权限](应用权限.md)
   * [Permissions overview](Permissions overview.md)
   * [在运行时请求权限](在运行时请求权限.md)
@@ -195,10 +196,6 @@
     + [Inspect trace logs with Traceview](Inspect trace logs with Traceview.md)
   + 使用 Memory Profiler 查看 Java 堆和内存分配
     + [调查 RAM 使用情况](调查 RAM 使用情况.md)
-+ 库
-  + [Retrofit](Retrofit.md)
-  + [Util](Util.md)
-    + [Guava](Guava.md)
 + [Android面试](Android面试.md)
 + [Java面试](Java面试.md)
 + [设计模式](设计模式.md)

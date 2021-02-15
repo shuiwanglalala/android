@@ -1,5 +1,9 @@
 # Rxjava Opeartor
 
+https://mcxiaoke.gitbooks.io/rxdocs/content/
+
+
+
 ## 创建操作
 
 用于创建Observable的操作符
@@ -21,6 +25,7 @@
 这些操作符可用于对Observable发射的数据进行变换，详细解释可以看每个操作符的文档
 
 - [`Buffer`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Buffer.html) — 缓存，可以简单的理解为缓存，它定期从Observable收集数据到一个集合，然后把这些数据集合打包发射，而不是一次发射一个
+  - [Accumulate calls (using buffer)](https://github.com/kaushikgopal/RxJava-Android-Samples)
 - [`FlatMap`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/FlatMap.html) — 扁平映射，将Observable发射的数据变换为Observables集合，然后将这些Observable发射的数据平坦化的放进一个单独的Observable，可以认为是一个将嵌套的数据结构展开的过程
   - FlatMap对这些Observables发射的数据做的是合并(merge)操作，因此它们可能是交错的
   - 如果任何一个通过这个flatMap操作产生的单独的Observable调用onError异常终止了，这个Observable自身会立即调用onError并终止
@@ -31,18 +36,26 @@
 - [`Scan`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Scan.html) — 扫描，对Observable发射的每一项数据应用一个函数，然后按顺序依次发射这些值
 - [`Window`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Window.html) — 窗口，定期将来自Observable的数据分拆成一些Observable窗口，然后发射这些窗口，而不是每次发射一项。类似于Buffer，但Buffer发射的是数据，Window发射的是Observable，每一个Observable发射原始Observable的数据的一个子集
 
+
+
+[如何形象地描述RxJava中的背压和流控机制？](http://zhangtielei.com/posts/blog-rxjava-backpressure.html)
+
+
+
 ## 过滤操作
 
 这些操作符用于从Observable发射的数据中进行选择
 
 - [`Debounce`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Debounce.html) — 只有在空闲了一段时间后才发射数据，通俗的说，就是如果一段时间没有操作，就执行一次操作
+  - [Instant/Auto searching text listeners (using Subjects & debounce)](Instant/Auto searching text listeners (using Subjects & debounce))
 - [`Distinct`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Distinct.html) — 去重，过滤掉重复数据项
 - [`ElementAt`](https://mcxiaoke.gitbooks.io/rxdocs/content/ElementAt.md) — 取值，取特定位置的数据项
 - [`Filter`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Filter.html) — 过滤，过滤掉没有通过谓词测试的数据项，只发射通过测试的
 - [`First`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/First.html) — 首项，只发射满足条件的第一条数据
 - [`IgnoreElements`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/IgnoreElements.html) — 忽略所有的数据，只保留终止通知(onError或onCompleted)
 - [`Last`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Last.html) — 末项，只发射最后一条数据
-- [`Sample`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Sample.html) — 取样，定期发射最新的数据，等于是数据抽样，有的实现里叫ThrottleFirst
+- [`Sample`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Sample.html) — 取样，定期发射最新的数据，等于是数据抽样，有的实现里叫ThrottleLast
+  - ThrottleFirst 点击过滤
 - [`Skip`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Skip.html) — 跳过前面的若干项数据
 - [`SkipLast`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/SkipLast.html) — 跳过后面的若干项数据
 - [`Take`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Take.html) — 只保留前面的若干项数据
@@ -56,9 +69,12 @@
 - [`CombineLatest`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/CombineLatest.html) — 当两个Observables中的任何一个发射了一个数据时，通过一个指定的函数组合每个Observable发射的最新数据（一共两个数据），然后发射这个函数的结果
 - [`Join`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Join.html) — 无论何时，如果一个Observable发射了一个数据项，只要在另一个Observable发射的数据项定义的时间窗口内，就将两个Observable发射的数据合并发射
 - [`Merge`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Merge.html) — 将两个Observable发射的数据组合并成一个
+  - concat
+    - [先读取缓存，如果缓存没数据再通过网络请求获取数据后更新UI](https://www.jianshu.com/p/81fac37430dd)
 - [`StartWith`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/StartWith.html) — 在发射原来的Observable的数据序列之前，先发射一个指定的数据序列或数据项
 - [`Switch`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Switch.html) — 将一个发射Observable序列的Observable转换为这样一个Observable：它逐个发射那些Observable最近发射的数据
 - [`Zip`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Zip.html) — 打包，使用一个指定的函数将多个Observable发射的数据组合在一起，然后将这个函数的结果作为单项数据发射
+  - [RxJava应用场景：使用zip操作符等待多个网络请求完成](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0325/4080.html)
 
 ## 错误处理
 
@@ -122,52 +138,3 @@
 
 - [`To`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/To.html) — 将Observable转换为其它的对象或数据结构
 - [`Blocking`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Blocking-Observable-Operators.html) 阻塞Observable的操作符
-
-
-
-
-
-
-
-
-
-
-
-+ Transforming Observables
-+ Filtering Observables
-  + Debounce throttleWithTimeout
-    + only emit an item from an Observable if a particular timespan has passed without it emitting another item（仅在过了一段指定的时间还没发射数据时才发射一个数据）
-  + Sample throttleLast
-    + 采样，确保采样间隔内发射一次，不能确保两次发射之间的间隔（每秒采样一次，实际采样时间可为0.9、 1.1、2.5、3.9）
-    + throttleFirst
-  + Distinct
-  + First Last ElementAt
-  + Skip SkipLast Take TakeLast
-    + 从数量和时间间隔两方面，丢弃/获取元素
-+ Combining Observables
-  + zip
-    + [RxJava应用场景：使用zip操作符等待多个网络请求完成](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0325/4080.html)
-  + and then when
-    + [RxJava操作符实践：4_结合操作之4_andThenWhen](https://www.dazhuanlan.com/2019/12/10/5deebd14e2a2f/)
-  + CombineLatest
-    + 当两个Observables中的任何一个发射了数据时，使用一个函数结合每个Observable发射的最
-      近数据项，并且基于这个函数的结果发射数据
-  + Join
-  + merge
-  + StartWith Concat
-  + Switch
-    + 将一个发射多个Observables的Observable转换成另一个单独的Observable，后者发射那些
-      Observables最近发射的数据项
-+ Observable Utility Operators
-  + Delay
-  + Do
-    + doOnComplete
-    + doOnError
-    + doOnDispose
-    + doOnTerminate doAfterTerminate
-    + doFinally
-    + doOnSubscribe
-  + ObserveOn
-  + SubscribeOn unsubscribeOn
-  + Subscribe foreach
-  + To

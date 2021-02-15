@@ -108,13 +108,11 @@
 * android studio
 * [android studio概述](android studio概述.md)
 * 框架/库
-  * [ReactiveX](ReactiveX.md)
-    * Rxjava
-      + [Rxjava 1.0](Rxjava 1.0.md)
-      + [Rxjava 2.0](Rxjava 2.0.md)
-    * [Rxbinding](Rxbinding.md)
-    * [RxLifecycle](RxLifecycle.md)
-    * [AutoDispose](AutoDispose.md)
+  * Rxjava
+    + [Rxjava 2.0](Rxjava 2.0.md)
+  * [Rxbinding](Rxbinding.md)
+  * [RxLifecycle](RxLifecycle.md)
+  * [AutoDispose](AutoDispose.md)
 * [应用权限](应用权限.md)
   * [Permissions overview](Permissions overview.md)
   * [在运行时请求权限](在运行时请求权限.md)

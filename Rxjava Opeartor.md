@@ -17,6 +17,9 @@ https://mcxiaoke.gitbooks.io/rxdocs/content/
 - [`Just`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Just.html) — 将对象或者对象集合转换为一个会发射这些对象的Observable
 - [`Range`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Range.html) — 创建发射指定范围的整数序列的Observable
 - [`Repeat`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Repeat.html) — 创建重复发射特定的数据或数据序列的Observable
+  - repeatwhen
+    - [Simple and Advanced polling (using interval and repeatWhen)](https://github.com/kaushikgopal/RxJava-Android-Samples)
+    - https://blog.danlew.net/2016/01/25/rxjavas-repeatwhen-and-retrywhen-explained/
 - [`Start`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Start.html) — 创建发射一个函数的返回值的Observable
 - [`Timer`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Timer.html) — 创建在一个指定的延迟之后发射单个数据的Observable
 
@@ -67,10 +70,12 @@ https://mcxiaoke.gitbooks.io/rxdocs/content/
 
 - [`And/Then/When`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/And.html) — 通过模式(And条件)和计划(Then次序)组合两个或多个Observable发射的数据集
 - [`CombineLatest`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/CombineLatest.html) — 当两个Observables中的任何一个发射了一个数据时，通过一个指定的函数组合每个Observable发射的最新数据（一共两个数据），然后发射这个函数的结果
+  - [Form validation](https://github.com/kaushikgopal/RxJava-Android-Samples)
 - [`Join`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Join.html) — 无论何时，如果一个Observable发射了一个数据项，只要在另一个Observable发射的数据项定义的时间窗口内，就将两个Observable发射的数据合并发射
 - [`Merge`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Merge.html) — 将两个Observable发射的数据组合并成一个
   - concat
     - [先读取缓存，如果缓存没数据再通过网络请求获取数据后更新UI](https://www.jianshu.com/p/81fac37430dd)
+    - [Pseudo caching : retrieve data first from a cache, then a network call (using concat, concatEager, merge or publish)](https://github.com/kaushikgopal/RxJava-Android-Samples)
 - [`StartWith`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/StartWith.html) — 在发射原来的Observable的数据序列之前，先发射一个指定的数据序列或数据项
 - [`Switch`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Switch.html) — 将一个发射Observable序列的Observable转换为这样一个Observable：它逐个发射那些Observable最近发射的数据
 - [`Zip`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Zip.html) — 打包，使用一个指定的函数将多个Observable发射的数据组合在一起，然后将这个函数的结果作为单项数据发射
@@ -82,6 +87,9 @@ https://mcxiaoke.gitbooks.io/rxdocs/content/
 
 - [`Catch`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Catch.html) — 捕获，继续序列操作，将错误替换为正常的数据，从onError通知中恢复
 - [`Retry`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Retry.html) — 重试，如果Observable发射了一个错误通知，重新订阅它，期待它正常终止
+  - retrywhen
+    - [Simple and Advanced exponential backoff (using delay and retryWhen)](https://github.com/kaushikgopal/RxJava-Android-Samples)
+    - https://stackoverflow.com/questions/22066481/rxjava-can-i-use-retry-but-with-delay/25292833#25292833
 
 ## 辅助操作
 
@@ -96,6 +104,7 @@ https://mcxiaoke.gitbooks.io/rxdocs/content/
 - [`SubscribeOn`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/SubscribeOn.html) — 指定Observable应该在哪个调度程序上执行
 - [`TimeInterval`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/TimeInterval.html) — 将一个Observable转换为发射两个数据之间所耗费时间的Observable
 - [`Timeout`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Timeout.html) — 添加超时机制，如果过了指定的一段时间没有发射数据，就发射一个错误通知
+  - 如果网络请求超时没有返回error，timeout能确保返回error
 - [`Timestamp`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Timestamp.html) — 给Observable发射的每个数据项添加一个时间戳
 - [`Using`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Using.html) — 创建一个只在Observable的生命周期内存在的一次性资源
 
@@ -133,8 +142,12 @@ https://mcxiaoke.gitbooks.io/rxdocs/content/
 - [`Publish`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Publish.html) — 将一个普通的Observable转换为可连接的
 - [`RefCount`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/RefCount.html) — 使一个可连接的Observable表现得像一个普通的Observable
 - [`Replay`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Replay.html) — 确保所有的观察者收到同样的数据序列，即使他们在Observable开始发射数据之后才订阅
+  - https://github.com/amitshekhariitbhu/RxJava2-Android-Samples/blob/master/app/src/main/java/com/rxjava2/android/samples/ui/operators/ReplayExampleActivity.java
 
 ## 转换操作
 
 - [`To`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/To.html) — 将Observable转换为其它的对象或数据结构
 - [`Blocking`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Blocking-Observable-Operators.html) 阻塞Observable的操作符
+
+
+

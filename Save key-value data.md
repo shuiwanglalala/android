@@ -1,7 +1,27 @@
 # Save key-value data
 
-注意`apply()` 和` commit()`的区别
+## 获取共享偏好设置的句柄
 
-[SharedPreferencesUtils](https://github.com/open-android/SharedPreferencesUtils/blob/master/EasySP/easysp/src/main/java/com/heima/easysp/SharedPreferencesUtils.java)
++ getSharedPreferences() 
++ getPreferences() 
++ PreferenceManager.getDefaultSharedPreferences()
+
+## 写入共享偏好设置
+
+EncryptedSharedPreferences
+
+
+
+
 
 [不要滥用SharedPreference](http://www.cnblogs.com/mingfeng002/p/5970221.html)
+
+
+
+https://github.com/franmontiel/PersistentCookieJar
+
+https://github.com/orhanobut/hawk
+
+停止维护，一般般
+
+https://github.com/f2prateek/rx-preferences

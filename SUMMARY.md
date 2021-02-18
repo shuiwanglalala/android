@@ -94,6 +94,8 @@
   * [Vector drawables overview](Vector drawables overview.md)
   * [处理位图](处理位图.md)
   * [Hardware acceleration](Hardware acceleration.md)
+* App data & files
+  * [Save key-value data](Save key-value data.md)
 * [触摸和输入](触摸和输入.md)
   * [使用触摸手势](使用触摸手势.md)
     * [检测常用手势](检测常用手势.md)
@@ -154,9 +156,8 @@
   * Manage device awake state
     * [使设备保持唤醒状态](使设备保持唤醒状态.md)
   * [Jobscheduler](Jobscheduler.md)
-* [App data & files](App data & files.md)
+* App data & files
   - [Save files on device storage](Save files on device storage.md)
-  - [Save key-value data](Save key-value data.md)
   - [Save data in a local database](Save data in a local database.md)
     - 将数据保存到本地数据库
       - [Defining data using Room entities](Defining data using Room entities.md)

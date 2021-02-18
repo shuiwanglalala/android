@@ -8,13 +8,21 @@ https://github.com/ReactiveX/RxAndroid/tree/3.x
 
 提交android线程 looper支持
 
+https://github.com/uber/AutoDispose
+
+Version 1.4.0
+
+nice库
+
+
+
+
+
 https://github.com/JakeWharton/RxBinding
 
+Version 3.0.0
 
-
-https://www.one-tab.com/page/boe0HFPUTNyJehooqiMDsA
-
-
+https://github.com/tbruyelle/RxPermissions
 
 https://github.com/pwittchen/ReactiveNetwork
 
@@ -24,9 +32,13 @@ https://github.com/ssseasonnn/RxDownload
 
 rx下载
 
+https://github.com/f2prateek/rx-preferences
+
 https://github.com/pushtorefresh/storio
 
 rx数据库
+
+
 
 https://github.com/reark/reark
 

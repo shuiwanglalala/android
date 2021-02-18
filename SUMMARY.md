@@ -94,6 +94,8 @@
   * [Vector drawables overview](Vector drawables overview.md)
   * [处理位图](处理位图.md)
   * [Hardware acceleration](Hardware acceleration.md)
+* 权限
+  * [权限概览](权限概览.md)
 * App data & files
   * [Save key-value data](Save key-value data.md)
 * [触摸和输入](触摸和输入.md)

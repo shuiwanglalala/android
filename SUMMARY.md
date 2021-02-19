@@ -94,8 +94,9 @@
   * [Vector drawables overview](Vector drawables overview.md)
   * [处理位图](处理位图.md)
   * [Hardware acceleration](Hardware acceleration.md)
-* 权限
+* [权限](权限.md)
   * [权限概览](权限概览.md)
+  * [请求应用权限](请求应用权限.md)
 * App data & files
   * [Save key-value data](Save key-value data.md)
 * [触摸和输入](触摸和输入.md)
@@ -112,15 +113,6 @@
   * [Rx lib](Rx lib.md)
 * android studio
 * [android studio概述](android studio概述.md)
-* 框架/库
-  * Rxjava
-    + [Rxjava 2.0](Rxjava 2.0.md)
-  * [Rxbinding](Rxbinding.md)
-  * [RxLifecycle](RxLifecycle.md)
-  * [AutoDispose](AutoDispose.md)
-* [应用权限](应用权限.md)
-  * [Permissions overview](Permissions overview.md)
-  * [在运行时请求权限](在运行时请求权限.md)
 * Architecture Components
   * [数据绑定库](数据绑定库.md)
   * [Handling Lifecycles with Lifecycle-Aware Components](Handling Lifecycles with Lifecycle-Aware Components.md)

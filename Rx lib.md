@@ -10,6 +10,8 @@ https://github.com/ReactiveX/RxAndroid/tree/3.x
 
 https://github.com/uber/AutoDispose
 
+https://blog.csdn.net/mq2553299/article/details/79418068
+
 Version 1.4.0
 
 nice库
@@ -23,6 +25,8 @@ https://github.com/JakeWharton/RxBinding
 Version 3.0.0
 
 https://github.com/tbruyelle/RxPermissions
+
+0.11
 
 https://github.com/pwittchen/ReactiveNetwork
 

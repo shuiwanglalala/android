@@ -55,3 +55,5 @@ rx架构
 https://blog.mindorks.com/implementing-eventbus-with-rxjava-rxbus-e6c940a94bd8
 
 https://github.com/AndroidKnife/RxBus/tree/2.x
+
+https://github.com/Blankj/RxBus

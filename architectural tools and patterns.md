@@ -21,3 +21,9 @@
   + Instead of pushing data to the UI, let the UI observe changes to it
 + data repository
   + Add a data repository（ completely unaware of your presentation layer） as the single-point entry to your data
+
+
+
+https://github.com/qingmei2/MVVM-Architecture
+
+https://github.com/north2016/T-MVP

@@ -27,7 +27,8 @@
 * 数据结构
 * software
   
-  * [git](git.md)
+  * [Git](Git.md)
+  * [翻墙](翻墙.md)
 * [java](java.md)
 * kotlin
 * [android](android.md)

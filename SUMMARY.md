@@ -113,6 +113,7 @@
 * [Rxjava](Rxjava.md)
   * [Rxjava Opeartor](Rxjava Opeartor.md)
   * [Rx lib](Rx lib.md)
+* [工具](工具.md)
 * android studio
 * [android studio概述](android studio概述.md)
 * Architecture Components
@@ -181,7 +182,6 @@
   + [性能提示](性能提示.md)
 + 其他
   + [PackageManager](PackageManager.md)
-+ [工具](工具.md)
 + 编写您的应用
   + [利用注解改进代码检查](利用注解改进代码检查.md)
 + Debug your app

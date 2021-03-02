@@ -93,3 +93,8 @@ PoiInfoActivity
 NaviSearchActivity
 
 + 显示home
+
+
+
+login test相关的ui
+

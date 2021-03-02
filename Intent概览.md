@@ -80,3 +80,7 @@
   + PendingIntent 对象是 Intent 对象的包装器。PendingIntent 的主要目的是授权外部应用使用包含的 Intent，就像是它从您应用本身的进程中执行的一样
   + [what-is-an-android-pendingintent](https://stackoverflow.com/questions/2808796/what-is-an-android-pendingintent)
     + A PendingIntent is a token that you give to a foreign application (e.g. NotificationManager, AlarmManager, Home Screen AppWidgetManager, or other 3rd party applications), which allows the foreign application to use your application's permissions to execute a predefined piece of code. If you give the foreign application an Intent, it will execute your Intent with its own permissions. But if you give the foreign application a PendingIntent, that application will execute your Intent using your application's permission
+
+
+
+[Android 跨应用间调用: URL Scheme](https://www.jianshu.com/p/7b09cbac1df4)

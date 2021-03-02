@@ -96,5 +96,5 @@ NaviSearchActivity
 
 
 
-login test相关的ui
+banner点击事件
 

@@ -1,17 +1,5 @@
 # RecyclerView
 
-[recyclerview-no-scrollbar-when-overscroll-is-turned-off](https://stackoverflow.com/questions/32575323/recyclerview-no-scrollbar-when-overscroll-is-turned-off)
-
-https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf
-
-
-
-https://github.com/mikepenz/FastAdapter
-
-异常强大的adapter，貌似功能是最全的
-
-sticky header 多选
-
 https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 
 动画 header empty 多类型item 分组 node dragAndSwipe
@@ -21,6 +9,16 @@ https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 https://www.jianshu.com/p/b343fcff51b0
 
 2.x文档
+
+
+
+
+
+https://github.com/mikepenz/FastAdapter
+
+异常强大的adapter，貌似功能是最全的
+
+sticky header 多选
 
 https://github.com/davideas/FlexibleAdapter
 
@@ -32,8 +30,6 @@ https://github.com/h6ah4i/android-advancedrecyclerview
 
 与上面大部分类似 drag swipe expand header 
 
-
-
 https://github.com/lisawray/groupie
 
 功能不是很清楚
@@ -42,19 +38,27 @@ https://github.com/lisawray/groupie
 
 https://github.com/google/flexbox-layout
 
+https://github.com/500px/greedo-layout-for-android
+
+按比例
+
 ## ItemDecoration
 
 [Android Recyclerview GridLayoutManager column spacing](https://stackoverflow.com/questions/28531996/android-recyclerview-gridlayoutmanager-column-spacing/30701422#30701422)
 
-https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf
-
-https://github.com/iPaulPro/Android-ItemTouchHelper-Demo
+https://github.com/yqritc/RecyclerView-FlexibleDivider
 
 ## 动画
 
 https://github.com/wasabeef/recyclerview-animators
 
 可借鉴的各类动画
+
+## Drag Swipe
+
+https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf
+
+https://github.com/iPaulPro/Android-ItemTouchHelper-Demo
 
 ## Snap
 
@@ -64,7 +68,7 @@ https://github.com/TakuSemba/MultiSnapRecyclerView
 
 放手后回弹至指定位置 snap
 
-## recyclerview-selection
+## Selection
 
 长按进入选择status，总感觉不是很实用
 
@@ -93,6 +97,4 @@ views-widgets-samples
 https://github.com/vipulasri/Timeline-View
 
 很不错
-
-https://github.com/yqritc/RecyclerView-FlexibleDivider
 

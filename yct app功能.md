@@ -98,3 +98,14 @@ NaviSearchActivity
 
 banner点击事件
 
+跳小程序
+
+跳原生要接入aroute
+
+coverImgUrl ??
+
+glide gif
+
+glide round
+
+不允许横纵向切换

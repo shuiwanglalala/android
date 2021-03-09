@@ -102,4 +102,6 @@ banner点击事件
 
 跳原生要接入aroute
 
-oneitem测试
+item 第一个的divider隐藏
+
+广州资讯 第一个firstItem

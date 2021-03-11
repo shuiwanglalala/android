@@ -11,29 +11,37 @@ https://github.com/material-components/material-components-android
 + 导航
   + App bars: bottom
   + App bars: top
-
++ Bottom navigation
 + viewgroup
   + cards
     + select drag swipe demo很强
   + Menus
+  + Sheets: bottom
+  + Dialogs
 + widget
   + Buttons: floating action button
-  + Snackbars
+  + Chips
+  + Sliders
   + time picker
   + data picker
-  + 
+  + Snackbars
 + pass
   + Backdrop
   + Navigation drawer
   + Navigation rail
   + Sheets: side
-  + 
   + Lists
   + Image lists
   + Data tables
   + Dividers
   + Tooltips
   + Banners
++ demo
+  + Font
+  + elevation and shadow
+  + shape theme
+  + ShapeableImageView
+  + transition
 
 
 
@@ -146,3 +154,7 @@ https://github.com/h4h13/RetroMusicPlayer
 https://github.com/kabouzeid/Phonograph
 
 https://github.com/TeamAmaze/AmazeFileManager
+
+
+
+https://github.com/material-components/material-components-android-examples

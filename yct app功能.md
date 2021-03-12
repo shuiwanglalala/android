@@ -90,7 +90,7 @@ NaviSearchActivity
 
 
 
-banner点击事件
+点击事件
 
 跳小程序
 
@@ -99,3 +99,9 @@ banner点击事件
 item 第一个的divider隐藏
 
 广州资讯 第一个firstItem
+
+news list 入口
+
+news list 测试环境多加5个item
+
+news list 测试环境 3个图

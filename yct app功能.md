@@ -14,8 +14,6 @@ guava
 
 https://github.com/AppIntro/AppIntro
 
-https://github.com/ksoichiro/Android-ObservableScrollView
-
 https://github.com/yangfuhai/ASimpleCache
 
 https://github.com/JakeWharton/DiskLruCache
@@ -45,8 +43,6 @@ android组件化
 android 面向切换编程
 
 arouter 获取fragment有什么意义
-
-https://github.com/liu-xiao-dong/JD-Test
 
 
 
@@ -89,3 +85,4 @@ news list 入口;
 
 跳小程序
 
+html第一次加载失败

@@ -86,3 +86,31 @@ news list 入口;
 跳小程序
 
 html第一次加载失败
+
+
+
+sim充值需要测试
+
+
+
+```
+public void selectBusCode() {
+        mViewPager.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mViewPager.setCurrentItem(POSITION_BUS, true);
+                setTab(POSITION_BUS);
+                if (getQrcodeContainerFragment().getCurrentCity().equals(GUANGZHOU)) {
+                    mQRCodeContainer.getGuangzhouQRCodeFragment().checkHasJftCard(true);
+                }
+            }
+        }, 200);
+    }
+```
+
+subway qrcode 入口要改 ui要改
+
+bus qrcode入口要改 ui要改
+
+
+

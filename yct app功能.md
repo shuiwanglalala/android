@@ -93,24 +93,9 @@ sim充值需要测试
 
 
 
-```
-public void selectBusCode() {
-        mViewPager.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                mViewPager.setCurrentItem(POSITION_BUS, true);
-                setTab(POSITION_BUS);
-                if (getQrcodeContainerFragment().getCurrentCity().equals(GUANGZHOU)) {
-                    mQRCodeContainer.getGuangzhouQRCodeFragment().checkHasJftCard(true);
-                }
-            }
-        }, 200);
-    }
-```
+北京公交开通页面如何处理
 
-subway qrcode 入口要改 ui要改
+北京公交一开始生码失败，返回上一页后崩溃
 
-bus qrcode入口要改 ui要改
-
-
+北京公交左边的bannner经常显示失败
 

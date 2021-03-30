@@ -69,6 +69,8 @@
       * [NestedScrollView](NestedScrollView.md)
     * [ViewPager](ViewPager.md)
     * [SwipeRefreshLayout](SwipeRefreshLayout.md)
+  * [样式和主题背景](样式和主题背景.md)
+  * [创建阴影和裁剪视图](创建阴影和裁剪视图.md)
   * 外观与风格
     * [文本](文本.md)
       * [自动调整 TextView 的大小](自动调整 TextView 的大小.md)
@@ -78,16 +80,19 @@
     * [切换按钮](切换按钮.md)
     * [Spinner](Spinner.md)
     * [Pickers](Pickers.md)
+    * [提示](提示.md)
   * 通知
     * [通知概览](通知概览.md)
   * [控制系统界面可见度](控制系统界面可见度.md)
   * [消息框概览](消息框概览.md)
   * [对话框](对话框.md)
   * [Menu](Menu.md)
+  * [设置](设置.md)
   * [搜索](搜索.md)
+  * [复制和粘贴](复制和粘贴.md)
+  * [拖放](拖放.md)
   * 机制
     * [绘制](绘制.md)
-    * 滚动
 * 动画和过渡
 
   * [Ramotion](Ramotion.md)

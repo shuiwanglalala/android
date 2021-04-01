@@ -96,7 +96,7 @@
 * 动画和过渡
 
   * [Ramotion](Ramotion.md)
-* [图片和图形](图片和图形.md)
+* 图片和图形
   * [Drawables overview](Drawables overview.md)
   * [Vector drawables overview](Vector drawables overview.md)
   * [处理位图](处理位图.md)

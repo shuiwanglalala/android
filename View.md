@@ -35,3 +35,39 @@ https://github.com/harjot-oberai/Long-Shadows
 
 
 [Mastering Shadows in Android](https://medium.com/android-news/mastering-shadows-in-android-e883ad2c9d5b)
+
+## Blur
+
+https://github.com/wasabeef/Blurry
+
+https://github.com/CameraKit/blurkit-android
+
+https://github.com/Dimezis/BlurView
+
+https://github.com/mmin18/RealtimeBlurView
+
+https://github.com/patrickfav/Dali
+
+## Collection
+
+https://qmuiteam.com/android/documents/
+
+RoundButton
+
+Dialog
+
+TabSegment
+
+TipDialog
+
+VerticalTextView
+
+Popups
+
+SpanTouchFixTextView
+
+LinkTextView
+
+PriorityLinearLayout
+
+PullLayout

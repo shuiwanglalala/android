@@ -73,13 +73,17 @@ https://github.com/oli107/material-range-bar
 
 
 
-https://github.com/deano2390/MaterialShowcaseView
+https://github.com/sjwall/MaterialTapTargetPrompt
+
+最强大
 
 https://github.com/KeepSafe/TapTargetView
 
-https://github.com/sjwall/MaterialTapTargetPrompt
+很nice
 
-上3类似focus view
+https://github.com/deano2390/MaterialShowcaseView
+
+一般般
 
 
 
@@ -97,7 +101,7 @@ https://github.com/Ramotion/paper-onboarding-android
 
 https://github.com/afollestad/material-dialogs
 
-
+https://github.com/wdullaer/MaterialDateTimePicker
 
 ### 业务view
 
@@ -105,9 +109,11 @@ https://github.com/heinrichreimer/material-intro
 
 引导页
 
+还不错，还能授权
+
 https://github.com/jrvansuita/MaterialAbout
 
-about页面
+about页面 很难实用
 
 https://github.com/aritraroy/PatternLockView
 
@@ -116,6 +122,8 @@ https://github.com/aritraroy/PatternLockView
 https://github.com/fython/MaterialStepperView
 
 https://github.com/prolificinteractive/material-calendarview
+
+有官方版本，尴尬
 
 ## Animation
 
@@ -133,23 +141,21 @@ https://github.com/konifar/android-material-design-icon-generator-plugin
 
 ## App
 
-https://github.com/naman14/Timber
+https://github.com/TeamAmaze/AmazeFileManager
 
-https://github.com/naman14/TimberX
-
-https://github.com/android/topeka
-
-https://github.com/HoraApps/LeafPic
-
-https://github.com/byoutline/kickmaterial
+很不错
 
 https://github.com/nickbutcher/plaid
+
+看不懂。。。
+
+https://github.com/naman14/TimberX
 
 https://github.com/h4h13/RetroMusicPlayer
 
 https://github.com/kabouzeid/Phonograph
 
-https://github.com/TeamAmaze/AmazeFileManager
+音乐播放器
 
 
 

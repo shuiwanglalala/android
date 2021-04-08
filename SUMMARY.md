@@ -46,6 +46,7 @@
     * [允许其他应用启动您的 Activity](允许其他应用启动您的 Activity.md)
   * [Application](Application.md)
   * [Window](Window.md)
+* [导航组件](导航组件.md)
 * Intent和Intent过滤器
   * [Intent概览](Intent概览.md)
   * [ARouter](ARouter.md)

@@ -95,7 +95,7 @@
   * 机制
     * [绘制](绘制.md)
 * 动画和过渡
-
+* [动画简介](动画简介.md)
   * [Ramotion](Ramotion.md)
 * 图片和图形
   * [Drawables overview](Drawables overview.md)

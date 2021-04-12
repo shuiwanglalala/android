@@ -12,8 +12,6 @@ guava
 
 
 
-https://github.com/AppIntro/AppIntro
-
 https://github.com/yangfuhai/ASimpleCache
 
 https://github.com/JakeWharton/DiskLruCache

@@ -34,6 +34,8 @@ https://github.com/lisawray/groupie
 
 功能不是很清楚
 
+https://github.com/cymcsg/UltimateRecyclerView
+
 ## LayoutManager 
 
 https://github.com/google/flexbox-layout
@@ -53,6 +55,20 @@ https://github.com/yqritc/RecyclerView-FlexibleDivider
 https://github.com/wasabeef/recyclerview-animators
 
 可借鉴的各类动画
+
+https://github.com/saket/InboxRecyclerView
+
+点击item，展开动画；下滑snap，收缩动画
+
+nice
+
+https://github.com/nikhilpanju/FabFilter
+
+展开和收缩动画
+
+动画的集合 nice
+
+https://github.com/willowtreeapps/spruce-android
 
 ## Drag Swipe
 

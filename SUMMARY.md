@@ -55,6 +55,7 @@
   * [View](View.md)
     * [Table](Table.md)
     * [ProgressBar](ProgressBar.md)
+    * [intro](intro.md)
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
       * [MotionLayout](MotionLayout.md)
@@ -94,9 +95,8 @@
   * [拖放](拖放.md)
   * 机制
     * [绘制](绘制.md)
-* 动画和过渡
-* [动画简介](动画简介.md)
-  * [Ramotion](Ramotion.md)
+* [动画和过渡](动画和过渡.md)
+  * [动画lib](动画lib.md)
 * 图片和图形
   * [Drawables overview](Drawables overview.md)
   * [Vector drawables overview](Vector drawables overview.md)

@@ -39,3 +39,11 @@ https://github.com/Yalantis/Context-Menu.Android
 https://github.com/saket/cascade
 
 嵌套+动画
+
+https://github.com/skydoves/PowerMenu
+
+modern material popup menu
+
+https://github.com/skydoves/PowerSpinner
+
+https://github.com/skydoves/Submarine

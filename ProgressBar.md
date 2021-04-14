@@ -20,6 +20,12 @@ https://github.com/kofigyan/StateProgressBar
 
 灵活性还是不够，很难实用
 
+
+
+https://github.com/skydoves/ProgressView
+
+动画不错
+
 ## Loading
 
 https://github.com/ybq/Android-SpinKit

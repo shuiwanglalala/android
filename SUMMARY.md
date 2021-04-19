@@ -3,24 +3,18 @@
 * yct
   * [yct app功能](yct app功能.md)
   * [yct app代码](yct app代码.md)
-  
 * [问题](问题.md)
-
 * 编程语言
-
 * [编程语言设计](编程语言设计.md)
-
 * 数据结构
   * [数据结构基本概念](数据结构基本概念.md)
   * [线性表](线性表.md)
   * [树](树.md)
   * [图](图.md)
   * [排序](排序.md)
-  
 * 计算机组成原理
   * [计算机组成原理概述](计算机组成原理概述.md)
   * [总线](总线.md)
-  
 * 计算机网络
   * [计算机网络概述](计算机网络概述.md)
   * [物理层](物理层.md)
@@ -30,20 +24,31 @@
   * [应用层](应用层.md)
     * [MIME](MIME.md)
     * [URI](URI.md)
-  
 * 数据结构
-
 * software
   
   * [Git](Git.md)
   * [翻墙](翻墙.md)
-  
 * [java](java.md)
-
 * kotlin
-
+  * 开始
+  + [基本语法](基本语法.md)
+  * 基础
+    + [基本类型](基本类型.md)
+    + [包和导入](包和导入.md)
+    + [控制流](控制流.md)
+    + [返回和跳转](返回和跳转.md)
+  * 类和对象
+    + [类与继承](类与继承.md)
+    + [属性和字段](属性和字段.md)
+    + [泛型](泛型.md)
+    + [委托属性](委托属性.md)
+  * 函数和Lamdba表达式
+    + [函数](函数.md)
+    + [高阶函数与 lambda 表达式](高阶函数与 lambda 表达式.md)
+    + [内联函数](内联函数.md)
+  * [协程](协程.md)
 * [android](android.md)
-
 * Activities
   * [Introduction to Activities](Introduction to Activities.md)
   * [Understand the Activity Lifecycle](Understand the Activity Lifecycle.md)
@@ -58,13 +63,10 @@
     * [允许其他应用启动您的 Activity](允许其他应用启动您的 Activity.md)
   * [Application](Application.md)
   * [Window](Window.md)
-  
 * [导航组件](导航组件.md)
-
 * Intent和Intent过滤器
   * [Intent概览](Intent概览.md)
   * [ARouter](ARouter.md)
-  
 * [界面](界面.md)
   * [Material design](Material design.md)
   * [View](View.md)
@@ -110,53 +112,40 @@
   * [拖放](拖放.md)
   * 机制
     * [绘制](绘制.md)
-  
 * [动画和过渡](动画和过渡.md)
   
   * [动画lib](动画lib.md)
-  
 * 图片和图形
   * [Drawables overview](Drawables overview.md)
   * [Vector drawables overview](Vector drawables overview.md)
   * [处理位图](处理位图.md)
   * [Hardware acceleration](Hardware acceleration.md)
-  
 * 服务
   
   * [服务概览](服务概览.md)
-  
 * [权限](权限.md)
   
   * [权限概览](权限概览.md)
   * [请求应用权限](请求应用权限.md)
-  
 * App data & files
   
   * [Save key-value data](Save key-value data.md)
-  
 * [触摸和输入](触摸和输入.md)
   * [使用触摸手势](使用触摸手势.md)
     * [检测常用手势](检测常用手势.md)
   * [处理键盘输入](处理键盘输入.md)
-  
 * 连接性
   * 执行网络操作
     * [连接到网络](连接到网络.md)
-  
 * [基于网络的内容](基于网络的内容.md)
   
   * [WebView](WebView.md)
-  
 * [Rxjava](Rxjava.md)
   * [Rxjava Opeartor](Rxjava Opeartor.md)
   * [Rx lib](Rx lib.md)
-  
 * [工具](工具.md)
-
 * android studio
-
 * [android studio概述](android studio概述.md)
-
 * Architecture Components
   * [数据绑定库](数据绑定库.md)
   * [Handling Lifecycles with Lifecycle-Aware Components](Handling Lifecycles with Lifecycle-Aware Components.md)
@@ -183,7 +172,6 @@
     * [mvp-dagger](mvp-dagger.md)
     * [mvp-rxjava](mvp-rxjava.md)
     * [todo-mvvm-databinding](todo-mvvm-databinding.md)
-  
 * [Background Tasks](Background Tasks.md)
 
   * [绑定服务](绑定服务.md)
@@ -193,7 +181,6 @@
   * Manage device awake state
     * [使设备保持唤醒状态](使设备保持唤醒状态.md)
   * [Jobscheduler](Jobscheduler.md)
-
 * App data & files
   - [Save files on device storage](Save files on device storage.md)
   - [Save data in a local database](Save data in a local database.md)
@@ -238,23 +225,6 @@
 + [设计模式](设计模式.md)
 + [其他1](其他1.md)
 + [其他2](其他2.md)
-+ 开始
-  + [基本语法](基本语法.md)
-+ 基础
-  + [基本类型](基本类型.md)
-  + [包和导入](包和导入.md)
-  + [控制流](控制流.md)
-  + [返回和跳转](返回和跳转.md)
-+ 类和对象
-  + [类与继承](类与继承.md)
-  + [属性和字段](属性和字段.md)
-  + [泛型](泛型.md)
-  + [委托属性](委托属性.md)
-+ 函数和Lamdba表达式
-  + [函数](函数.md)
-  + [高阶函数与 lambda 表达式](高阶函数与 lambda 表达式.md)
-  + [内联函数](内联函数.md)
-+ [协程](协程.md)
 + 注解
   - [注解](注解.md)
   - 编写注解处理器

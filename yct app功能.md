@@ -24,18 +24,6 @@ https://github.com/markzhai/AndroidPerformanceMonitor
 
 
 
-动画
-
-https://github.com/nikhilpanju/FabFilter
-
-https://github.com/airbnb/lottie-android
-
-炸天的动画
-
-https://github.com/facebook/shimmer-android
-
-
-
 android组件化
 
 android 面向切换编程
@@ -108,3 +96,10 @@ sim 操作失败需要回调
 公交单码支持优先抵扣车票
 
 一城一码支持优先抵扣车票
+
+webview增加finish icon
+
+
+
+返回到标签
+

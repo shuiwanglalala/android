@@ -25,7 +25,7 @@
     * [MIME](MIME.md)
     * [URI](URI.md)
 * 数据结构
-* software
+* [software](software.md)
   
   * [Git](Git.md)
   * [翻墙](翻墙.md)

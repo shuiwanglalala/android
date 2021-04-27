@@ -83,21 +83,15 @@ sim充值需要测试
 
 联通手机 有羊城通插件
 
-sim充值页面schme重设置
-
-sim充值重写
-
 sim ui 入口需要提供
 
-sim 操作失败需要回调
+sim unicom操作的线程 必须在子线程上操作
 
 
 
 公交单码支持优先抵扣车票
 
 一城一码支持优先抵扣车票
-
-webview增加finish icon
 
 
 

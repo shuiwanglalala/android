@@ -93,6 +93,8 @@ sim unicom操作的线程 必须在子线程上操作
 
 一城一码支持优先抵扣车票
 
+首页点击进入ridingactivity,进入页面后再检查欠费接口overdue
+
 
 
 返回到标签

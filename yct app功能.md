@@ -8,8 +8,6 @@ ui架构
 
 https://github.com/JessYanCoding/AndroidAutoSize/blob/master/README-zh.md
 
-guava
-
 
 
 https://github.com/yangfuhai/ASimpleCache
@@ -31,8 +29,6 @@ android 面向切换编程
 arouter 获取fragment有什么意义
 
 北京公交一开始生码失败，返回上一页后崩溃
-
-OssService
 
 
 

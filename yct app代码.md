@@ -14,11 +14,15 @@
 
 ## 待办
 
+guava
+
+arouter
+
 android X升级
 
 tinker
 
-波浪加载view WaveLoadingView
+aliyun oss上传
 
 友盟 需要更新
 

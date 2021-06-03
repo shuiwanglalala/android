@@ -14,13 +14,11 @@
 
 ## 待办
 
-guava
-
 arouter
 
 android X升级
 
-tinker
+tinker bugly应用更新
 
 aliyun oss上传
 

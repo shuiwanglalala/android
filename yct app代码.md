@@ -14,6 +14,12 @@
 
 ## 待办
 
+android ktx
+
+https://developer.android.com/kotlin/ktx
+
+https://developer.android.com/kotlin/ktx/extensions-list#androidxnavigation
+
 arouter
 
 android X升级

@@ -22,8 +22,6 @@ https://developer.android.com/kotlin/ktx/extensions-list#androidxnavigation
 
 arouter
 
-android X升级
-
 tinker bugly应用更新
 
 aliyun oss上传

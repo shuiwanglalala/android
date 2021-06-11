@@ -159,8 +159,6 @@
   * [Class 的继承](Class 的继承.md)
   * [Module 的语法](Module 的语法.md)
 
-* [android](android.md)
-
 * Activities
   * [Introduction to Activities](Introduction to Activities.md)
   * [Understand the Activity Lifecycle](Understand the Activity Lifecycle.md)

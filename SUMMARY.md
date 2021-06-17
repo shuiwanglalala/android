@@ -238,6 +238,7 @@
   * [Vector drawables overview](Vector drawables overview.md)
   * [处理位图](处理位图.md)
   * [Hardware acceleration](Hardware acceleration.md)
+  * [Gallery](Gallery.md)
   
 * 服务
   
@@ -248,8 +249,11 @@
   * [权限概览](权限概览.md)
   * [请求应用权限](请求应用权限.md)
   
-* App data & files
+* [App data & files](App data & files.md)
   
+  * [保存到应用专属存储空间](保存到应用专属存储空间.md)
+  * 保存到共享的存储空间
+    * [访问共享存储空间中的媒体文件](访问共享存储空间中的媒体文件.md)
   * [Save key-value data](Save key-value data.md)
   
 * [触摸和输入](触摸和输入.md)
@@ -311,17 +315,6 @@
   * Manage device awake state
     * [使设备保持唤醒状态](使设备保持唤醒状态.md)
   * [Jobscheduler](Jobscheduler.md)
-  
-* App data & files
-  - [Save files on device storage](Save files on device storage.md)
-  - [Save data in a local database](Save data in a local database.md)
-    - 将数据保存到本地数据库
-      - [Defining data using Room entities](Defining data using Room entities.md)
-      - 使用DAO访问数据
-    - nosql
-      - [SnappyDB](SnappyDB.md)
-    - orm
-      - [Ormlite](Ormlite.md)
 + Handling keyboard input
   + [Specify the input method type](Specify the input method type.md)
   + [Handle input method visibility](Handle input method visibility.md)

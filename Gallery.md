@@ -4,6 +4,10 @@ https://github.com/LuckSiege/PictureSelector
 
 很强大，nice
 
+https://github.com/HuanTanSheng/EasyPhotos
+
+看上去还不错，也在维护中
+
 https://github.com/qingmei2/RxImagePicker
 
 demo看过去一般般啊

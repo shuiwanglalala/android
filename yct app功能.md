@@ -30,6 +30,8 @@ arouter 获取fragment有什么意义
 
 获取多张图片 android10 失效 权限不允许
 
+BaseRecyclerViewAdapterHelper 升级为3.x
+
 
 
 + 步行规划
@@ -79,6 +81,8 @@ html第一次加载失败
 
 sim ui 入口需要提供
 
-读卡失败
-
 正式环境卡还要等待
+
+
+
+九宫格跳转 需要验证

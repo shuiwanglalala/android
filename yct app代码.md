@@ -26,8 +26,6 @@ tinker bugly应用更新
 
 aliyun oss上传
 
-友盟 需要更新
-
 contentprovider uri intent
 
 android location相关

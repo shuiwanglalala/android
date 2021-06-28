@@ -4,20 +4,29 @@
   * [yct app功能](yct app功能.md)
   * [yct app代码](yct app代码.md)
   
-* [问题](问题.md)
-
-* [编程语言](编程语言.md)
-
+* [software](software.md)
+  
+  * [Git](Git.md)
+  * [翻墙](翻墙.md)
+  * [android studio概述](android studio概述.md)
+    * 编写您的应用
+      + [利用注解改进代码检查](利用注解改进代码检查.md)
+    * Debug your app
+      + [使用布局检查器调试您的布局](使用布局检查器调试您的布局.md)
+    * Profile your app
+      + Inspect device activity with Systrace
+      + Inspect CPU activity
+        + [Inspect trace logs with Traceview](Inspect trace logs with Traceview.md)
+      + 使用 Memory Profiler 查看 Java 堆和内存分配
+        + [调查 RAM 使用情况](调查 RAM 使用情况.md)
+  
 * 数据结构
+  
   * [数据结构基本概念](数据结构基本概念.md)
   * [线性表](线性表.md)
   * [树](树.md)
   * [图](图.md)
   * [排序](排序.md)
-  
-* 计算机组成原理
-  * [计算机组成原理概述](计算机组成原理概述.md)
-  * [总线](总线.md)
   
 * 计算机网络
   * [计算机网络概述](计算机网络概述.md)
@@ -28,13 +37,6 @@
   * [应用层](应用层.md)
     * [MIME](MIME.md)
     * [URI](URI.md)
-  
-* 数据结构
-
-* [software](software.md)
-  
-  * [Git](Git.md)
-  * [翻墙](翻墙.md)
   
 * [java](java.md)
 
@@ -276,17 +278,13 @@
   
 * [Android版本更新](Android版本更新.md)
 
-* [Rxjava](Rxjava.md)
-  * [Rxjava Opeartor](Rxjava Opeartor.md)
-  * [Rx lib](Rx lib.md)
-  
-* [工具](工具.md)
+* lib
 
-* [Third](Third.md)
-
-* android studio
-
-* [android studio概述](android studio概述.md)
+  * [Rxjava](Rxjava.md)
+    * [Rxjava Opeartor](Rxjava Opeartor.md)
+    * [Rx lib](Rx lib.md)
+  * [工具](工具.md)
+  * [Third](Third.md)
 
 * Architecture Components
   * [数据绑定库](数据绑定库.md)
@@ -341,17 +339,3 @@
     + [内存泄漏](内存泄漏.md)
   + [使应用能迅速响应](使应用能迅速响应.md)
   + [性能提示](性能提示.md)
-+ 其他
-  + [PackageManager](PackageManager.md)
-+ 编写您的应用
-  + [利用注解改进代码检查](利用注解改进代码检查.md)
-+ Debug your app
-  + [使用布局检查器调试您的布局](使用布局检查器调试您的布局.md)
-+ Profile your app
-  + Inspect device activity with Systrace
-  + Inspect CPU activity
-    + [Inspect trace logs with Traceview](Inspect trace logs with Traceview.md)
-  + 使用 Memory Profiler 查看 Java 堆和内存分配
-    + [调查 RAM 使用情况](调查 RAM 使用情况.md)
-+ [Android面试](Android面试.md)
-+ [Java面试](Java面试.md)

@@ -58,6 +58,8 @@ Kotlin 的协程、 Java 的线程和 Goroutine 都是协作式（cooperative）
 
 ### Kotlin 协程的结构化并发设计
 
+结构化并发认为应当废弃「非结构化」的、fire-and-forget 的异步 API。`CoroutineScope` 的引入，使结构化并发在 Kotlin 协程 API 中成为了默认行为
+
 根据目前的最佳实践，在 suspend 函数中如果需要开启新的协程，需要先借助 `coroutineScope` 打开一个新的块，这个块包含了一个新的 Job 并限定了所有在其中开启的协程的生命周期：如果代码运行到 `coroutineScope` 块后面，意味着所有在这个块里面的异步任务都已成功结束；如果 `coroutineScope` 中任意一个协程抛出了异常，那么调用栈回退，异常会被传递到 `coroutineScope` 的外层
 
 ## Kotlin 协程的两个约定

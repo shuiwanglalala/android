@@ -24,8 +24,6 @@ arouter
 
 tinker bugly应用更新
 
-aliyun oss上传
-
 contentprovider uri intent
 
 android location相关

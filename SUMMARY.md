@@ -187,6 +187,7 @@
 * 架构组件
 
   * [App Startup](App Startup.md)
+  * [DataStore](DataStore.md)
 
 * [导航组件](导航组件.md)
 

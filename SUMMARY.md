@@ -188,6 +188,7 @@
 
   * [App Startup](App Startup.md)
   * [DataStore](DataStore.md)
+  * [ViewBinding](ViewBinding.md)
 
 * [导航组件](导航组件.md)
 

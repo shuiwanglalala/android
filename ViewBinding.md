@@ -19,12 +19,18 @@
 
 
 
-[ButterKnife被弃用，ViewBinding才是findView的未来？](https://juejin.cn/post/6900229136199974926#heading-2)
-
-各类绑定的历史变迁
-
 [使用视图绑定替代 findViewById](https://juejin.cn/post/6844904088128192525)
 
  空安全: 视图绑定会检测某个视图是不是只在一些配置下存在，并依据结果生成带有 @Nullable 注解的属性。所以即使在多种配置下定义的布局文件，视图绑定依然能够保证空安全
 
 数据绑定和视图绑定可以生成同样的组件，它们可以同时工作。在两者都被开启时，使用 标签的布局会由数据绑定来生成绑定对象；而其余的布局则由视图绑定生成绑定对象
+
+[优雅地封装和使用 ViewBinding，该替代 Kotlin synthetic 和 ButterKnife 了](https://juejin.cn/post/6906153878312452103#heading-1)
+
+很不错，源码也值得一读
+
+https://github.com/DylanCaiCoding/ViewBindingKTX
+
+https://github.com/kirich1409/ViewBindingPropertyDelegate
+
+这个demo没有认真细看

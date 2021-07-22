@@ -17,6 +17,8 @@
 
 
 
+https://github.com/android/architecture-components-samples/tree/main/ViewBindingSample
+
 
 
 [使用视图绑定替代 findViewById](https://juejin.cn/post/6844904088128192525)
@@ -27,9 +29,9 @@
 
 [优雅地封装和使用 ViewBinding，该替代 Kotlin synthetic 和 ButterKnife 了](https://juejin.cn/post/6906153878312452103#heading-1)
 
-很不错，源码也值得一读
-
 https://github.com/DylanCaiCoding/ViewBindingKTX
+
+很不错，源码也值得一读
 
 https://github.com/kirich1409/ViewBindingPropertyDelegate
 

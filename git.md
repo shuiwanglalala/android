@@ -15,6 +15,12 @@ git branch -d bug_xzx
 git push origin --delete bug_xzx
 ```
 
+git查看远程分支
+
+```
+git remote -v
+```
+
 git代理设置方法解决
 
 ```

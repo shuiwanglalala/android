@@ -193,6 +193,10 @@
     * [DataBinding使用入门](DataBinding使用入门.md)
     * [布局和绑定表达式](布局和绑定表达式.md)
     * [使用可观察的数据对象](使用可观察的数据对象.md)
+    * [生成的绑定类](生成的绑定类.md)
+    * [绑定适配器](绑定适配器.md)
+    * [将布局视图绑定到架构组件](将布局视图绑定到架构组件.md)
+    * [双向数据绑定](双向数据绑定.md)
 
 * [导航组件](导航组件.md)
 
@@ -301,7 +305,6 @@
   * [Third](Third.md)
 
 * Architecture Components
-  * [数据绑定库](数据绑定库.md)
   * [Handling Lifecycles with Lifecycle-Aware Components](Handling Lifecycles with Lifecycle-Aware Components.md)
   * [LiveData](LiveData.md)
   * [Paging library](Paging library.md)
@@ -326,7 +329,7 @@
     * [mvp-dagger](mvp-dagger.md)
     * [mvp-rxjava](mvp-rxjava.md)
     * [todo-mvvm-databinding](todo-mvvm-databinding.md)
-  
+
 * [Background Tasks](Background Tasks.md)
 
   * [绑定服务](绑定服务.md)

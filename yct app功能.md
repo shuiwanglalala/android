@@ -28,8 +28,6 @@ arouter 获取fragment有什么意义
 
 北京公交一开始生码失败，返回上一页后崩溃
 
-获取多张图片 android10 失效 权限不允许
-
 BaseRecyclerViewAdapterHelper 升级为3.x
 
 
@@ -52,6 +50,13 @@ PoiInfoActivity
 NaviSearchActivity
 
 + 显示home
+
+首页
+
++ cardview 阴影
++ 指示iv
++ 收藏地址崩溃
++ 收藏页返回会崩溃
 
 
 

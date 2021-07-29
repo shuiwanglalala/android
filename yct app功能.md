@@ -57,6 +57,7 @@ NaviSearchActivity
 + 指示iv
 + 收藏地址崩溃
 + 收藏页返回会崩溃
++ banner暂时用首页的column
 
 
 

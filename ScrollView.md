@@ -2,50 +2,36 @@
 
 [Working with the ScrollView](https://guides.codepath.com/android/Working-with-the-ScrollView)
 
+https://developer.android.com/reference/com/google/android/material/behavior/SwipeDismissBehavior
 
-
-https://github.com/ksoichiro/Android-ObservableScrollView
-
-
+## 通用库
 
 https://github.com/EverythingMe/overscroll-decor
 
-让滑动更流畅，回弹
-
-
-
-## 动画
-
-https://github.com/robinhood/ticker
-
-滑动文本的动画
-
-https://github.com/Q42/AndroidScrollingImageView
-
-## 侧滑Swipe
+内容滑动后回弹
 
 https://github.com/daimajia/AndroidSwipeLayout
 
-上下左右侧滑
+上下左右侧滑，类似微信的效果
 
 LayDown模式有可能非100%滑出
 
-https://github.com/luckybilly/SmartSwipe
+https://github.com/mancj/SlideUp-Android
 
-杂乱
+与上面相反，内容滑动后被隐藏
 
-SmartSwipe SmartSwipeBack还行
-
-SmartSwipeRefresh意义不大
+## 具体库
 
 https://github.com/bingoogolapple/BGASwipeBackLayout-Android
 
 https://github.com/klinker41/android-slidingactivity
 
-类似CoordinatorLayout的滑动效果
-
-下滑finish页面，需继承SlidingActivity。。。
+下滑finish页面，需继承SlidingActivity
 
 
 
-https://developer.android.com/reference/com/google/android/material/behavior/SwipeDismissBehavior
+https://github.com/robinhood/ticker
+
+文本的滑动动画
+
+https://github.com/Q42/AndroidScrollingImageView

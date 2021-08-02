@@ -32,7 +32,7 @@ BaseRecyclerViewAdapterHelper 升级为3.x
 
 
 
-+ 按图取点
+
 
 主页fragment
 
@@ -42,10 +42,6 @@ routeplan
 
 + 显示home
 
-PoiInfoActivity
-
-+ 显示是否已收藏 ui
-
 NaviSearchActivity
 
 + 显示home
@@ -53,9 +49,6 @@ NaviSearchActivity
 首页
 
 + cardview 阴影
-+ 指示iv
-+ 收藏地址崩溃
-+ 收藏页返回会崩溃
 + banner暂时用首页的column
 
 

@@ -12,6 +12,8 @@
 
 [.9.png，全面认识“点九图”](https://zhuanlan.zhihu.com/p/29217200)
 
+https://inloop.github.io/shadow4android/
+
 
 
 https://github.com/koral--/android-gif-drawable

@@ -26,9 +26,21 @@ https://github.com/500px/greedo-layout-for-android
 
 ## Shadow
 
+https://inloop.github.io/shadow4android/
+
+点9制作阴影
+
+
+
 https://github.com/harjot-oberai/MaterialShadows
 
 https://github.com/yingLanNull/ShadowImageView
+
+https://github.com/amikoj/ShadowView
+
+https://github.com/Liberuman/ShadowDrawable
+
+
 
 https://github.com/harjot-oberai/Long-Shadows
 

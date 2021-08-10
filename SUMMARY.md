@@ -184,7 +184,7 @@
 
   * [任务和返回栈](任务和返回栈.md)
 
-* 架构组件
+* [架构组件](架构组件.md)
 
   * [App Startup](App Startup.md)
   * [DataStore](DataStore.md)
@@ -199,6 +199,7 @@
     * [双向数据绑定](双向数据绑定.md)
     * blog
       * [DataBinding最全使用说明](DataBinding最全使用说明.md)
+  * [Lifecycle](Lifecycle.md)
 
 * [导航组件](导航组件.md)
 
@@ -307,7 +308,6 @@
   * [Third](Third.md)
 
 * Architecture Components
-  * [Handling Lifecycles with Lifecycle-Aware Components](Handling Lifecycles with Lifecycle-Aware Components.md)
   * [LiveData](LiveData.md)
   * [Paging library](Paging library.md)
     * [Paging library overview](Paging library overview.md)

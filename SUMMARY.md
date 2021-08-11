@@ -200,6 +200,7 @@
     * blog
       * [DataBinding最全使用说明](DataBinding最全使用说明.md)
   * [Lifecycle](Lifecycle.md)
+  * [将 Kotlin 协程与生命周期感知型组件一起使用](将 Kotlin 协程与生命周期感知型组件一起使用.md)
 
 * [导航组件](导航组件.md)
 
@@ -306,6 +307,7 @@
     * [Rx lib](Rx lib.md)
   * [工具](工具.md)
   * [Third](Third.md)
+  * [事件总线](事件总线.md)
 
 * Architecture Components
   * [LiveData](LiveData.md)

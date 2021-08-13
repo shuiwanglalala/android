@@ -1,5 +1,7 @@
 # Rxjava Opeartor
 
+https://github.com/KunMinX/RxJava2-Operators-Magician
+
 https://mcxiaoke.gitbooks.io/rxdocs/content/
 
 

@@ -26,3 +26,8 @@ https://stackoverflow.com/questions/9451755/what-is-an-android-window
 
 [Android四大组件之Activity--启动过程(下)](https://duanqz.github.io/2016-10-23-Activity-LaunchProcess-Part2)
 
+
+
+[Android之window机制token验证](https://juejin.cn/post/6883087737960792078#heading-6)
+
+不要太注重源码细节，人会晕

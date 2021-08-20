@@ -45,6 +45,9 @@
 
   * [Java泛型](Java泛型.md)
   * [Class](Class.md)
+  * 多线程
+    * [Thread](Thread.md)
+    * [ThreadLocal](ThreadLocal.md)
 
 * kotlin
   * 开始
@@ -359,7 +362,8 @@
     + [App startup time](App startup time.md)
   + [进程和线程](进程和线程.md)
   + [Better performance through threading](Better performance through threading.md)
-    + [Handler](Handler.md)
+    + Handler
+      + [Android全面解析之Handler机制](Android全面解析之Handler机制.md)
   + 针对电池续航时间进行优化
     + [针对低电耗模式和应用待机模式进行优化](针对低电耗模式和应用待机模式进行优化.md)
   + [Manage your app memory](Manage your app memory.md)

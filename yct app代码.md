@@ -53,13 +53,6 @@ android location相关
 
 
 
-微付充  旅游卡 移动sim卡 人脸识别 bugly tinker
-feature_sdk_init
+## bug
 
-使用SDK名称
-
-服务类型
-
-收集个人信息类型
-
-隐私权政策链接
+一城一码页面，marque无故无效

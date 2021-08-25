@@ -223,6 +223,9 @@
     * [Table](Table.md)
     * [ProgressBar](ProgressBar.md)
     * [intro](intro.md)
+    * 机制
+      * [绘制](绘制.md)
+      * 焦点Focus
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
       * [MotionLayout](MotionLayout.md)
@@ -260,9 +263,7 @@
   * [搜索](搜索.md)
   * [复制和粘贴](复制和粘贴.md)
   * [拖放](拖放.md)
-  * 机制
-    * [绘制](绘制.md)
-  
+
 * [动画和过渡](动画和过渡.md)
   
   * [动画lib](动画lib.md)
@@ -295,6 +296,7 @@
     * [请求某个分享的文件](请求某个分享的文件.md)
   
 * [触摸和输入](触摸和输入.md)
+  
   * [使用触摸手势](使用触摸手势.md)
     * [检测常用手势](检测常用手势.md)
   * [处理键盘输入](处理键盘输入.md)
@@ -352,10 +354,6 @@
   * Manage device awake state
     * [使设备保持唤醒状态](使设备保持唤醒状态.md)
   * [Jobscheduler](Jobscheduler.md)
-+ Handling keyboard input
-  + [Specify the input method type](Specify the input method type.md)
-  + [Handle input method visibility](Handle input method visibility.md)
-
 + Performance
   + Android vitals
     + [ANRs](ANRs.md)

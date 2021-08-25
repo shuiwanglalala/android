@@ -22,7 +22,11 @@ https://developer.android.com/kotlin/ktx/extensions-list#androidxnavigation
 
 arouter
 
-tinker bugly应用更新
+binder 
+
+socket 通信
+
+http
 
 contentprovider uri intent
 

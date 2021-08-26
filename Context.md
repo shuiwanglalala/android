@@ -15,3 +15,11 @@
 [Android全面解析之context机制（三）： 再认知context](https://juejin.cn/post/6887520601549438990#heading-0)
 
 这三篇也还行
+
+
+
+
+
+[反思|Android LayoutInflater机制的设计与实现](https://juejin.cn/post/6844903919286485000#heading-5)
+
+很不错

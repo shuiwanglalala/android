@@ -225,7 +225,7 @@
     * [intro](intro.md)
     * 机制
       * [绘制](绘制.md)
-      * 焦点Focus
+      * [焦点Focus](焦点Focus.md)
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
       * [MotionLayout](MotionLayout.md)

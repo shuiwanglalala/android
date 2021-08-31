@@ -226,7 +226,7 @@
     * 机制
       * [绘制](绘制.md)
         * 自定义View
-          * [HenCoder Android 开发进阶: 自定义 View](HenCoder Android 开发进阶: 自定义 View.md)
+          * [HenCoder Android 开发进阶: 自定义 View](HenCoderAndroid开发进阶自定义View.md)
       * [焦点Focus](焦点Focus.md)
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)

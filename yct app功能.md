@@ -32,13 +32,6 @@ BaseRecyclerViewAdapterHelper 升级为3.x
 
 
 
-首页
-
-+ banner暂时用首页的column
-+ 点击埋点
-
-
-
 item 第一个的divider隐藏
 
 广州资讯 第一个firstItem
@@ -55,4 +48,11 @@ html第一次加载失败
 
 
 
-sim ui 入口需要提供
+首页
+
++ banner暂时用首页的column
++ 点击埋点
++ 内容暂时固定
++ 点击暂时不考虑
+
+

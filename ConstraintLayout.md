@@ -1,6 +1,6 @@
 # ConstraintLayout
 
-[约束布局ConstraintLayout看这一篇就够了](https://juejin.im/post/5bac92f2f265da0aba70c1bf)
+[约束布局ConstraintLayout看这一篇就够了](https://www.jianshu.com/p/17ec9bd6ca8a)
 
 + layout_constraintBaseline_toBaselineOf
   + 文本基线对齐

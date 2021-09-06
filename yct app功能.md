@@ -48,6 +48,14 @@ html第一次加载失败
 
 
 
+联通
+
+sdk隐私政策 收集用户信息
+
+开卡 充值 刷卡 测试
+
+
+
 首页
 
 + banner暂时用首页的column
@@ -59,6 +67,4 @@ html第一次加载失败
 
 fakedata
 
-点击事件
-
-https://www.one-tab.com/page/z6-CLlJKSo2dqPw6aVixuw
+三个文案

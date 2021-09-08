@@ -13,6 +13,8 @@
       + [利用注解改进代码检查](利用注解改进代码检查.md)
     * Debug your app
       + [使用布局检查器调试您的布局](使用布局检查器调试您的布局.md)
+    * 配置编译版本
+      * [压缩您的应用](压缩您的应用.md)
     * Profile your app
       + Inspect device activity with Systrace
       + Inspect CPU activity

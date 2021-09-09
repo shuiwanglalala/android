@@ -56,18 +56,11 @@ html第一次加载失败
 
 首页
 
-+ 3
-  + 异常
-  + click
-+ 4
-  + 地铁线路规划 不支持
-  + 3 4 2 的缺失测试
-
++ banner暂时用首页的column
 + 2
   + more click
-+ banner暂时用首页的column
+  + fun item click
 + 点击埋点
-+ fun 列表页 详情页
 
 
 

@@ -30,6 +30,8 @@ arouter 获取fragment有什么意义
 
 BaseRecyclerViewAdapterHelper 升级为3.x
 
+埋点
+
 
 
 item 第一个的divider隐藏
@@ -53,17 +55,3 @@ html第一次加载失败
 刷卡 测试 是否可行 费用如何报销
 
 
-
-首页
-
-+ banner暂时用首页的column
-+ 2
-  + more click
-  + fun item click
-+ 点击埋点
-
-
-
-fakedata
-
-三个文案

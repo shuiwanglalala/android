@@ -14,6 +14,7 @@
     * Debug your app
       + [使用布局检查器调试您的布局](使用布局检查器调试您的布局.md)
     * 配置编译版本
+      * [概览](配置 build.md)
       * [压缩您的应用](压缩您的应用.md)
     * Profile your app
       + Inspect device activity with Systrace

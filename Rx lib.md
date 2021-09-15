@@ -10,6 +10,8 @@ https://github.com/ReactiveX/RxAndroid/tree/3.x
 
 https://github.com/uber/AutoDispose
 
+https://github.com/trello/RxLifecycle
+
 https://blog.csdn.net/mq2553299/article/details/79418068
 
 Version 1.4.0

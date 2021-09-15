@@ -45,10 +45,10 @@ class MyActivity : Activity(), LifecycleOwner {
 
 ## 包结构
 
++ lifecycle-common
++ lifecycle-runtime
 + lifecycle-runtime-ktx
-  + lifecycle-common
-  + lifecycle-runtime
-  + lifecycle-runtime-ktx
+
 + lifecycle-common-java8
 + lifecycle-service
 + lifecycle-process
@@ -92,9 +92,15 @@ DefaultLifecycleObserver 对父接口的所有方法都进行了默认实现。�
 
 Google 官方也建议开发者尽量使用 DefaultLifecycleObserver ，因为 Java 8 最终是会成为 Android 开发的主流，而 Java 7 平台下通过注解来实现生命周期回调的方式最终会被废弃
 
+[About the newly added ViewTreeLifecycleOwner](https://medium.com/@takahirom/about-the-newly-added-viewtreelifecycleowner-4588e4013ca2)
+
 ## 如何重构已有的代码
 
 ## ktx
+
+https://github.com/Pluu/LifecycleKtxSample
+
+https://stackoverflow.com/questions/67135701/difference-between-withstateatleast-and-whenstateatleast-lifecycle-extension-met
 
 ## 衍生物有哪些
 

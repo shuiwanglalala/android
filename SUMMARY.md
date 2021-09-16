@@ -212,6 +212,7 @@
     * blog
       * [DataBinding最全使用说明](DataBinding最全使用说明.md)
   * [Lifecycle](Lifecycle.md)
+  * [ViewModel](ViewModel.md)
   * [将 Kotlin 协程与生命周期感知型组件一起使用](将 Kotlin 协程与生命周期感知型组件一起使用.md)
 
 * [导航组件](导航组件.md)
@@ -332,7 +333,6 @@
     * [Display paged lists](Display paged lists.md)
     * [Gather paged data](Gather paged data.md)
   * [Room Persistence Library](Room Persistence Library.md)
-  * [ViewModel](ViewModel.md)
   * [WorkManager](WorkManager.md)
     * 方法指南
       * [Defining your Work Requests](Defining your Work Requests.md)
@@ -349,7 +349,7 @@
     * [mvp-dagger](mvp-dagger.md)
     * [mvp-rxjava](mvp-rxjava.md)
     * [todo-mvvm-databinding](todo-mvvm-databinding.md)
-
+  
 * [Background Tasks](Background Tasks.md)
 
   * [绑定服务](绑定服务.md)

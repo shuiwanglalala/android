@@ -1,3 +1,0 @@
-# mvp-rxjava
-
-SqlBrite

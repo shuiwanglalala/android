@@ -4,6 +4,8 @@
 
 您通常在系统首次调用 Activity 对象的 `onCreate()` 方法时请求 [`ViewModel`](https://developer.android.com/reference/androidx/lifecycle/ViewModel?hl=zh-cn)。系统可能会在 activity 的整个生命周期内多次调用 `onCreate()`，如在旋转设备屏幕时。[`ViewModel`](https://developer.android.com/reference/androidx/lifecycle/ViewModel?hl=zh-cn) 存在的时间范围是从您首次请求 [`ViewModel`](https://developer.android.com/reference/androidx/lifecycle/ViewModel?hl=zh-cn) 直到 activity 完成并销毁
 
+**Fragment对应ViewModel的生命周期是怎样的？？**
+
 ## 在 Fragment 之间共享数据
 
 此方法具有以下优势
@@ -24,14 +26,17 @@
 
 ## 为何引入
 
-[是让人耳目一新的 Jetpack MVVM 精讲啊！](https://juejin.cn/post/6844903976240939021#heading-12)
-
 + 以注重生命周期的方式存储和管理界面相关的数据
 + 让数据可在发生屏幕旋转等配置更改后继续留存
 + 从界面控制器逻辑中分离出视图数据所有权的操作更容易且更高效（需要个P层类）
-+ `ViewModel`在对应的 **作用域** 内保持生命周期内的 **局部单例**，这就引发一个更好用的特性，那就是`Fragment`、`Activity`等UI组件间的通信
++ `ViewModel`在对应的 **作用域** 内保持生命周期内的 **局部单例**，这就引发一个更好用的特性，那就是`Fragment`、`Activity`等UI组件间的通信（目前看来是最好的通信方式）
+
+[是让人耳目一新的 Jetpack MVVM 精讲啊！](https://juejin.cn/post/6844903976240939021#heading-12)
 
 ## 包结构
+
++ lifecycle-viewmodel
++ lifecycle-viewmodel-ktx
 
 ## 源码
 
@@ -55,3 +60,9 @@ ViewModelProvider 提供的 Factory 接口实现类有两个
 ## 衍生物有哪些
 
 ## 是否有类似的替代物
+
+[Android官方架构组件ViewModel:从前世今生到追本溯源](https://juejin.cn/post/6844903729414537223#heading-1)
+
+源码部分老旧，可以pass
+
+替代了之前的P层

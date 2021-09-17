@@ -342,14 +342,9 @@
     * 高级概念
       * 在WorkManager中进行线程处理
         * [Threading in Worker](Threading in Worker.md)
-  * [Saving UI States](Saving UI States.md)
-  * [architectural tools and patterns](architectural tools and patterns.md)
-    * [mvp](mvp.md)
-    * [mvp-clean](mvp-clean.md)
+
     * [mvp-dagger](mvp-dagger.md)
-    * [mvp-rxjava](mvp-rxjava.md)
-    * [todo-mvvm-databinding](todo-mvvm-databinding.md)
-  
+
 * [Background Tasks](Background Tasks.md)
 
   * [绑定服务](绑定服务.md)

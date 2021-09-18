@@ -18,6 +18,8 @@
 
   [LiveData with SnackBar, Navigation and other events (the SingleLiveEvent case)](https://medium.com/androiddevelopers/livedata-with-snackbar-navigation-and-other-events-the-singleliveevent-case-ac2622673150)
 
+  https://github.com/KunMinX/UnPeek-LiveData
+
 + Leaking ViewModels
   + **With ViewModel.onCleared()** you can tell the repository to drop the callback to the ViewModel
   + In the repository you can use a **WeakReference** or you can use an **Event Bus** (both easy to misuse and even considered harmful)

@@ -1,5 +1,42 @@
 # ViewModel
 
+[ViewModel 和 LiveData：模式 + 反模式](https://medium.com/androiddevelopers/viewmodels-and-livedata-patterns-antipatterns-21efaef74a54)
+
++ A general rule of thumb is to make sure there are no `android.*` imports in your ViewModels (with exceptions like` android.arch.*`)
+
++ Conditional statements, loops and general decisions should be done in ViewModels or other layers of an app, not in the Activities or Fragments
+
+  *Keep the logic in Activities and Fragments to a minimum*
+
++  *Instead of pushing data to the UI, let the UI observe changes to it*
+
++ *Add a data repository as the single-point entry to your data*
+
++ Saving activity state
+
++ An event is something that happens once
+
+  [LiveData with SnackBar, Navigation and other events (the SingleLiveEvent case)](https://medium.com/androiddevelopers/livedata-with-snackbar-navigation-and-other-events-the-singleliveevent-case-ac2622673150)
+
++ Leaking ViewModels
+  + **With ViewModel.onCleared()** you can tell the repository to drop the callback to the ViewModel
+  + In the repository you can use a **WeakReference** or you can use an **Event Bus** (both easy to misuse and even considered harmful)
+  + Use the LiveData to communicate between the Repository and ViewModel in a similar way to using LiveData between the View and the ViewModel
+
++ **LiveData in repositories ??? 如何实现viewmodel观察repository **
+
+  *Whenever you think you need a* [Lifecycle](https://developer.android.com/reference/android/arch/lifecycle/Lifecycle.html) *object inside a* [ViewModel](https://developer.android.com/reference/android/arch/lifecycle/ViewModel.html)*, a* [Transformation](https://developer.android.com/topic/libraries/architecture/livedata#transform_livedata) *is probably the solution*
+
++ **Extending LiveData？？**
+
+
+
+
+
+
+
+
+
 ## ViewModel 的生命周期
 
 您通常在系统首次调用 Activity 对象的 `onCreate()` 方法时请求 [`ViewModel`](https://developer.android.com/reference/androidx/lifecycle/ViewModel?hl=zh-cn)。系统可能会在 activity 的整个生命周期内多次调用 `onCreate()`，如在旋转设备屏幕时。[`ViewModel`](https://developer.android.com/reference/androidx/lifecycle/ViewModel?hl=zh-cn) 存在的时间范围是从您首次请求 [`ViewModel`](https://developer.android.com/reference/androidx/lifecycle/ViewModel?hl=zh-cn) 直到 activity 完成并销毁

@@ -22,8 +22,6 @@ https://github.com/markzhai/AndroidPerformanceMonitor
 
 android组件化
 
-android 面向切换编程
-
 arouter 获取fragment有什么意义
 
 北京公交一开始生码失败，返回上一页后崩溃
@@ -52,6 +50,6 @@ html第一次加载失败
 
 联通
 
-刷卡 测试 是否可行 费用如何报销
+h5跳转
 
 

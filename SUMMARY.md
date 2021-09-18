@@ -178,7 +178,6 @@
 
 * Activities
   * [Introduction to Activities](Introduction to Activities.md)
-  * [Understand the Activity Lifecycle](Understand the Activity Lifecycle.md)
   * [Parcelables and Bundles](Parcelables and Bundles.md)
   * [Fragments](Fragments.md)
     * 构建灵活的界面
@@ -194,6 +193,7 @@
   * [Context](Context.md)
   * Window
     * [Android全面解析之Window机制](Android全面解析之Window机制.md)
+  * [Activity生命周期](Activity生命周期.md)
   * [任务和返回栈](任务和返回栈.md)
 
 * [架构组件](架构组件.md)
@@ -213,6 +213,8 @@
       * [DataBinding最全使用说明](DataBinding最全使用说明.md)
   * [Lifecycle](Lifecycle.md)
   * [ViewModel](ViewModel.md)
+  * [保存状态](保存状态.md)
+  * [ViewModel 的已保存状态模块](ViewModel 的已保存状态模块.md)
   * [将 Kotlin 协程与生命周期感知型组件一起使用](将 Kotlin 协程与生命周期感知型组件一起使用.md)
 
 * [导航组件](导航组件.md)

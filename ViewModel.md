@@ -25,11 +25,15 @@
   + In the repository you can use a **WeakReference** or you can use an **Event Bus** (both easy to misuse and even considered harmful)
   + Use the LiveData to communicate between the Repository and ViewModel in a similar way to using LiveData between the View and the ViewModel
 
-+ **LiveData in repositories ??? 如何实现viewmodel观察repository **
++ **LiveData in repositories **
 
   *Whenever you think you need a* [Lifecycle](https://developer.android.com/reference/android/arch/lifecycle/Lifecycle.html) *object inside a* [ViewModel](https://developer.android.com/reference/android/arch/lifecycle/ViewModel.html)*, a* [Transformation](https://developer.android.com/topic/libraries/architecture/livedata#transform_livedata) *is probably the solution*
 
-+ **Extending LiveData？？**
+  已被遗弃，改为flow
+
++ **Extending LiveData**
+
+  *You don’t usually extend LiveData. Let your activity or fragment tell the ViewModel when it’s time to start loading data*
 
 
 

@@ -212,6 +212,7 @@
     * blog
       * [DataBinding最全使用说明](DataBinding最全使用说明.md)
   * [Lifecycle](Lifecycle.md)
+  * [LiveData](LiveData.md)
   * [ViewModel](ViewModel.md)
   * [保存状态](保存状态.md)
   * [ViewModel 的已保存状态模块](ViewModel 的已保存状态模块.md)
@@ -329,7 +330,6 @@
   * [事件总线](事件总线.md)
 
 * Architecture Components
-  * [LiveData](LiveData.md)
   * [Paging library](Paging library.md)
     * [Paging library overview](Paging library overview.md)
     * [Display paged lists](Display paged lists.md)

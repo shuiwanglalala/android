@@ -1,36 +1,82 @@
 # LiveData
 
-LiveData considers an observer, which is represented by the Observer class, to be in an active state if its lifecycle is in the STARTED or RESUMED state
+## 使用 LiveData 对象
 
-## Work with LiveData objects
+### 观察 LiveData 对象
 
-### Observe LiveData objects
+通常，LiveData 仅在数据发生更改时才发送更新，并且仅发送给活跃观察者。此行为的一种例外情况是，观察者从非活跃状态更改为活跃状态时也会收到更新。此外，如果观察者第二次从非活跃状态更改为活跃状态，则只有在自上次变为活跃状态以来值发生了更改时，它才会收到更新
 
-In most cases, an app component’s onCreate() method is the right place to begin observing a LiveData object
+## 应用架构中的 LiveData
 
-Generally, LiveData delivers updates only when data changes, and only to active observers. An exception to this behavior is that observers also receive an update when they change from an inactive to an active state
+您可能会想在数据层类中使用 `LiveData` 对象，但 `LiveData` 并不适合处理异步数据流。虽然您可以使用 `LiveData` 转换和 [`MediatorLiveData`](https://developer.android.com/reference/android/arch/lifecycle/MediatorLiveData?hl=zh-cn) 来实现此目的，**但此方法的缺点在于：用于组合数据流的功能非常有限，并且所有 `LiveData` 对象（包括通过转换创建的对象）都会在主线程中观察到**
 
-After observe() is called with nameObserver passed as parameter, onChanged() is immediately invoked providing the most recent value stored in mCurrentName. If the LiveData object hasn't set a value in mCurrentName, onChanged() is not called
+如果您需要在应用的其他层中使用数据流，请考虑使用 [Kotlin Flow](https://developer.android.com/kotlin/flow?hl=zh-cn)，然后使用 [`asLiveData()`](https://developer.android.com/reference/kotlin/androidx/lifecycle/package-summary?hl=zh-cn#aslivedata) 在 `ViewModel` 中将 Kotlin Flow 转换成 `LiveData`。对于使用 Java 构建的代码库，请考虑将[执行器](https://developer.android.com/guide/background/threading?hl=zh-cn)与回调或 `RxJava` 结合使用
 
-### Use LiveData with Room
+## 扩展 LiveData
 
-The Room persistence library supports observable queries, which return LiveData objects. Observable queries are written as part of a Database Access Object (DAO)
++ 您可以使用单例模式扩展 [`LiveData`](https://developer.android.com/reference/androidx/lifecycle/LiveData?hl=zh-cn) 对象以封装系统服务，以便在应用中共享它们。`LiveData` 对象连接到系统服务一次，然后需要相应资源的任何观察者只需观察 `LiveData` 对象
 
-Room generates all the necessary code to update the LiveData object when a database is updated
+  **这类case，实际中遇见的概率应该不高**
 
-## Extend LiveData
-
-The fact that LiveData objects are lifecycle-aware means that you can share them between multiple activities, fragments, and services. To keep the example simple, you can implement the LiveData class as a singleton
-
-## Transform LiveData
-
-类似rajava操作符
-
-很好的例子
-
-## Merge multiple LiveData sources
-
-Transformations和MediatorLiveData，注意部分方法均必须在主线程调用
++ 如果服务不需要共享，则可使用lifecycle
 
 
+
+
+
+# Question
+
+## 为何引入
+
++ **确保界面符合数据状态**
+
+  LiveData 遵循观察者模式。当底层数据发生变化时，LiveData 会通知 [`Observer`](https://developer.android.com/reference/androidx/lifecycle/Observer?hl=zh-cn) 对象。您可以整合代码以在这些 `Observer` 对象中更新界面。这样一来，您无需在每次应用数据发生变化时更新界面，因为观察者会替您完成更新
+
++ **不会发生内存泄漏**
+
+  观察者会绑定到 [`Lifecycle`](https://developer.android.com/reference/androidx/lifecycle/Lifecycle?hl=zh-cn) 对象，并在其关联的生命周期遭到销毁后进行自我清理
+
++ **不会因 Activity 停止而导致崩溃**
+
+  如果观察者的生命周期处于非活跃状态（如返回栈中的 Activity），则它不会接收任何 LiveData 事件
+
++ **不再需要手动处理生命周期**
+
+  界面组件只是观察相关数据，不会停止或恢复观察。LiveData 将自动管理所有这些操作，因为它在观察时可以感知相关的生命周期状态变化
+
++ **数据始终保持最新状态**
+
+  如果生命周期变为非活跃状态，它会在再次变为活跃状态时接收最新的数据。例如，曾经在后台的 Activity 会在返回前台后立即接收最新的数据
+
++ **适当的配置更改**
+
+  如果由于配置更改（如设备旋转）而重新创建了 Activity 或 Fragment，它会立即接收最新的可用数据
+
++ **共享资源**
+
+  您可以使用单例模式扩展 [`LiveData`](https://developer.android.com/reference/androidx/lifecycle/LiveData?hl=zh-cn) 对象以封装系统服务，以便在应用中共享它们。`LiveData` 对象连接到系统服务一次，然后需要相应资源的任何观察者只需观察 `LiveData` 对象
+
+## 包结构
+
+## 源码
+
+[从源码看 Jetpack（3）-LiveData 源码详解](https://juejin.cn/post/6847902222345633806)
+
+
+
+## 如何使用
+
+livedata配合retrofit room rxjava
+
+如何创建livedata
+
+## 如何重构已有的代码
+
+## ktx
+
+## 衍生物有哪些
+
+## 是否有类似的替代物
+
+livedata的局限性
 

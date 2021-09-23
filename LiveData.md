@@ -20,7 +20,11 @@
 
 + 如果服务不需要共享，则可使用lifecycle
 
+## 转换 LiveData
 
+您可以使用转换方法在观察者的生命周期内传送信息。除非观察者正在观察返回的 `LiveData` 对象，否则不会计算转换。因为转换是以延迟的方式计算，所以与生命周期相关的行为会隐式传递下去，而不需要额外的显式调用或依赖项
+
+demo不错
 
 
 
@@ -62,9 +66,27 @@
 
 [从源码看 Jetpack（3）-LiveData 源码详解](https://juejin.cn/post/6847902222345633806)
 
-
-
 ## 如何使用
+
+[LiveData beyond the ViewModel — Reactive patterns using Transformations and MediatorLiveData](https://medium.com/androiddevelopers/livedata-beyond-the-viewmodel-reactive-patterns-using-transformations-and-mediatorlivedata-fda520ba00b7)
+
++ One-to-one static transformation — map
++ One-to-one dynamic transformation — switchMap
++ One-to-many dependency — MediatorLiveData
+
+If a component of your app has no connection to the UI, it probably doesn’t need LiveData
+
+Antipattern: Sharing instances of LiveData **这一部分值得深思**
+
+
+
+
+
+如何在repo中使用livedata
+
+
+
+
 
 livedata配合retrofit room rxjava
 

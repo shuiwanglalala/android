@@ -222,8 +222,10 @@
 
 * Intent和Intent过滤器
   * [Intent概览](Intent概览.md)
-  * [ARouter](ARouter.md)
-  
+  * 通信
+    * [事件总线](事件总线.md)
+    * [ARouter](ARouter.md)
+
 * [界面](界面.md)
   * [Material design](Material design.md)
   * [View](View.md)
@@ -327,8 +329,7 @@
     * [Rx lib](Rx lib.md)
   * [工具](工具.md)
   * [Third](Third.md)
-  * [事件总线](事件总线.md)
-
+  
 * Architecture Components
   * [Paging library](Paging library.md)
     * [Paging library overview](Paging library overview.md)

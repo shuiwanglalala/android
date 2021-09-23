@@ -43,4 +43,4 @@ https://github.com/yangfuhai/ASimpleCache
 
 https://github.com/JakeWharton/DiskLruCache
 
-rxbus eventbus 美团livedatabus  事件总线会不会像goto一样破坏逻辑
+sqlite room

@@ -1,11 +1,5 @@
 # yct app代码
 
-android ktx
-
-https://developer.android.com/kotlin/ktx
-
-https://developer.android.com/kotlin/ktx/extensions-list#androidxnavigation
-
 arouter
 
 binder 
@@ -33,7 +27,7 @@ retrofit glide原理
 
 medium上的google团队的文章
 
-缓存 大小控制 时间有效性控制
+缓存 大小控制  文件格式 存储位置 读写权限 
 
 https://fblitho.com/
 
@@ -44,3 +38,7 @@ https://github.com/yangfuhai/ASimpleCache
 https://github.com/JakeWharton/DiskLruCache
 
 sqlite room
+
+
+
+时间有效性 数据是否与帐号相关

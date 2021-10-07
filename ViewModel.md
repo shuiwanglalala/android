@@ -8,9 +8,18 @@
 
   *Keep the logic in Activities and Fragments to a minimum*
 
++  *Avoid references to Views in ViewModels*
+
 +  *Instead of pushing data to the UI, let the UI observe changes to it*
 
++ Fat ViewModels
+
+  + Moving some logic out to a presenter, with the same scope as the ViewModel
+  + Adding a Domain layer and adopting [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
+
 + *Add a data repository as the single-point entry to your data*
+
++ *Expose information about the state of your data using a wrapper or another LiveData*
 
 + Saving activity state
 
@@ -25,11 +34,15 @@
   + In the repository you can use a **WeakReference** or you can use an **Event Bus** (both easy to misuse and even considered harmful)
   + Use the LiveData to communicate between the Repository and ViewModel in a similar way to using LiveData between the View and the ViewModel
 
-+ **LiveData in repositories ??? 如何实现viewmodel观察repository **
++ **LiveData in repositories **
 
   *Whenever you think you need a* [Lifecycle](https://developer.android.com/reference/android/arch/lifecycle/Lifecycle.html) *object inside a* [ViewModel](https://developer.android.com/reference/android/arch/lifecycle/ViewModel.html)*, a* [Transformation](https://developer.android.com/topic/libraries/architecture/livedata#transform_livedata) *is probably the solution*
 
-+ **Extending LiveData？？**
+  已被遗弃，改为flow
+
++ **Extending LiveData**
+
+  *You don’t usually extend LiveData. Let your activity or fragment tell the ViewModel when it’s time to start loading data*
 
 
 

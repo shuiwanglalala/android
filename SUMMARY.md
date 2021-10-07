@@ -215,17 +215,22 @@
     * blog
       * [DataBinding最全使用说明](DataBinding最全使用说明.md)
   * [Lifecycle](Lifecycle.md)
+  * [LiveData](LiveData.md)
   * [ViewModel](ViewModel.md)
   * [保存状态](保存状态.md)
   * [ViewModel 的已保存状态模块](ViewModel 的已保存状态模块.md)
   * [将 Kotlin 协程与生命周期感知型组件一起使用](将 Kotlin 协程与生命周期感知型组件一起使用.md)
+  * demo
+    * [Android Architecture Todo](Android Architecture Todo.md)
 
 * [导航组件](导航组件.md)
 
 * Intent和Intent过滤器
   * [Intent概览](Intent概览.md)
-  * [ARouter](ARouter.md)
-  
+  * 通信
+    * [事件总线](事件总线.md)
+    * [ARouter](ARouter.md)
+
 * [界面](界面.md)
   * [Material design](Material design.md)
   * [View](View.md)
@@ -329,10 +334,8 @@
     * [Rx lib](Rx lib.md)
   * [工具](工具.md)
   * [Third](Third.md)
-  * [事件总线](事件总线.md)
-
+  
 * Architecture Components
-  * [LiveData](LiveData.md)
   * [Paging library](Paging library.md)
     * [Paging library overview](Paging library overview.md)
     * [Display paged lists](Display paged lists.md)

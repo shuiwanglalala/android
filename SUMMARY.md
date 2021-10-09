@@ -1,7 +1,5 @@
 # Summary
 
-* 1
-  
 * yct
   
   * [yct app功能](yct app功能.md)

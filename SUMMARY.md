@@ -24,8 +24,6 @@
       + 使用 Memory Profiler 查看 Java 堆和内存分配
         + [调查 RAM 使用情况](调查 RAM 使用情况.md)
   
-* [操作系统](操作系统.md)
-  
 * Activities
   * [Introduction to Activities](Introduction to Activities.md)
   * [Parcelables and Bundles](Parcelables and Bundles.md)

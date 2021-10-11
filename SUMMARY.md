@@ -4,7 +4,6 @@
   
   * [yct app功能](yct app功能.md)
   * [yct app代码](yct app代码.md)
-  
 * [software](software.md)
   
   * [Git](Git.md)
@@ -23,7 +22,6 @@
         + [Inspect trace logs with Traceview](Inspect trace logs with Traceview.md)
       + 使用 Memory Profiler 查看 Java 堆和内存分配
         + [调查 RAM 使用情况](调查 RAM 使用情况.md)
-  
 * Activities
   * [Introduction to Activities](Introduction to Activities.md)
   * [Parcelables and Bundles](Parcelables and Bundles.md)
@@ -35,15 +33,13 @@
     * [获取 Activity 的结果](获取 Activity 的结果.md)
     * [允许其他应用启动您的 Activity](允许其他应用启动您的 Activity.md)
   * [Application](Application.md)
-  
 * [Activity](Activity.md)
-
+* [Fragment](Fragment.md)
   * [Context](Context.md)
   * Window
     * [Android全面解析之Window机制](Android全面解析之Window机制.md)
   * [Activity生命周期](Activity生命周期.md)
   * [任务和返回栈](任务和返回栈.md)
-
 * [架构组件](架构组件.md)
 
   * [App Startup](App Startup.md)
@@ -67,15 +63,12 @@
   * [将 Kotlin 协程与生命周期感知型组件一起使用](将 Kotlin 协程与生命周期感知型组件一起使用.md)
   * demo
     * [Android Architecture Todo](Android Architecture Todo.md)
-
 * [导航组件](导航组件.md)
-
 * Intent和Intent过滤器
   * [Intent概览](Intent概览.md)
   * 通信
     * [事件总线](事件总线.md)
     * [ARouter](ARouter.md)
-
 * [界面](界面.md)
   * [Material design](Material design.md)
   * [View](View.md)
@@ -124,53 +117,45 @@
   * [搜索](搜索.md)
   * [复制和粘贴](复制和粘贴.md)
   * [拖放](拖放.md)
-
 * [动画和过渡](动画和过渡.md)
   
   * [动画lib](动画lib.md)
-  
 * 图片和图形
   * [Drawables overview](Drawables overview.md)
   * [Vector drawables overview](Vector drawables overview.md)
   * [处理位图](处理位图.md)
   * [Hardware acceleration](Hardware acceleration.md)
   * [Gallery](Gallery.md)
-  
 * 服务
   
   * [服务概览](服务概览.md)
-  
 * [权限](权限.md)
   
   * [权限概览](权限概览.md)
   * [请求应用权限](请求应用权限.md)
-  
 * [App data & files](Appdata&files.md)
   * [保存到应用专属存储空间](保存到应用专属存储空间.md)
   * 保存到共享的存储空间
     * [访问共享存储空间中的媒体文件](访问共享存储空间中的媒体文件.md)
     * [从共享存储空间访问文档和其他文件](从共享存储空间访问文档和其他文件.md)
+  * 将数据保存到本地数据库
+    * Room概述
   * 分享文件
     * [设置文件共享](设置文件共享.md)
     * [共享文件](共享文件.md)
     * [请求某个分享的文件](请求某个分享的文件.md)
-  
 * [触摸和输入](触摸和输入.md)
   
   * [使用触摸手势](使用触摸手势.md)
     * [检测常用手势](检测常用手势.md)
   * [处理键盘输入](处理键盘输入.md)
-  
 * 连接性
   * 执行网络操作
     * [连接到网络](连接到网络.md)
-  
 * [基于网络的内容](基于网络的内容.md)
   
   * [WebView](WebView.md)
-  
 * [Android版本更新](Android版本更新.md)
-
 * lib
 
   * [Rxjava](Rxjava.md)
@@ -178,7 +163,6 @@
     * [Rx lib](Rx lib.md)
   * [工具](工具.md)
   * [Third](Third.md)
-  
 * Architecture Components
   * [Paging library](Paging library.md)
     * [Paging library overview](Paging library overview.md)
@@ -195,7 +179,6 @@
         * [Threading in Worker](Threading in Worker.md)
   
   * [mvp-dagger](mvp-dagger.md)
-  
 * [Background Tasks](BackgroundTasks.md)
 * [绑定服务](绑定服务.md)
   * [Android 接口定义语言](Android 接口定义语言.md)

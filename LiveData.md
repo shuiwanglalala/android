@@ -82,15 +82,11 @@ Antipattern: Sharing instances of LiveData **这一部分值得深思**
 
 
 
-如何在repo中使用livedata
+最开始时遇到的一些问题
 
-
-
-
-
-livedata配合retrofit room rxjava
-
-如何创建livedata
++ 如何在repo中使用livedata
++ livedata配合retrofit room rxjava
++ 如何创建livedata
 
 ## 如何重构已有的代码
 

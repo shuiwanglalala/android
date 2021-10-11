@@ -184,7 +184,6 @@
     * [Paging library overview](Paging library overview.md)
     * [Display paged lists](Display paged lists.md)
     * [Gather paged data](Gather paged data.md)
-  * [Room Persistence Library](Room Persistence Library.md)
   * [WorkManager](WorkManager.md)
     * 方法指南
       * [Defining your Work Requests](Defining your Work Requests.md)
@@ -194,15 +193,14 @@
     * 高级概念
       * 在WorkManager中进行线程处理
         * [Threading in Worker](Threading in Worker.md)
-
-    * [mvp-dagger](mvp-dagger.md)
-
+  
+  * [mvp-dagger](mvp-dagger.md)
+  
 * [Background Tasks](BackgroundTasks.md)
-
-  * [绑定服务](绑定服务.md)
+* [绑定服务](绑定服务.md)
   * [Android 接口定义语言](Android 接口定义语言.md)
-
-  * [Broadcasts overview](Broadcasts overview.md)
+  
+* [Broadcasts overview](Broadcasts overview.md)
   * Manage device awake state
     * [使设备保持唤醒状态](使设备保持唤醒状态.md)
   * [Jobscheduler](Jobscheduler.md)

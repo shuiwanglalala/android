@@ -145,8 +145,7 @@
   * [权限概览](权限概览.md)
   * [请求应用权限](请求应用权限.md)
   
-* [App data & files](App data & files.md)
-  
+* [App data & files](Appdata&files.md)
   * [保存到应用专属存储空间](保存到应用专属存储空间.md)
   * 保存到共享的存储空间
     * [访问共享存储空间中的媒体文件](访问共享存储空间中的媒体文件.md)
@@ -198,7 +197,7 @@
 
     * [mvp-dagger](mvp-dagger.md)
 
-* [Background Tasks](Background Tasks.md)
+* [Background Tasks](BackgroundTasks.md)
 
   * [绑定服务](绑定服务.md)
   * [Android 接口定义语言](Android 接口定义语言.md)

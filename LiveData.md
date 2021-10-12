@@ -78,7 +78,7 @@ If a component of your app has no connection to the UI, it probably doesn’t ne
 
 Antipattern: Sharing instances of LiveData **这一部分值得深思**
 
-
+Don’t use Livedata in a var. Wire transformations on initialization
 
 
 

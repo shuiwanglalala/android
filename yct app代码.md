@@ -23,7 +23,7 @@ fragmentmanager的使用
 
 https://github.com/JessYanCoding/AndroidAutoSize/blob/master/README-zh.md
 
-retrofit glide原理
+retrofit glide原理 glide缓存原理
 
 medium上的google团队的文章
 

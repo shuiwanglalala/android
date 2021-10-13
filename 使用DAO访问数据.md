@@ -27,7 +27,7 @@ Room 还会验证查询的返回值，以确保当返回的对象中的字段名
 
 ### 使用流进行响应式查询
 
-暂不了解
+暂不了解，还有room-ktx
 
 https://medium.com/androiddevelopers/room-flow-273acffe5b57
 
@@ -43,8 +43,12 @@ https://medium.com/androiddevelopers/room-flow-273acffe5b57
 
 ### 使用 RxJava 进行响应式查询
 
-暂未了解
+https://medium.com/androiddevelopers/room-rxjava-acb0cd4f3757
+
+文章很详细，对各类情况均有说明
 
 https://github.com/android/architecture-components-samples/tree/master/BasicRxJavaSample
 
 https://github.com/android/architecture-components-samples/tree/master/BasicRxJavaSampleKotlin
+
+两个demo的内容一样，一个java版本，一个kotlin版本

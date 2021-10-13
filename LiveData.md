@@ -85,12 +85,20 @@ Don’t use Livedata in a var. Wire transformations on initialization
 最开始时遇到的一些问题
 
 + 如何在repo中使用livedata
-+ livedata配合retrofit room rxjava
++ livedata配合retrofit room
 + 如何创建livedata
 
 ## 如何重构已有的代码
 
 ## ktx
+
+https://github.com/android/architecture-components-samples/tree/main/LiveDataSample
+
+nice demo
+
+To make one LiveData depend on the value of another, you use Transformations or the generic MediatorLiveData class. Transformations, like `map` and `switchMap`, are computed in the main thread. However, using a combination of `switchMap` and the `liveData` builder, you can easily call suspend functions or move the transformation to a different thread
+
+https://stackoverflow.com/questions/57698932/livedatascope-vs-viewmodelscope-in-android
 
 ## 衍生物有哪些
 

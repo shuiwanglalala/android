@@ -25,6 +25,8 @@ https://github.com/JessYanCoding/AndroidAutoSize/blob/master/README-zh.md
 
 retrofit glide原理 glide缓存原理
 
+recyclerview缓存机制 优化机制
+
 medium上的google团队的文章
 
 缓存 大小控制  文件格式 存储位置 读写权限 

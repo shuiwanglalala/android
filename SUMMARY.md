@@ -5,23 +5,25 @@
   * [yct app功能](yct app功能.md)
   * [yct app代码](yct app代码.md)
 * [software](software.md)
-  
+
   * [Git](Git.md)
   * [翻墙](翻墙.md)
-  * [android studio概述](android studio概述.md)
+  * [android studio概述](androidstudio概述.md)
+
     * 编写您的应用
+      
       + [利用注解改进代码检查](利用注解改进代码检查.md)
-    * Debug your app
-      + [使用布局检查器调试您的布局](使用布局检查器调试您的布局.md)
+      
     * 配置编译版本
-      * [概览](配置 build.md)
+      * [概览](配置build.md)
       * [压缩您的应用](压缩您的应用.md)
-    * Profile your app
-      + Inspect device activity with Systrace
-      + Inspect CPU activity
-        + [Inspect trace logs with Traceview](Inspect trace logs with Traceview.md)
-      + 使用 Memory Profiler 查看 Java 堆和内存分配
-        + [调查 RAM 使用情况](调查 RAM 使用情况.md)
+      
+    * 调试应用
+
+      * 使用 Database Inspector 调试数据库
+      * [Inspect trace logs with Traceview](Inspect trace logs with Traceview.md)
+
+      + [调查 RAM 使用情况](调查 RAM 使用情况.md)
 * Activities
   * [Introduction to Activities](Introduction to Activities.md)
   * [Parcelables and Bundles](Parcelables and Bundles.md)
@@ -142,7 +144,8 @@
     * [Room概述](Room概述.md)
     * [使用实体定义数据](使用实体定义数据.md)
     * [使用DAO访问数据](使用DAO访问数据.md)
-    * [定义对象之间的关系](定义对象之间的关系.md) 
+    * [定义对象之间的关系](定义对象之间的关系.md)
+    * [引用复杂数据](引用复杂数据.md)
   * 分享文件
     * [设置文件共享](设置文件共享.md)
     * [共享文件](共享文件.md)
@@ -184,6 +187,7 @@
   * [mvp-dagger](mvp-dagger.md)
 * [Background Tasks](BackgroundTasks.md)
 * [绑定服务](绑定服务.md)
+  
   * [Android 接口定义语言](Android 接口定义语言.md)
   
 * [Broadcasts overview](Broadcasts overview.md)

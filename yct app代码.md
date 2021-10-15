@@ -46,3 +46,7 @@ sqlite room
 时间有效性 数据是否与帐号相关
 
 DiffUtil
+
+navigation时要注意fragment是否复用
+
+跨线程通信 跨进程通信

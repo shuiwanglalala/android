@@ -29,24 +29,16 @@ recyclerview缓存机制 优化机制
 
 medium上的google团队的文章
 
-缓存 大小控制  文件格式 存储位置 读写权限 
 
-https://fblitho.com/
-
-缓存
-
-https://github.com/yangfuhai/ASimpleCache
-
-https://github.com/JakeWharton/DiskLruCache
-
-sqlite room
-
-
-
-时间有效性 数据是否与帐号相关
 
 DiffUtil
 
 navigation时要注意fragment是否复用
 
 跨线程通信 跨进程通信
+
+github android官方的demo
+
+
+
+hashmap linkedhashmap原理  lrucache原理

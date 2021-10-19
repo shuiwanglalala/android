@@ -37,3 +37,4 @@ git config --global https.proxy 'socks5://127.0.0.1:1080'
 [详细讲解Android Studio中使用Git——结合GitLab](https://www.jianshu.com/p/059ed1e01229)
 
 https://github.com/github/gitignore
+

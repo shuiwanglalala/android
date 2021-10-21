@@ -26,3 +26,6 @@ https://blog.csdn.net/briblue/article/details/75578459
   + 处理@Module内两个方法返回一样的类型
 + @Name
 + Lazy 延迟加载
++ Provider 强制重新加载
+  + Provider 所表达的重新加载是说每次重新执行 Module 相应的 @Provides 方法，如果这个方法本身每次返回同一个对象，那么每次调用 get() 的时候，对象也会是同一个
++ Component 之间的依赖

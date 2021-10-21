@@ -191,8 +191,9 @@
   
 * 依赖项注入
 
-  * blog
-    * [Dagger2forAndroidBeginners](Dagger2forAndroidBeginners.md)
+  * Dagger
+    * [在 Android 应用中使用 Dagger](在Android应用中使用Dagger.md)
+  * [blog](依赖项注入blog.md)
     * [轻松学Dagger2](轻松学Dagger2.md)
 
 * [Android版本更新](Android版本更新.md)

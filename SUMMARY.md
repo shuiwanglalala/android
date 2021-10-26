@@ -2,10 +2,10 @@
 
 * yct
   
-  * [yct app功能](yct app功能.md)
-  * [yct app代码](yct app代码.md)
+  * [yct app功能](yctapp功能.md)
+  * [yct app代码](yctapp代码.md)
   
-* [software](software.md)
+* [software](Software.md)
 
   * [Git](Git.md)
   * [翻墙](翻墙.md)

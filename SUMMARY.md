@@ -49,7 +49,7 @@
   
 * [架构组件](架构组件.md)
 
-  * [App Startup](App Startup.md)
+  * [App Startup](AppStartup.md)
   * [DataStore](DataStore.md)
   * [ViewBinding](ViewBinding.md)
   * [DataBinding](DataBinding.md)
@@ -66,8 +66,8 @@
   * [LiveData](LiveData.md)
   * [ViewModel](ViewModel.md)
   * [保存状态](保存状态.md)
-  * [ViewModel 的已保存状态模块](ViewModel 的已保存状态模块.md)
-  * [将 Kotlin 协程与生命周期感知型组件一起使用](将 Kotlin 协程与生命周期感知型组件一起使用.md)
+  * [ViewModel 的已保存状态模块](ViewModel的已保存状态模块.md)
+  * [将 Kotlin 协程与生命周期感知型组件一起使用](将Kotlin协程与生命周期感知型组件一起使用.md)
   * demo
     * [Android Architecture Todo](Android Architecture Todo.md)
   

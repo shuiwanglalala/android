@@ -103,7 +103,7 @@ ViewModelProvider 提供的 Factory 接口实现类有两个
 - NewInstanceFactory。通过反射来实例化 ViewModel，适用于包含无参构造函数的情况
 - AndroidViewModelFactory。通过反射来实例化 ViewModel，适用于构造参数只有一个，且参数类型为 Application 的情况
 
-如果想要通过其它类型的构造函数来初始化 ViewModel 的话，就需要我们自己来实现 `ViewModelProvider.Factory` 接口声明初始化逻辑了
+如果想要通过其它类型的构造函数来初始化 ViewModel 的话，就需要我们自己来实现 `ViewModelProvider.Factory` 接口声明初始化逻辑了，但可以使用hilt依赖注入
 
 ## 如何重构已有的代码
 

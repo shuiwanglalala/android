@@ -12,6 +12,10 @@ https://medium.com/tompee/dagger-2-scopes-and-subcomponents-d54d58511781
 
 
 
+https://github.com/qingmei2/Sample_dagger2
+
+对应的6篇blog不错，细节和原理都讲清楚了
+
 
 
 [Dagger 2 完全解析（三）,Component与SubComponent](https://blog.csdn.net/xiaowu_zhu/article/details/93784400)

@@ -191,10 +191,13 @@
   
 * 依赖项注入
 
+  * [使用Hilt实现依赖项注入](使用Hilt实现依赖项注入.md)
+  * [Hilt和Jetpack集成](Hilt和Jetpack集成.md)
   * Dagger
     * [在 Android 应用中使用 Dagger](在Android应用中使用Dagger.md)
     * [在多模块应用中使用Dagger](在多模块应用中使用Dagger.md)
   * [blog](依赖项注入blog.md)
+    * [Jetpack新成员Hilt实践](Jetpack新成员Hilt实践.md)
     * [轻松学Dagger2](轻松学Dagger2.md)
 
 * [Android版本更新](Android版本更新.md)

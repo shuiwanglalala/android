@@ -22,20 +22,20 @@
     * 调试应用
 
       * 使用 Database Inspector 调试数据库
-      * [Inspect trace logs with Traceview](Inspect trace logs with Traceview.md)
+      * [Inspect trace logs with Traceview](InspectTraceLogsWithTraceview.md)
 
-      + [调查 RAM 使用情况](调查 RAM 使用情况.md)
+      + [调查 RAM 使用情况](调查RAM使用情况.md)
   
 * Activities
-  * [Introduction to Activities](Introduction to Activities.md)
-  * [Parcelables and Bundles](Parcelables and Bundles.md)
+  * [Introduction to Activities](IntroductionToActivities.md)
+  * [Parcelables and Bundles](ParcelablesAndBundles.md)
   * [Fragments](Fragments.md)
     * 构建灵活的界面
     * 与其他 Fragment 通信
     * [Fragments的弊端](Fragments的弊端.md)
   * 与其他应用互动
-    * [获取 Activity 的结果](获取 Activity 的结果.md)
-    * [允许其他应用启动您的 Activity](允许其他应用启动您的 Activity.md)
+    * [获取 Activity 的结果](获取Activity的结果.md)
+    * [允许其他应用启动您的 Activity](允许其他应用启动您的Activity.md)
   * [Application](Application.md)
   
 * [Activity](Activity.md)
@@ -69,7 +69,7 @@
   * [ViewModel 的已保存状态模块](ViewModel的已保存状态模块.md)
   * [将 Kotlin 协程与生命周期感知型组件一起使用](将Kotlin协程与生命周期感知型组件一起使用.md)
   * demo
-    * [Android Architecture Todo](Android Architecture Todo.md)
+    * [Android Architecture Todo](AndroidArchitectureTodo.md)
   
 * [导航组件](导航组件.md)
 

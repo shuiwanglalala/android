@@ -20,11 +20,15 @@ https://github.com/kofigyan/StateProgressBar
 
 灵活性还是不够，很难实用
 
-
-
 https://github.com/skydoves/ProgressView
 
 动画不错
+
+
+
+[一行代码实现Okhttp,Retrofit,Glide下载上传进度监听](https://juejin.cn/post/6844903481057230856#heading-9)
+
+思路清晰
 
 ## Loading
 

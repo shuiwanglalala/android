@@ -109,7 +109,7 @@
   * [创建阴影和裁剪视图](创建阴影和裁剪视图.md)
   * 外观与风格
     * [文本](文本.md)
-      * [自动调整 TextView 的大小](自动调整 TextView 的大小.md)
+      * [自动调整 TextView 的大小](自动调整TextView的大小.md)
       * [Span](Span.md)
     * [按钮](按钮.md)
     * [复选框](复选框.md)
@@ -133,10 +133,10 @@
   * [动画lib](动画lib.md)
   
 * 图片和图形
-  * [Drawables overview](Drawables overview.md)
-  * [Vector drawables overview](Vector drawables overview.md)
+  * [Drawables overview](DrawablesOverview.md)
+  * [Vector drawables overview](VectorDrawablesOverview.md)
   * [处理位图](处理位图.md)
-  * [Hardware acceleration](Hardware acceleration.md)
+  * [Hardware acceleration](HardwareAcceleration.md)
   * [Gallery](Gallery.md)
   
 * 服务
@@ -205,8 +205,8 @@
 * lib
 
   * [Rxjava](Rxjava.md)
-    * [Rxjava Opeartor](Rxjava Opeartor.md)
-    * [Rx lib](Rx lib.md)
+    * [Rxjava Opeartor](RxjavaOpeartor.md)
+    * [Rx lib](RxLib.md)
   * [工具](工具.md)
   * [Third](Third.md)
   

@@ -7,7 +7,7 @@
   
 * [software](Software.md)
 
-  * [Git](Git.md)
+  * [Git](Git软件.md)
   * [翻墙](翻墙.md)
   * [android studio概述](androidstudio概述.md)
 
@@ -80,7 +80,7 @@
     * [ARouter](ARouter.md)
   
 * [界面](界面.md)
-  * [Material design](Material design.md)
+  * [Material design](MaterialDesign.md)
   * [View](View.md)
     * [Table](Table.md)
     * [ProgressBar](ProgressBar.md)

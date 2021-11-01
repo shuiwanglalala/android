@@ -36,9 +36,12 @@
   * 与其他应用互动
     * [获取 Activity 的结果](获取Activity的结果.md)
     * [允许其他应用启动您的 Activity](允许其他应用启动您的Activity.md)
-  * [Application](Application.md)
   
+* [应用资源](应用资源.md)
+
 * [Activity](Activity.md)
+
+  * [Application](Application.md)
 
 * [Fragment](Fragment.md)
   * [Context](Context.md)
@@ -250,3 +253,19 @@
     + [内存泄漏](内存泄漏.md)
   + [使应用能迅速响应](使应用能迅速响应.md)
   + [性能提示](性能提示.md)
+
+
+
+
+
++ home数据本地缓存（避免首次进入无数据）
+  + 所有数据均做本地缓存
+  + APP首次进入，有网时，获取最新数据，并将其更新至本地缓存；无网时，显示上次缓存的数据
+  + 用户执行九宫格编辑成功后，九宫格本地缓存失效，重新拉取后台数据
+
++ home数据的获取和刷新
+  + 九宫格、banner
+    + APP首次进入时，获取一次数据
+    + 应用从后台进入前台，刷新一次数据，UI体验上需无感
+  + 其他数据
+    + APP首次进入时，获取一次数据

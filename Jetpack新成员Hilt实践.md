@@ -1,5 +1,9 @@
 # Jetpack新成员Hilt实践
 
+https://github.com/hi-dhl/AndroidX-Jetpack-Practice
+
+
+
 https://juejin.cn/post/6844904198803292173#heading-12
 
 **Hilt 如果和 ViewModel 一起使用有点需要注意**

@@ -1,22 +1,12 @@
 # Rxjava
 
-
+https://stackoverflow.com/questions/2521277/what-are-the-hot-and-cold-observables
 
 ## 1.0
 
 [给 Android 开发者的 RxJava 详解](https://gank.io/post/560e15be2dca930e00da1083)
 
 https://github.com/rengwuxian/RxJavaSamples/tree/1.x
-
-
-
-
-
-
-
-
-
-
 
 ## 2.0
 
@@ -39,3 +29,4 @@ https://github.com/kaushikgopal/RxJava-Android-Samples
 
 
 https://medium.com/android-news/rxjava-single-maybe-and-completable-8686db42bac8
+

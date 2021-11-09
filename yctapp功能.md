@@ -19,3 +19,7 @@ html第一次加载失败
 moshi data class
 
 try catch
+
+https://medium.com/androiddevelopers/suspending-over-views-19de9ebd7020
+
+https://github.com/LouisCAD/Splitties

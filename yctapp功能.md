@@ -16,8 +16,6 @@ html第一次加载失败
 
 
 
-moshi data class
-
 https://medium.com/androiddevelopers/suspending-over-views-19de9ebd7020
 
 https://github.com/LouisCAD/Splitties
@@ -25,3 +23,5 @@ https://github.com/LouisCAD/Splitties
 混淆
 
 https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android
+
+json 中WithholdQueryResult.channels为空时怎么处理

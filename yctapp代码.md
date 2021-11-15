@@ -19,10 +19,6 @@ fragment的恢复和保存
 
 fragmentmanager的使用
 
-屏幕适配
-
-https://github.com/JessYanCoding/AndroidAutoSize/blob/master/README-zh.md
-
 retrofit glide原理 glide缓存原理
 
 recyclerview缓存机制 优化机制

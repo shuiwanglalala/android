@@ -216,9 +216,6 @@
   
 * Architecture Components
   * [Paging library](Paging library.md)
-    * [Paging library overview](Paging library overview.md)
-    * [Display paged lists](Display paged lists.md)
-    * [Gather paged data](Gather paged data.md)
   * [WorkManager](WorkManager.md)
     * 方法指南
       * [Defining your Work Requests](Defining your Work Requests.md)
@@ -228,7 +225,7 @@
     * 高级概念
       * 在WorkManager中进行线程处理
         * [Threading in Worker](Threading in Worker.md)
-  
+
 * [Background Tasks](BackgroundTasks.md)
 
 * [绑定服务](绑定服务.md)

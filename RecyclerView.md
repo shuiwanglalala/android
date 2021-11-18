@@ -76,6 +76,8 @@ https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf
 
 https://github.com/iPaulPro/Android-ItemTouchHelper-Demo
 
+官方出品 ItemTouchHelper
+
 ## Snap
 
 [让你明明白白的使用RecyclerView——SnapHelper详解](https://www.jianshu.com/p/e54db232df62)

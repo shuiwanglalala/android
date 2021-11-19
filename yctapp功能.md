@@ -23,3 +23,7 @@ https://github.com/LouisCAD/Splitties
 混淆
 
 加载中动画/btn按压态
+
+权限管理
+
+用户协议 第三方sdk 开机弹窗

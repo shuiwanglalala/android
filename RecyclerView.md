@@ -118,6 +118,4 @@ https://github.com/evant/binding-collection-adapter/
 
 https://github.com/vipulasri/Timeline-View
 
-很不错
-
 https://github.com/fython/MaterialStepperView

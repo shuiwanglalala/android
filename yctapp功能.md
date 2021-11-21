@@ -14,15 +14,7 @@ html第一次加载失败
 
 
 
-
-
-https://medium.com/androiddevelopers/suspending-over-views-19de9ebd7020
-
-https://github.com/LouisCAD/Splitties
-
 混淆
-
-加载中动画/btn按压态
 
 权限管理
 
@@ -31,3 +23,5 @@ https://github.com/LouisCAD/Splitties
 微信状态 2 如何处理
 
 sign white arrow
+
+检查所以btn btn shape btn selector

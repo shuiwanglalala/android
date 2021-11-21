@@ -40,3 +40,5 @@ github android官方的demo
 hashmap linkedhashmap原理  lrucache原理
 
 stateflow
+
+https://github.com/LouisCAD/Splitties

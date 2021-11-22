@@ -21,7 +21,3 @@ html第一次加载失败
 用户协议 第三方sdk 开机弹窗
 
 微信状态 2 如何处理
-
-sign white arrow
-
-检查所以btn btn shape btn selector

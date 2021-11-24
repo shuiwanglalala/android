@@ -54,21 +54,17 @@ https://github.com/yqritc/RecyclerView-FlexibleDivider
 
 https://github.com/wasabeef/recyclerview-animators
 
-可借鉴的各类动画
+简单的动画合集
+
+https://github.com/willowtreeapps/spruce-android
+
+## Expandable
 
 https://github.com/saket/InboxRecyclerView
 
-点击item，展开动画；下滑snap，收缩动画
-
-nice
+expandable descendant navigation 很棒的体验
 
 https://github.com/nikhilpanju/FabFilter
-
-展开和收缩动画
-
-动画的集合 nice
-
-https://github.com/willowtreeapps/spruce-android
 
 ## Drag Swipe
 
@@ -106,16 +102,20 @@ https://github.com/afollestad/drag-select-recyclerview
 
 ## 数据绑定
 
-views-widgets-samples
-
-不错的封装
-
 https://github.com/evant/binding-collection-adapter/
-
-暂时没空研究
 
 ## 特殊类型ui
 
 https://github.com/vipulasri/Timeline-View
 
 https://github.com/fython/MaterialStepperView
+
+## Google demo
+
+https://github.com/android/views-widgets-samples/tree/main/RecyclerView
+
+简单使用
+
+https://github.com/android/views-widgets-samples/tree/main/RecyclerViewAnimations
+
+默认动画和自定义动画，注意动画被打断，很详细的ItemAnimator demo

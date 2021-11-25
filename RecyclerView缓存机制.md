@@ -29,3 +29,25 @@
 https://github.com/wisdomtl/Layout_DSL
 
 扩展函数的方式很棒
+
+[策略模式应用 | 每当为 RecyclerView 新增类型时就很抓狂](https://juejin.cn/post/6876967151975006221#heading-3)
+
+https://github.com/wisdomtl/VarietyAdapter
+
+`Adapter`难扩展，一扩展就出 bug 的原因是**适配器和具体数据类型耦合**
+
+**构建表项**和**填充表项**这两个抽象的动作，不会随着业务变化而变化的，但**构建什么表项**和**怎么填充表项**是两个具体的动作，会随着业务的变化而变化
+
+声明一组策略，它看上去和`RecyclerView.Adapter`没什么两样，几乎拥有相同的接口，目的是为了把原本`RecyclerView.Adapter`做的事情，由它来代理。但它并没有直接继承`RecyclerView.Adapter`，即它不拥有完整的`RecyclerView.Adapter`的功能，所以不能称为代理模式，而应该是策略模式
+
+很好的解释了代理模式和策略模式的差异
+
+[更高效地刷新 RecyclerView | DiffUtil二次封装](https://juejin.cn/post/6882531923537707015#heading-4)
+
+为了配合VarietyAdapter，继续基类和业务类分离，思路看看就好。使用ListAdapter就好
+
+Payload是用于局部刷新
+
+[换一个思路，超简单的RecyclerView预加载](https://juejin.cn/post/6885146484791050247)
+
+pagings可以

@@ -1,5 +1,105 @@
 # RecyclerView
 
+## Google方案
+
+### 多类型
+
+https://medium.com/androiddevelopers/merge-adapters-sequentially-with-mergeadapter-294d2942127a
+
+To support different `ViewHolder` types, you should implement `Adapter.getItemViewType`. When you’re reusing `ViewHolders`, make sure that the same view type doesn’t point to different `ViewHolders`! One best practice for this is to return the layout ID as the view type
+
++ ViewHolders
+
+ViewHolders
+
+To support different `ViewHolder` types, you should implement `Adapter.getItemViewType`. When you’re reusing `ViewHolders`, make sure that the same view type doesn’t point to different `ViewHolders`! One best practice for this is to return the layout ID as the view type
+
++ Data changes notifications
+
+prefer more granular updates or use an `Adapter` implementation that does this automatically, like `ListAdapter` or `SortedList`
+
+https://github.com/erikjhordan-rey/RecyclerView-ConcatAdapter
+
+很清爽的例子 ConcatAdapter ListAdapter ViewBinding
+
+### Google demo
+
+https://github.com/android/views-widgets-samples/tree/main/RecyclerView
+
+简单使用
+
+https://github.com/android/views-widgets-samples/tree/main/RecyclerViewAnimations
+
+默认动画和自定义动画，注意动画被打断，很详细的ItemAnimator demo
+
+https://github.com/android/views-widgets-samples/tree/main/RecyclerViewKotlin
+
+ListAdapter 的使用，demo一般般
+
+## 其他
+
+### 数据绑定
+
+https://github.com/evant/binding-collection-adapter/
+
+### 动画
+
+https://github.com/wasabeef/recyclerview-animators
+
+简单的动画合集
+
+https://github.com/willowtreeapps/spruce-android
+
+整体性的动画
+
+### Expandable
+
+https://github.com/saket/InboxRecyclerView
+
+expandable descendant navigation 很棒的体验
+
+https://github.com/nikhilpanju/FabFilter
+
+### 特殊类型ui
+
+https://github.com/vipulasri/Timeline-View
+
+https://github.com/fython/MaterialStepperView
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 
 动画 header empty 多类型item 分组 node dragAndSwipe
@@ -50,21 +150,9 @@ https://github.com/500px/greedo-layout-for-android
 
 https://github.com/yqritc/RecyclerView-FlexibleDivider
 
-## 动画
 
-https://github.com/wasabeef/recyclerview-animators
 
-简单的动画合集
 
-https://github.com/willowtreeapps/spruce-android
-
-## Expandable
-
-https://github.com/saket/InboxRecyclerView
-
-expandable descendant navigation 很棒的体验
-
-https://github.com/nikhilpanju/FabFilter
 
 ## Drag Swipe
 
@@ -100,22 +188,5 @@ https://github.com/afollestad/drag-select-recyclerview
 
 滑动多选，不错
 
-## 数据绑定
 
-https://github.com/evant/binding-collection-adapter/
 
-## 特殊类型ui
-
-https://github.com/vipulasri/Timeline-View
-
-https://github.com/fython/MaterialStepperView
-
-## Google demo
-
-https://github.com/android/views-widgets-samples/tree/main/RecyclerView
-
-简单使用
-
-https://github.com/android/views-widgets-samples/tree/main/RecyclerViewAnimations
-
-默认动画和自定义动画，注意动画被打断，很详细的ItemAnimator demo

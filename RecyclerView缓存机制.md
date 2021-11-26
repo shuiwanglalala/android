@@ -51,3 +51,10 @@ Payload是用于局部刷新
 [换一个思路，超简单的RecyclerView预加载](https://juejin.cn/post/6885146484791050247)
 
 pagings可以
+
+[RecyclerView 动画原理 | 换个姿势看源码（pre-layout）](https://juejin.cn/post/6890288761783975950)
+
+[RecyclerView 动画原理 | pre-layout，post-layout 与 scrap 缓存的关系](https://juejin.cn/post/6892809944702124045)
+
+[RecyclerView 动画原理 | 如何存储并应用动画属性值？](https://juejin.cn/post/6895523568025600014)
+

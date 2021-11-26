@@ -36,6 +36,10 @@ https://github.com/android/views-widgets-samples/tree/main/RecyclerViewKotlin
 
 ListAdapter 的使用，demo一般般
 
+https://github.com/android/views-widgets-samples/tree/main/DataBindingDataBoundRecyclerView
+
+databinding的使用例子，关于OnRebindCallback有点不好懂
+
 ## 其他
 
 ### 数据绑定

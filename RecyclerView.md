@@ -22,6 +22,10 @@ https://github.com/erikjhordan-rey/RecyclerView-ConcatAdapter
 
 很清爽的例子 ConcatAdapter ListAdapter ViewBinding
 
+https://github.com/lisawray/groupie
+
+Groupie is a simple, flexible library for complex RecyclerView layouts
+
 ### Google demo
 
 https://github.com/android/views-widgets-samples/tree/main/RecyclerView

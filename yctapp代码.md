@@ -6,9 +6,11 @@ medium上的google团队的文章
 
 
 
-相对布局嵌套和线性布局嵌套，那个慢
-
 arouter
+
+组件化原理
+
+热更新原理
 
 binder 
 
@@ -38,3 +40,9 @@ hashmap linkedhashmap原理  lrucache原理
 stateflow
 
 https://github.com/LouisCAD/Splitties
+
+surfaceview
+
+如何加载一张大图
+
+flow有几种类型 stateflow

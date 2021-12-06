@@ -31,3 +31,5 @@
 [再见 SharedPreferences 拥抱 DataStore (二)](https://juejin.im/post/6888847647802097672)
 
 [反思｜官方也无力回天？Android SharedPreferences的设计与实现](https://juejin.cn/post/6884505736836022280#heading-10)
+
+[用力抱一下 Jetpack DataStore](https://juejin.cn/post/6903308779077500942)

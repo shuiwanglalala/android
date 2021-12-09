@@ -12,13 +12,19 @@ arouter
 
 热更新原理
 
+插件化
+
+apk打包过程
+
+gradle打包过程
+
+apk安装过程
+
 binder 
 
 socket 通信
 
 http
-
-contentprovider uri intent
 
 
 嵌套滑动的源码
@@ -38,8 +44,6 @@ navigation时要注意fragment是否复用
 hashmap linkedhashmap原理  lrucache原理
 
 stateflow
-
-https://github.com/LouisCAD/Splitties
 
 surfaceview
 

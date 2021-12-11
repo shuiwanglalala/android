@@ -26,8 +26,10 @@ socket 通信
 
 http
 
+如何确保app的网络请求的key安全
 
-嵌套滑动的源码
+
+
 
 androidx下activity fragment的使用
 
@@ -36,6 +38,10 @@ fragment的恢复和保存
 fragmentmanager的使用
 
 retrofit glide原理 glide缓存原理
+
+bitmap的大小
+
+glide使用时bitmap的大小 imageview scaletype对glide的影响
 
 navigation时要注意fragment是否复用
 

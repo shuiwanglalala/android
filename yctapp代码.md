@@ -1,8 +1,14 @@
 # yct app代码
 
-github android官方的demo
+http
 
-medium上的google团队的文章
+生产者 消费者 死锁
+
+https://zhuanlan.zhihu.com/p/73442055
+
+跨线程通信
+
+hashmap linkedhashmap原理
 
 
 
@@ -21,10 +27,6 @@ gradle打包过程
 apk安装过程
 
 binder 
-
-socket 通信
-
-http
 
 如何确保app的网络请求的key安全
 
@@ -45,9 +47,7 @@ glide使用时bitmap的大小 imageview scaletype对glide的影响
 
 navigation时要注意fragment是否复用
 
-跨线程通信 跨进程通信
-
-hashmap linkedhashmap原理  lrucache原理
+  lrucache原理
 
 stateflow
 
@@ -56,3 +56,6 @@ surfaceview
 如何加载一张大图
 
 flow有几种类型 stateflow
+
+
+

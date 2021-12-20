@@ -30,6 +30,13 @@ binder
 
 如何确保app的网络请求的key安全
 
+recyclerview
+
++ stable ids
++ asynclayoutinflater
++ hasfixedsize
++ viewcacheextension在请求期间准备view
+
 
 
 

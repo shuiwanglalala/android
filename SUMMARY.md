@@ -4,29 +4,27 @@
   
   * [yct app功能](yctapp功能.md)
   * [yct app代码](yctapp代码.md)
+
+* software
   
-* [software](Software.md)
-
-  * [Git](Git软件.md)
-  * [翻墙](翻墙.md)
-  * [android studio概述](androidstudio概述.md)
-
-    * 编写您的应用
-      
-      + [利用注解改进代码检查](利用注解改进代码检查.md)
-      
-    * 配置编译版本
-      * [概览](配置build.md)
-      * [压缩您的应用](压缩您的应用.md)
-      
-    * 调试应用
-
-      * 使用 Database Inspector 调试数据库
-      * [Inspect trace logs with Traceview](InspectTraceLogsWithTraceview.md)
-
-      + [调查 RAM 使用情况](调查RAM使用情况.md)
+  * 编写您的应用
+    
+    + [利用注解改进代码检查](利用注解改进代码检查.md)
   
+  * 配置编译版本
+    
+    * [概览](配置build.md)
+    * [压缩您的应用](压缩您的应用.md)
+  
+  * 调试应用
+    
+    * 使用 Database Inspector 调试数据库
+    
+    * [Inspect trace logs with Traceview](InspectTraceLogsWithTraceview.md)
+    + [调查 RAM 使用情况](调查RAM使用情况.md)
+
 * Activities
+  
   * [Introduction to Activities](IntroductionToActivities.md)
   * [Parcelables and Bundles](ParcelablesAndBundles.md)
   * [Fragments](Fragments.md)
@@ -36,22 +34,23 @@
   * 与其他应用互动
     * [获取 Activity 的结果](获取Activity的结果.md)
     * [允许其他应用启动您的 Activity](允许其他应用启动您的Activity.md)
-  
+
 * [应用资源](应用资源.md)
 
 * [Activity](Activity.md)
-
+  
   * [Application](Application.md)
 
 * [Fragment](Fragment.md)
+  
   * [Context](Context.md)
   * Window
     * [Android全面解析之Window机制](Android全面解析之Window机制.md)
   * [Activity生命周期](Activity生命周期.md)
   * [任务和返回栈](任务和返回栈.md)
-  
-* [架构组件](架构组件.md)
 
+* [架构组件](架构组件.md)
+  
   * [App Startup](AppStartup.md)
   * [DataStore](DataStore.md)
   * [ViewBinding](ViewBinding.md)
@@ -78,16 +77,18 @@
   * demo
     * [Android Architecture Todo](AndroidArchitectureTodo.md)
     * [MVPArms](MVPArms.md)
-  
+
 * [导航组件](导航组件.md)
 
 * Intent和Intent过滤器
+  
   * [Intent概览](Intent概览.md)
   * 通信
     * [事件总线](事件总线.md)
     * [ARouter](ARouter.md)
-  
+
 * [界面](界面.md)
+  
   * [Material design](MaterialDesign.md)
   * [View](View.md)
     * [Table](Table.md)
@@ -137,27 +138,28 @@
   * [搜索](搜索.md)
   * [复制和粘贴](复制和粘贴.md)
   * [拖放](拖放.md)
-  
+
 * [动画和过渡](动画和过渡.md)
   
   * [动画lib](动画lib.md)
-  
+
 * 图片和图形
+  
   * [Drawables overview](DrawablesOverview.md)
   * [Vector drawables overview](VectorDrawablesOverview.md)
   * [处理位图](处理位图.md)
   * [Hardware acceleration](HardwareAcceleration.md)
   * [Gallery](Gallery.md)
-  
+
 * 服务
   
   * [服务概览](服务概览.md)
-  
+
 * [权限](权限.md)
   
   * [权限概览](权限概览.md)
   * [请求应用权限](请求应用权限.md)
-  
+
 * [App data & files](Appdata&files.md)
   
   * [保存到应用专属存储空间](保存到应用专属存储空间.md)
@@ -184,23 +186,24 @@
     * [创建内容提供程序](创建内容提供程序.md)
     * [使用存储访问框架打开文件](使用存储访问框架打开文件.md)
   * [缓存](缓存.md)
-  
+
 * [触摸和输入](触摸和输入.md)
   
   * [使用触摸手势](使用触摸手势.md)
     * [检测常用手势](检测常用手势.md)
   * [处理键盘输入](处理键盘输入.md)
-  
+
 * 连接性
+  
   * 执行网络操作
     * [连接到网络](连接到网络.md)
-  
+
 * [基于网络的内容](基于网络的内容.md)
   
   * [WebView](WebView.md)
-  
-* 依赖项注入
 
+* 依赖项注入
+  
   * [使用Hilt实现依赖项注入](使用Hilt实现依赖项注入.md)
   * [Hilt和Jetpack集成](Hilt和Jetpack集成.md)
   * Dagger
@@ -211,21 +214,22 @@
     * [轻松学Dagger2](轻松学Dagger2.md)
 
 * 性能
-
+  
   * view性能
     * [recyclerview性能](recyclerview性能.md)
 
 * [Android版本更新](Android版本更新.md)
 
 * lib
-
+  
   * [Rxjava](Rxjava.md)
     * [Rxjava Opeartor](RxjavaOpeartor.md)
     * [Rx lib](RxLib.md)
   * [工具](工具.md)
   * [Third](Third.md)
-  
+
 * Architecture Components
+  
   * [WorkManager](WorkManager.md)
     * 方法指南
       * [Defining your Work Requests](Defining your Work Requests.md)
@@ -241,12 +245,14 @@
 * [绑定服务](绑定服务.md)
   
   * [Android 接口定义语言](Android 接口定义语言.md)
-  
+
 * [Broadcasts overview](Broadcasts overview.md)
+  
   * Manage device awake state
     * [使设备保持唤醒状态](使设备保持唤醒状态.md)
   * [Jobscheduler](Jobscheduler.md)
 + Performance
+  
   + Android vitals
     + [ANRs](ANRs.md)
     + [App startup time](App startup time.md)
@@ -260,7 +266,3 @@
     + [内存泄漏](内存泄漏.md)
   + [使应用能迅速响应](使应用能迅速响应.md)
   + [性能提示](性能提示.md)
-
-
-
-

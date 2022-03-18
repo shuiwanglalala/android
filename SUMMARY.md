@@ -2,7 +2,6 @@
 
 * yct
   
-  * [yct app功能](yctapp功能.md)
   * [yct app代码](yctapp代码.md)
 
 * software

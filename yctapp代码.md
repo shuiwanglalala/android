@@ -1,16 +1,8 @@
 # yct app代码
 
-http
-
-生产者 消费者 死锁
-
 https://zhuanlan.zhihu.com/p/73442055
 
-跨线程通信
-
 hashmap linkedhashmap原理
-
-
 
 arouter
 
@@ -37,9 +29,6 @@ recyclerview
 + hasfixedsize
 + viewcacheextension在请求期间准备view
 
-
-
-
 androidx下activity fragment的使用
 
 fragment的恢复和保存
@@ -63,6 +52,3 @@ surfaceview
 如何加载一张大图
 
 flow有几种类型 stateflow
-
-
-

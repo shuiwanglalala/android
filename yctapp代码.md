@@ -1,12 +1,8 @@
 # yct app代码
 
-https://zhuanlan.zhihu.com/p/73442055
+
 
 hashmap linkedhashmap原理
-
-arouter
-
-组件化原理
 
 热更新原理
 

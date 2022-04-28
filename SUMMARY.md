@@ -92,7 +92,7 @@
   * [View](View.md)
     * [Table](Table.md)
     * [ProgressBar](ProgressBar.md)
-    * [intro](intro.md)
+    * 
     * 机制
       * [绘制](绘制.md)
         * 自定义View
@@ -159,7 +159,7 @@
   * [权限概览](权限概览.md)
   * [请求应用权限](请求应用权限.md)
 
-* [App data & files](Appdata&files.md)
+* App data & files
   
   * [保存到应用专属存储空间](保存到应用专属存储空间.md)
   * 保存到共享的存储空间
@@ -226,18 +226,6 @@
     * [Rx lib](RxLib.md)
   * [工具](工具.md)
   * [Third](Third.md)
-
-* Architecture Components
-  
-  * [WorkManager](WorkManager.md)
-    * 方法指南
-      * [Defining your Work Requests](Defining your Work Requests.md)
-      * [工作状态和观察工作](工作状态和观察工作.md)
-      * [链接工作](链接工作.md)
-      * [Cancelling and stopping work](Cancelling and stopping work.md)
-    * 高级概念
-      * 在WorkManager中进行线程处理
-        * [Threading in Worker](Threading in Worker.md)
 
 * [Background Tasks](BackgroundTasks.md)
 

@@ -56,8 +56,6 @@ NEVER EVER nest ViewGroups inside ConstraintLayout! This is a contradiction in i
 
 + 2.7 ImageFilterButton & ImageFilterView
 
-
-
 https://medium.com/android-news/constraint-layout-performance-870e5f238100
 
 My point of this example is that layouts which are created to resolve specific cases are better than more general layouts like Constraint Layout

@@ -1,5 +1,7 @@
 # RecyclerView
 
+https://github.com/CymChad/BaseRecyclerViewAdapterHelper
+
 ## Google方案
 
 ### 多类型
@@ -22,35 +24,9 @@ https://github.com/erikjhordan-rey/RecyclerView-ConcatAdapter
 
 很清爽的例子 ConcatAdapter ListAdapter ViewBinding
 
-https://github.com/lisawray/groupie
-
-Groupie is a simple, flexible library for complex RecyclerView layouts
-
-### Google demo
-
-https://github.com/android/views-widgets-samples/tree/main/RecyclerView
-
-简单使用
-
-https://github.com/android/views-widgets-samples/tree/main/RecyclerViewAnimations
-
-默认动画和自定义动画，注意动画被打断，很详细的ItemAnimator demo
-
-https://github.com/android/views-widgets-samples/tree/main/RecyclerViewKotlin
-
-ListAdapter 的使用，demo一般般
-
-https://github.com/android/views-widgets-samples/tree/main/DataBindingDataBoundRecyclerView
-
-databinding的使用例子，关于OnRebindCallback有点不好懂
-
 ### LayoutManager
 
 https://github.com/google/flexbox-layout
-
-https://github.com/500px/greedo-layout-for-android
-
-按比例
 
 ### ItemDecoration
 
@@ -84,17 +60,9 @@ https://github.com/rubensousa/GravitySnapHelper
 
 ### Selection
 
-
-
 https://github.com/afollestad/drag-select-recyclerview
 
 滑动多选
-
-## 其他
-
-### 数据绑定
-
-https://github.com/evant/binding-collection-adapter/
 
 ### 动画
 
@@ -105,17 +73,3 @@ https://github.com/wasabeef/recyclerview-animators
 https://github.com/willowtreeapps/spruce-android
 
 整体性的动画
-
-### Expandable
-
-https://github.com/saket/InboxRecyclerView
-
-expandable descendant navigation 很棒的体验
-
-https://github.com/nikhilpanju/FabFilter
-
-### 特殊类型ui
-
-https://github.com/vipulasri/Timeline-View
-
-https://github.com/fython/MaterialStepperView

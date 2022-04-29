@@ -12,11 +12,11 @@
 
 **缓存性能：**
 
-| 缓存           | 重新创建`ViewHolder` | 重新绑定数据 |
-| -------------- | -------------------- | ------------ |
-| mAttachedScrap | false                | false        |
-| mCachedViews   | false                | false        |
-| mRecyclerPool  | false                | true         |
+| 缓存             | 重新创建`ViewHolder` | 重新绑定数据 |
+| -------------- | ---------------- | ------ |
+| mAttachedScrap | false            | false  |
+| mCachedViews   | false            | false  |
+| mRecyclerPool  | false            | true   |
 
 **缓存容量：**
 

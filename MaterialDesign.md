@@ -38,8 +38,6 @@ https://github.com/aritraroy/PatternLockView
 
 https://github.com/AppIntro/AppIntro
 
-
-
 ## Icon
 
 https://github.com/google/material-design-icons

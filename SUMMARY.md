@@ -92,7 +92,6 @@
   * [View](View.md)
     * [Table](Table.md)
     * [ProgressBar](ProgressBar.md)
-    * 
     * 机制
       * [绘制](绘制.md)
         * 自定义View
@@ -100,11 +99,8 @@
       * [焦点Focus](焦点Focus.md)
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
-      * [MotionLayout](MotionLayout.md)
-    * [CoordinatorLayout](CoordinatorLayout.md)
     * [RecyclerView](RecyclerView.md)
-      * blog
-        * [RecyclerView缓存机制](RecyclerView缓存机制.md)
+      * [RecyclerView缓存机制](RecyclerView缓存机制.md)
     * [FlexboxLayout](FlexboxLayout.md)
     * [CardView](CardView.md)
     * 线性布局

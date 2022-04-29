@@ -89,29 +89,25 @@
 * [界面](界面.md)
   
   * [Material design](MaterialDesign.md)
+    * [ProgressBar](ProgressBar.md)
+    * [CardView](CardView.md)
+    * [Tablayout](Tablayout.md)
+    * [DatePicker](DatePicker.md)
   * [View](View.md)
     * [Table](Table.md)
-    * [ProgressBar](ProgressBar.md)
-    * 机制
-      * [绘制](绘制.md)
-        * 自定义View
-          * [HenCoder Android 开发进阶: 自定义 View](HenCoderAndroid开发进阶自定义View.md)
-      * [焦点Focus](焦点Focus.md)
+    * [绘制](绘制.md)
+      * [HenCoder Android 开发进阶: 自定义 View](HenCoderAndroid开发进阶自定义View.md)
+    * [焦点Focus](焦点Focus.md)
   * 布局
     * [ConstraintLayout](ConstraintLayout.md)
     * [RecyclerView](RecyclerView.md)
       * [RecyclerView缓存机制](RecyclerView缓存机制.md)
     * [FlexboxLayout](FlexboxLayout.md)
-    * [CardView](CardView.md)
-    * 线性布局
-      * [Tablayout](Tablayout.md)
     * FrameLayout
-      * [CalendarView](CalendarView.md)
       * [ScrollView](ScrollView.md)
       * [NestedScrollView](NestedScrollView.md)
     * [ViewPager](ViewPager.md)
     * [SwipeRefreshLayout](SwipeRefreshLayout.md)
-  * [样式和主题背景](样式和主题背景.md)
   * [创建阴影和裁剪视图](创建阴影和裁剪视图.md)
   * 外观与风格
     * [文本](文本.md)

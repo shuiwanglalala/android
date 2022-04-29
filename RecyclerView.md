@@ -24,9 +24,7 @@ https://github.com/erikjhordan-rey/RecyclerView-ConcatAdapter
 
 很清爽的例子 ConcatAdapter ListAdapter ViewBinding
 
-### LayoutManager
 
-https://github.com/google/flexbox-layout
 
 ### ItemDecoration
 

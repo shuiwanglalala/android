@@ -21,4 +21,3 @@ https://github.com/ogaclejapan/SmartTabLayout
 选中tab居中
 
 indicator渐变色
-

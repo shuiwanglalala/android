@@ -1,7 +1,5 @@
 # CardView
 
-
-
 ## 动效
 
 https://github.com/yuyakaido/CardStackView

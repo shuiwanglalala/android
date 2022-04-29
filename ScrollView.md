@@ -1,9 +1,5 @@
 # ScrollView
 
-[Working with the ScrollView](https://guides.codepath.com/android/Working-with-the-ScrollView)
-
-https://developer.android.com/reference/com/google/android/material/behavior/SwipeDismissBehavior
-
 ## 通用库
 
 https://github.com/EverythingMe/overscroll-decor
@@ -28,10 +24,6 @@ https://github.com/klinker41/android-slidingactivity
 
 下滑finish页面，需继承SlidingActivity
 
-
-
 https://github.com/robinhood/ticker
 
 文本的滑动动画
-
-https://github.com/Q42/AndroidScrollingImageView

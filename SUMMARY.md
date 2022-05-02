@@ -87,7 +87,7 @@
     * [ARouter](ARouter.md)
 
 * [界面](界面.md)
-  
+
   * [Material design](MaterialDesign.md)
     * [ProgressBar](ProgressBar.md)
     * [CardView](CardView.md)
@@ -108,15 +108,10 @@
       * [NestedScrollView](NestedScrollView.md)
     * [ViewPager](ViewPager.md)
     * [SwipeRefreshLayout](SwipeRefreshLayout.md)
-  * [创建阴影和裁剪视图](创建阴影和裁剪视图.md)
   * 外观与风格
     * [文本](文本.md)
-      * [自动调整 TextView 的大小](自动调整TextView的大小.md)
-      * [Span](Span.md)
     * [按钮](按钮.md)
-    * [复选框](复选框.md)
     * [切换按钮](切换按钮.md)
-    * [Spinner](Spinner.md)
     * [Pickers](Pickers.md)
     * [提示](提示.md)
   * 通知
@@ -129,7 +124,7 @@
   * [搜索](搜索.md)
   * [复制和粘贴](复制和粘贴.md)
   * [拖放](拖放.md)
-
+  
 * [动画和过渡](动画和过渡.md)
   
   * [动画lib](动画lib.md)

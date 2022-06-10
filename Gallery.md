@@ -8,8 +8,6 @@ https://github.com/HuanTanSheng/EasyPhotos
 
 看上去还不错，也在维护中
 
-
-
 https://github.com/esafirm/android-image-picker
 
 https://github.com/Dhaval2404/ImagePicker

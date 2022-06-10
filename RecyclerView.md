@@ -24,8 +24,6 @@ https://github.com/erikjhordan-rey/RecyclerView-ConcatAdapter
 
 很清爽的例子 ConcatAdapter ListAdapter ViewBinding
 
-
-
 ### ItemDecoration
 
 [Android Recyclerview GridLayoutManager column spacing](https://stackoverflow.com/questions/28531996/android-recyclerview-gridlayoutmanager-column-spacing/30701422#30701422)
@@ -71,3 +69,7 @@ https://github.com/wasabeef/recyclerview-animators
 https://github.com/willowtreeapps/spruce-android
 
 整体性的动画
+
+
+
+[GitHub - KunMinX/Linkage-RecyclerView: 即使不用饿了么订餐，也请务必收藏好该库！🔥 一行代码即可接入，二级联动订餐列表。](https://github.com/KunMinX/Linkage-RecyclerView)

@@ -8,7 +8,9 @@
   
   * 编写您的应用
     
-    + [利用注解改进代码检查](利用注解改进代码检查.md)
+    + 添加多密度矢量图形
+    + 使用 lint 检查改进您的代码
+    + 工具属性参考文档
   
   * 配置编译版本
     
@@ -21,6 +23,26 @@
     
     * [Inspect trace logs with Traceview](InspectTraceLogsWithTraceview.md)
     + [调查 RAM 使用情况](调查RAM使用情况.md)
+  
+  * 测试应用
+    
+    * 其他测试工具
+      
+      * Monkey Testing
+  
+  * 命令行工具
+    
+    * Android SDK 构建工具
+      
+      * aapt2
+      
+      * d8
+    
+    * Android SDK 平台工具
+      
+      * [adb](adb.md)
+      
+      * dumpsys
 
 * Activities
   
@@ -215,7 +237,6 @@
     * [Rxjava Opeartor](RxjavaOpeartor.md)
     * [Rx lib](RxLib.md)
   * [工具](工具.md)
-  * [Third](Third.md)
 
 * [Background Tasks](BackgroundTasks.md)
 

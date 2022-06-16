@@ -14,8 +14,6 @@
 
 https://inloop.github.io/shadow4android/
 
-
-
 https://github.com/koral--/android-gif-drawable
 
 https://github.com/duanhong169/DrawableToolbox

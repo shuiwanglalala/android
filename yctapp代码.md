@@ -1,7 +1,5 @@
 # yct app代码
 
-
-
 hashmap linkedhashmap原理
 
 热更新原理
@@ -39,7 +37,7 @@ glide使用时bitmap的大小 imageview scaletype对glide的影响
 
 navigation时要注意fragment是否复用
 
-  lrucache原理
+lrucache原理
 
 stateflow
 

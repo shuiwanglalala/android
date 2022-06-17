@@ -1,4 +1,4 @@
-# [调查 RAM 使用情况](https://developer.android.com/studio/profile/investigate-ram?hl=zh-cn)
+# 调查 RAM 使用情况
 
 ## 访问 Android Monitor
 

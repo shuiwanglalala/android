@@ -9,7 +9,9 @@
   * 编写您的应用
     
     + 添加多密度矢量图形
+    
     + 使用 lint 检查改进您的代码
+    
     + 工具属性参考文档
   
   * 配置编译版本
@@ -19,9 +21,15 @@
   
   * 调试应用
     
+    * 使用 Logcat 写入和查看日志
+    
+    * 使用布局检查器和布局验证工具调试布局
+    
+    * 使用 Network Inspector 检查网络流量
+    
     * 使用 Database Inspector 调试数据库
     
-    * [Inspect trace logs with Traceview](InspectTraceLogsWithTraceview.md)
+    * 使用 APK 分析器分析您的 build 
     + [调查 RAM 使用情况](调查RAM使用情况.md)
   
   * 测试应用
@@ -29,6 +37,10 @@
     * 其他测试工具
       
       * Monkey Testing
+  
+  * 发布应用
+    
+    * [为应用签名](为应用签名.md)
   
   * 命令行工具
     
@@ -55,8 +67,6 @@
   * 与其他应用互动
     * [获取 Activity 的结果](获取Activity的结果.md)
     * [允许其他应用启动您的 Activity](允许其他应用启动您的Activity.md)
-
-* [应用资源](应用资源.md)
 
 * [Activity](Activity.md)
   

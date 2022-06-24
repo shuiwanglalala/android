@@ -23,14 +23,23 @@
   * 配置编译版本
     
     * [概览](配置build.md)
+    
     * 配置应用模块
-    * 添加构建依赖项 
+    
+    * 添加构建依赖项
+    
     * 配置 build 变体
+    
     * Gradle 提示与诀窍
+    
     * 将构建配置从 Groovy 迁移到 KTS
+    
     * 优化构建速度
+      
       * 概览
+    
     * [压缩您的应用](压缩您的应用.md)
+    
     * 为方法数超过 64K 的应用启用 MultiDex
   
   * 调试应用
@@ -229,8 +238,11 @@
 * 连接性
   
   * 执行网络操作
+    
     * [连接到网络](连接到网络.md)
+    
     * 管理网络使用情况
+    
     * 读取网络状态
 
 * [基于网络的内容](基于网络的内容.md)
@@ -248,11 +260,6 @@
     * [Jetpack新成员Hilt实践](Jetpack新成员Hilt实践.md)
     * [轻松学Dagger2](轻松学Dagger2.md)
 
-* 性能
-  
-  * view性能
-    * [recyclerview性能](recyclerview性能.md)
-
 * [Android版本更新](Android版本更新.md)
 
 * [App更新](App更新.md)
@@ -263,8 +270,6 @@
     * [Rxjava Opeartor](RxjavaOpeartor.md)
     * [Rx lib](RxLib.md)
   * [工具](工具.md)
-
-* [Background Tasks](BackgroundTasks.md)
 
 * [绑定服务](绑定服务.md)
   

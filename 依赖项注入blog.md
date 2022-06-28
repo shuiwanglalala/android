@@ -10,13 +10,9 @@ https://medium.com/tompee/dagger-2-scopes-and-subcomponents-d54d58511781
 
 文章不错
 
-
-
 https://github.com/qingmei2/Sample_dagger2
 
 对应的6篇blog不错，细节和原理都讲清楚了
-
-
 
 [Dagger 2 完全解析（三）,Component与SubComponent](https://blog.csdn.net/xiaowu_zhu/article/details/93784400)
 
@@ -31,4 +27,3 @@ https://github.com/qingmei2/Sample_dagger2
 [Android Dagger2 从零单排(四) Dependencies与SubComponent](https://www.jianshu.com/p/b989e2cb88f6)
 
 @Subcomponent可以使用父@Component所有依赖，父@Component只有@Subcomponent.Builder实例，而不能使用@Subcomponent的依赖
-

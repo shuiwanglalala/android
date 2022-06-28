@@ -2,8 +2,6 @@
 
 https://blog.csdn.net/briblue/article/details/75578459
 
-
-
 + @Inject
   + @Inject 给一个类的相应的属性做标记时，说明了它是一个依赖需求方，需要一些依赖
   + @Inject 给一个类的构造方法进行注解时，表明了它能提供依赖的能力

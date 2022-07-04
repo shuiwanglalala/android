@@ -1,7 +1,5 @@
 # yct app代码
 
-
-
 热更新原理
 
 插件化
@@ -25,7 +23,7 @@ fragment的恢复和保存
 
 fragmentmanager的使用
 
-retrofit glide原理 glide缓存原理
+ glide原理 glide缓存原理
 
 bitmap的大小
 

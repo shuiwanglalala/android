@@ -106,39 +106,63 @@
 * [架构组件](架构组件.md)
   
   * [App Startup](AppStartup.md)
+  
   * [DataStore](DataStore.md)
+  
   * [ViewBinding](ViewBinding.md)
+  
   * [DataBinding](DataBinding.md)
+    
     * [DataBinding使用入门](DataBinding使用入门.md)
+    
     * [布局和绑定表达式](布局和绑定表达式.md)
+    
     * [使用可观察的数据对象](使用可观察的数据对象.md)
+    
     * [生成的绑定类](生成的绑定类.md)
+    
     * [绑定适配器](绑定适配器.md)
+    
     * [将布局视图绑定到架构组件](将布局视图绑定到架构组件.md)
+    
     * [双向数据绑定](双向数据绑定.md)
+    
     * blog
+      
       * [DataBinding最全使用说明](DataBinding最全使用说明.md)
+  
   * [Lifecycle](Lifecycle.md)
+  
   * [LiveData](LiveData.md)
+  
   * Paging
+    
     * [Paging3](Paging3.md)
+      
       * [从网络和数据库加载页面](从网络和数据库加载页面.md)
+      
       * [转换数据流](转换数据流.md)
+  
   * [ViewModel](ViewModel.md)
+  
   * [保存状态](保存状态.md)
+  
   * [ViewModel 的已保存状态模块](ViewModel的已保存状态模块.md)
+  
   * [将 Kotlin 协程与生命周期感知型组件一起使用](将Kotlin协程与生命周期感知型组件一起使用.md)
-  * demo
-    * [Android Architecture Todo](AndroidArchitectureTodo.md)
-    * [MVPArms](MVPArms.md)
+  
+  * [架构demo](架构demo.md)
 
 * [导航组件](导航组件.md)
 
 * Intent和Intent过滤器
   
   * [Intent概览](Intent概览.md)
+  
   * 通信
+    
     * [事件总线](事件总线.md)
+    
     * [ARouter](ARouter.md)
 
 * [界面](界面.md)

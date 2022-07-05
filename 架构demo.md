@@ -1,6 +1,3 @@
-# Android Architecture Todo
+# 架构demo
 
 https://github.com/android/architecture-samples
-
-## todo-mvp
-

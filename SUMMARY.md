@@ -83,10 +83,7 @@
   
   * [Introduction to Activities](IntroductionToActivities.md)
   * [Parcelables and Bundles](ParcelablesAndBundles.md)
-  * [Fragments](Fragments.md)
-    * 构建灵活的界面
-    * 与其他 Fragment 通信
-    * [Fragments的弊端](Fragments的弊端.md)
+  * 
   * 与其他应用互动
     * [获取 Activity 的结果](获取Activity的结果.md)
     * [允许其他应用启动您的 Activity](允许其他应用启动您的Activity.md)

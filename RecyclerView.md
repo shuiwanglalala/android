@@ -70,6 +70,4 @@ https://github.com/willowtreeapps/spruce-android
 
 整体性的动画
 
-
-
 [GitHub - KunMinX/Linkage-RecyclerView: 即使不用饿了么订餐，也请务必收藏好该库！🔥 一行代码即可接入，二级联动订餐列表。](https://github.com/KunMinX/Linkage-RecyclerView)

@@ -1,9 +1,5 @@
 # Summary
 
-* yct
-  
-  * [yct app代码](yctapp代码.md)
-
 * software
   
   * 编写您的应用
@@ -79,6 +75,10 @@
       
       * dumpsys
 
+* 设备兼容性
+  
+  * [支持不同的像素密度](支持不同的像素密度.md)
+
 * Activities
   
   * [Introduction to Activities](IntroductionToActivities.md)
@@ -100,7 +100,7 @@
   * [Activity生命周期](Activity生命周期.md)
   * [任务和返回栈](任务和返回栈.md)
 
-* [架构组件](架构组件.md)
+* 架构组件
   
   * [App Startup](AppStartup.md)
   
@@ -147,10 +147,6 @@
   * [ViewModel 的已保存状态模块](ViewModel的已保存状态模块.md)
   
   * [将 Kotlin 协程与生命周期感知型组件一起使用](将Kotlin协程与生命周期感知型组件一起使用.md)
-  
-  * [架构demo](架构demo.md)
-
-* 
 
 * 应用导航
   

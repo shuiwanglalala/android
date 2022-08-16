@@ -1,5 +1,7 @@
 # Summary
 
+* [Todo](Todo.md)
+
 * software
   
   * 编写您的应用
@@ -49,7 +51,8 @@
     * 使用 Database Inspector 调试数据库
     
     * 使用 APK 分析器分析您的 build
-    + [调查 RAM 使用情况](调查RAM使用情况.md)
+    
+    * [调查 RAM 使用情况](调查RAM使用情况.md)
   
   * 测试应用
     
@@ -96,7 +99,7 @@
   * 页面层库
     
     * 生命周期感知型组件
-    * 
+      * 
 
 * [依赖项注入](依赖项注入.md)
   
@@ -130,14 +133,6 @@
   * [Lifecycle](Lifecycle.md)
   
   * [LiveData](LiveData.md)
-  
-  * Paging
-    
-    * [Paging3](Paging3.md)
-      
-      * [从网络和数据库加载页面](从网络和数据库加载页面.md)
-      
-      * [转换数据流](转换数据流.md)
   
   * [ViewModel](ViewModel.md)
   

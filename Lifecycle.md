@@ -29,16 +29,12 @@ class MyActivity : Activity(), LifecycleOwner {
 }
 ```
 
-
-
-
-
 # Question
 
 ## 为何引入
 
 + 生命周期感知型组件可执行操作来响应另一个组件（如 Activity 和 Fragment）的生命周期状态的变化。这些组件有助于您编写出更有条理且往往更精简的代码，此类代码更易于维护
-
+  
   一种常见的模式是在 Activity 和 Fragment 的生命周期方法中实现依赖组件的操作。但是，这种模式会导致代码条理性很差而且会扩散错误。通过使用生命周期感知型组件，您可以将依赖组件的代码从生命周期方法移入组件本身中
 
 + 无法保证组件会在 Activity 或 Fragment 停止之前启动。在我们需要执行长时间运行的操作（如 `onStart()` 中的某种配置检查）时尤其如此。这可能会导致出现一种竞态条件，在这种条件下，`onStop()` 方法会在 `onStart()` 之前结束，这使得组件留存的时间比所需的时间要长
@@ -46,11 +42,15 @@ class MyActivity : Activity(), LifecycleOwner {
 ## 包结构
 
 + lifecycle-common
+
 + lifecycle-runtime
+
 + lifecycle-runtime-ktx
 
 + lifecycle-common-java8
+
 + lifecycle-service
+
 + lifecycle-process
 
 ## 源码
@@ -113,10 +113,3 @@ ProcessLifecycleOwner
 如果app是单进程的，使用lifecycle-process是完全ok的，但是假如一个app有多进程，好像无效
 
 ## 是否有类似的替代物
-
-
-
-
-
-
-

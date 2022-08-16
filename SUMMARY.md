@@ -86,6 +86,21 @@
     * [界面层概览](界面层概览.md)
     
     * [页面事件](页面事件.md)
+  
+  * [网域层](网域层.md)
+  
+  * [数据层](数据层.md)
+
+* 架构组件
+  
+  * 页面层库
+    
+    * 生命周期感知型组件
+    * 
+
+* [依赖项注入](依赖项注入.md)
+  
+  * [使用Hilt实现依赖项注入](使用Hilt实现依赖项注入.md)
 
 * Activities
   
@@ -110,31 +125,7 @@
 
 * 架构组件
   
-  * [App Startup](AppStartup.md)
-  
   * [DataStore](DataStore.md)
-  
-  * [ViewBinding](ViewBinding.md)
-  
-  * [DataBinding](DataBinding.md)
-    
-    * [DataBinding使用入门](DataBinding使用入门.md)
-    
-    * [布局和绑定表达式](布局和绑定表达式.md)
-    
-    * [使用可观察的数据对象](使用可观察的数据对象.md)
-    
-    * [生成的绑定类](生成的绑定类.md)
-    
-    * [绑定适配器](绑定适配器.md)
-    
-    * [将布局视图绑定到架构组件](将布局视图绑定到架构组件.md)
-    
-    * [双向数据绑定](双向数据绑定.md)
-    
-    * blog
-      
-      * [DataBinding最全使用说明](DataBinding最全使用说明.md)
   
   * [Lifecycle](Lifecycle.md)
   
@@ -277,22 +268,6 @@
 * [基于网络的内容](基于网络的内容.md)
   
   * [WebView](WebView.md)
-
-* 依赖项注入
-  
-  * 使用Hilt实现依赖项注入
-  
-  * Hilt和Jetpack集成
-  
-  * Dagger
-    
-    * [在 Android 应用中使用 Dagger](在Android应用中使用Dagger.md)
-    
-    * [在多模块应用中使用Dagger](在多模块应用中使用Dagger.md)
-  
-  * [blog](依赖项注入blog.md)
-    
-    * [轻松学Dagger2](轻松学Dagger2.md)
 
 * [Android版本更新](Android版本更新.md)
 

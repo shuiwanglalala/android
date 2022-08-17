@@ -99,7 +99,12 @@
   * 页面层库
     
     * 生命周期感知型组件
-      * 
+      
+      * [处理生命周期](处理生命周期.md)
+      
+      * [ViewModel](ViewModel.md)
+      
+      * [LiveData](LiveData.md)
 
 * [依赖项注入](依赖项注入.md)
   
@@ -130,15 +135,7 @@
   
   * [DataStore](DataStore.md)
   
-  * [Lifecycle](Lifecycle.md)
-  
-  * [LiveData](LiveData.md)
-  
-  * [ViewModel](ViewModel.md)
-  
-  * [保存状态](保存状态.md)
-  
-  * [ViewModel 的已保存状态模块](ViewModel的已保存状态模块.md)
+  * 
   
   * [将 Kotlin 协程与生命周期感知型组件一起使用](将Kotlin协程与生命周期感知型组件一起使用.md)
 

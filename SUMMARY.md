@@ -105,6 +105,22 @@
       * [ViewModel](ViewModel.md)
       
       * [LiveData](LiveData.md)
+      
+      * [将 Kotlin 协程与生命周期感知型组件一起使用](将Kotlin协程与生命周期感知型组件一起使用.md)
+  
+  * 数据层库
+    
+    * [DataStore](DataStore.md)
+
+* 应用入口点
+  
+  * [Activity](Activity.md)
+    
+    * [Activity生命周期](Activity生命周期.md)
+    
+    * [任务和返回栈](任务和返回栈.md)
+    
+    * 从后台启动 Activity 的限制
 
 * [依赖项注入](依赖项注入.md)
   
@@ -112,36 +128,13 @@
 
 * Activities
   
-  * [Introduction to Activities](IntroductionToActivities.md)
-  * [Parcelables and Bundles](ParcelablesAndBundles.md)
-  * 
   * 与其他应用互动
     * [获取 Activity 的结果](获取Activity的结果.md)
     * [允许其他应用启动您的 Activity](允许其他应用启动您的Activity.md)
 
-* [Activity](Activity.md)
-  
-  * [Application](Application.md)
-
 * [Fragment](Fragment.md)
-  
-  * [Context](Context.md)
-  * Window
-    * [Android全面解析之Window机制](Android全面解析之Window机制.md)
-  * [Activity生命周期](Activity生命周期.md)
-  * [任务和返回栈](任务和返回栈.md)
 
-* 架构组件
-  
-  * [DataStore](DataStore.md)
-  
-  * 
-  
-  * [将 Kotlin 协程与生命周期感知型组件一起使用](将Kotlin协程与生命周期感知型组件一起使用.md)
-
-* 应用导航
-  
-  * Navigation组件
+* 
 
 * Intent和Intent过滤器
   

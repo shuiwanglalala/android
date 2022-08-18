@@ -122,6 +122,30 @@
     
     * 从后台启动 Activity 的限制
 
+* 应用导航
+  
+  * Navigation组件
+    
+    * [Navigation组件使用入门](Navigation组件使用入门.md)
+    
+    * [创建目的地](创建目的地.md)
+    
+    * [嵌套导航图](嵌套导航图.md)
+    
+    * [支持多个返回堆栈](支持多个返回堆栈.md)
+    
+    * [条件导航](条件导航.md)
+    
+    * [使用 NavigationUI 更新界面组件](使用NavigationUI更新界面组件.md)
+  
+  * Fragment
+    
+    * [创建Fragment](创建Fragment.md)
+    
+    * [Fragment管理器](Fragment管理器.md)
+    
+    * [Fragment事务](Fragment事务.md)
+
 * [依赖项注入](依赖项注入.md)
   
   * [使用Hilt实现依赖项注入](使用Hilt实现依赖项注入.md)
@@ -131,10 +155,6 @@
   * 与其他应用互动
     * [获取 Activity 的结果](获取Activity的结果.md)
     * [允许其他应用启动您的 Activity](允许其他应用启动您的Activity.md)
-
-* [Fragment](Fragment.md)
-
-* 
 
 * Intent和Intent过滤器
   

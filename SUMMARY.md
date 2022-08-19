@@ -311,18 +311,14 @@
   * Manage device awake state
     * [使设备保持唤醒状态](使设备保持唤醒状态.md)
   * [Jobscheduler](Jobscheduler.md)
-+ Performance
++ 性能
   
-  + Android vitals
-    + [ANRs](ANRs.md)
-    + [App startup time](App startup time.md)
-  + [进程和线程](进程和线程.md)
-  + [Better performance through threading](Better performance through threading.md)
-    + Handler
-      + [Android全面解析之Handler机制](Android全面解析之Handler机制.md)
-  + 针对电池续航时间进行优化
-    + [针对低电耗模式和应用待机模式进行优化](针对低电耗模式和应用待机模式进行优化.md)
-  + [Manage your app memory](Manage your app memory.md)
-    + [内存泄漏](内存泄漏.md)
-  + [使应用能迅速响应](使应用能迅速响应.md)
-  + [性能提示](性能提示.md)
+  + 提高性能
+    
+    + 解决常见问题
+      
+      + 缩减应用大小
+
++ 其他
+  
+  + [Android全面解析之Handler机制](Android全面解析之Handler机制.md)

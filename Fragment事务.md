@@ -19,3 +19,7 @@ For the vast majority of use cases, `commit()` is all you need.
 ## Showing and hiding fragment's views
 
 Use the `FragmentTransaction` methods [`show()`](https://developer.android.com/reference/androidx/fragment/app/FragmentTransaction?hl=zh-cn#show(androidx.fragment.app.Fragment)) and [`hide()`](https://developer.android.com/reference/androidx/fragment/app/FragmentTransaction?hl=zh-cn#hide(androidx.fragment.app.Fragment)) to show and hide the view of fragments that have been added to a container. These methods set the visibility of the fragment's views *without* affecting the lifecycle of the fragment.
+
+## Attaching and detaching fragments
+
+**Note:** The `attach()` and `detach()` methods are not related to the `Fragment` methods of [`onAttach()`](https://developer.android.com/reference/androidx/fragment/app/Fragment?hl=zh-cn#onAttach(android.content.Context)) and [`onDetach()`](https://developer.android.com/reference/androidx/fragment/app/Fragment?hl=zh-cn#onDetach()).

@@ -19,3 +19,7 @@
 + Fragment
   
   + FragmentManager 可让您通过 saveBackStack() 和 restoreBackStack() 方法支持多个返回堆栈
+  
+  + 转间动画
+  
+  + 保持状态

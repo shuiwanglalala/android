@@ -235,11 +235,6 @@
   * [Hardware acceleration](HardwareAcceleration.md)
   * [Gallery](Gallery.md)
 
-* 权限
-  
-  * [权限概览](权限概览.md)
-  * [请求应用权限](请求应用权限.md)
-
 * App data & files
   
   * [保存到应用专属存储空间](保存到应用专属存储空间.md)
@@ -319,6 +314,8 @@
   * [权限概览](权限概览.md)
   
   * [请求应用权限](请求应用权限.md)
+  
+  * 限制与其他应用的交互
 + 性能
   
   + 提高性能

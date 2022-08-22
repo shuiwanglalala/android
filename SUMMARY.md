@@ -235,11 +235,7 @@
   * [Hardware acceleration](HardwareAcceleration.md)
   * [Gallery](Gallery.md)
 
-* 服务
-  
-  * [服务概览](服务概览.md)
-
-* [权限](权限.md)
+* 权限
   
   * [权限概览](权限概览.md)
   * [请求应用权限](请求应用权限.md)
@@ -298,19 +294,31 @@
 * lib
   
   * [Rxjava](Rxjava.md)
+    
     * [Rxjava Opeartor](RxjavaOpeartor.md)
     * [Rx lib](RxLib.md)
+  
   * [工具](工具.md)
-
-* [绑定服务](绑定服务.md)
   
-  * [Android 接口定义语言](Android 接口定义语言.md)
+  * 
 
-* [Broadcasts overview](Broadcasts overview.md)
+* 服务
   
-  * Manage device awake state
-    * [使设备保持唤醒状态](使设备保持唤醒状态.md)
-  * [Jobscheduler](Jobscheduler.md)
+  * [服务概览](服务概览.md)
+
+* 后台任务
+  
+  * [后台任务概览](后台任务概览.md)
+  
+  * 广播
+    
+    * [广播概览](广播概览.md)
+
+* 权限
+  
+  * [权限概览](权限概览.md)
+  
+  * [请求应用权限](请求应用权限.md)
 + 性能
   
   + 提高性能

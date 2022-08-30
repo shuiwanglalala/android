@@ -26,7 +26,4 @@ https://github.com/kaushikgopal/RxJava-Android-Samples
 
 各类实际用法
 
-
-
 https://medium.com/android-news/rxjava-single-maybe-and-completable-8686db42bac8
-

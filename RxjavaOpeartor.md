@@ -4,8 +4,6 @@ https://github.com/KunMinX/RxJava2-Operators-Magician
 
 https://mcxiaoke.gitbooks.io/rxdocs/content/
 
-
-
 ## 创建操作
 
 用于创建Observable的操作符
@@ -41,11 +39,7 @@ https://mcxiaoke.gitbooks.io/rxdocs/content/
 - [`Scan`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Scan.html) — 扫描，对Observable发射的每一项数据应用一个函数，然后按顺序依次发射这些值
 - [`Window`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Window.html) — 窗口，定期将来自Observable的数据分拆成一些Observable窗口，然后发射这些窗口，而不是每次发射一项。类似于Buffer，但Buffer发射的是数据，Window发射的是Observable，每一个Observable发射原始Observable的数据的一个子集
 
-
-
 [如何形象地描述RxJava中的背压和流控机制？](http://zhangtielei.com/posts/blog-rxjava-backpressure.html)
-
-
 
 ## 过滤操作
 
@@ -150,6 +144,3 @@ https://mcxiaoke.gitbooks.io/rxdocs/content/
 
 - [`To`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/To.html) — 将Observable转换为其它的对象或数据结构
 - [`Blocking`](https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Blocking-Observable-Operators.html) 阻塞Observable的操作符
-
-
-

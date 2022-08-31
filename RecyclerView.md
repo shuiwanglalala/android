@@ -26,7 +26,7 @@ https://github.com/erikjhordan-rey/RecyclerView-ConcatAdapter
 
 ### ItemDecoration
 
-[Android Recyclerview GridLayoutManager column spacing](https://stackoverflow.com/questions/28531996/android-recyclerview-gridlayoutmanager-column-spacing/30701422#30701422)
+https://github.com/cabriole/Decorator
 
 ### Drag Swipe
 
@@ -59,6 +59,8 @@ https://github.com/rubensousa/GravitySnapHelper
 https://github.com/afollestad/drag-select-recyclerview
 
 滑动多选
+
+recyclerview-selection官方库
 
 ### 动画
 

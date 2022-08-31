@@ -192,15 +192,12 @@
   
   * 常见Intent
 
-* [界面](界面.md)
+* 界面
   
   * 
-  * [View](View.md)
-    * [Table](Table.md)
-    * [绘制](绘制.md)
-      * [HenCoder Android 开发进阶: 自定义 View](HenCoderAndroid开发进阶自定义View.md)
-    * [焦点Focus](焦点Focus.md)
+  
   * 布局
+    
     * [ConstraintLayout](ConstraintLayout.md)
     * [RecyclerView](RecyclerView.md)
       * [RecyclerView缓存机制](RecyclerView缓存机制.md)
@@ -209,21 +206,33 @@
       * [ScrollView](ScrollView.md)
       * [NestedScrollView](NestedScrollView.md)
     * [SwipeRefreshLayout](SwipeRefreshLayout.md)
+  
   * 外观与风格
+    
     * [文本](文本.md)
     * [按钮](按钮.md)
     * [切换按钮](切换按钮.md)
     * [Pickers](Pickers.md)
     * [提示](提示.md)
+  
   * 通知
+    
     * [通知概览](通知概览.md)
+  
   * [控制系统界面可见度](控制系统界面可见度.md)
+  
   * [消息框概览](消息框概览.md)
+  
   * [对话框](对话框.md)
+  
   * [Menu](Menu.md)
+  
   * [设置](设置.md)
+  
   * [搜索](搜索.md)
+  
   * [复制和粘贴](复制和粘贴.md)
+  
   * [拖放](拖放.md)
 
 * [动画和过渡](动画和过渡.md)
@@ -323,6 +332,12 @@
 * 其他
   
   * [Android全面解析之Handler机制](Android全面解析之Handler机制.md)
+  
+  * [Window](Window.md)
+  
+  * [View](View.md)
+    
+    * [View绘制](View绘制.md)
   
   * [Rxjava](Rxjava.md)
     

@@ -170,21 +170,25 @@
   
   * [使用Hilt实现依赖项注入](使用Hilt实现依赖项注入.md)
 
-* Activities
+* 与其他应用交互
   
-  * 与其他应用互动
-    * [获取 Activity 的结果](获取Activity的结果.md)
-    * [允许其他应用启动您的 Activity](允许其他应用启动您的Activity.md)
+  * [与其他应用交互概览](与其他应用交互概览.md)
+  
+  * [向另一个应用发送用户](向另一个应用发送用户.md)
+  
+  * [获取activity的结果](获取activity的结果.md)
+  
+  * [允许其他应用启动您的 Activity](允许其他应用启动您的Activity.md)
+  
+  * 软件包可见性
 
 * Intent和Intent过滤器
   
-  * [Intent概览](Intent概览.md)
+  * Intent概览
   
-  * 通信
-    
-    * [事件总线](事件总线.md)
-    
-    * [ARouter](ARouter.md)
+  * 常见Intent
+  
+  * 
 
 * [界面](界面.md)
   
@@ -328,3 +332,5 @@
     * [Rxjava Opeartor](RxjavaOpeartor.md)
     
     * [Rx lib](RxLib.md)
+  
+  * [事件总线](事件总线.md)

@@ -225,20 +225,8 @@
   * [支持滑动刷新](支持滑动刷新.md)
   
   * [Menu](Menu.md)
-
-* 
-
-* 
-
-* 
-
-* 
-
-* [搜索](搜索.md)
-
-* [复制和粘贴](复制和粘贴.md)
-
-* [拖放](拖放.md)
+  
+  * [搜索](搜索.md)
 
 * [动画和过渡](动画和过渡.md)
   
@@ -246,17 +234,15 @@
 
 * 图片和图形
   
-  * [Drawables overview](DrawablesOverview.md)
+  * [可绘制对象概览](可绘制对象概览.md)
   
-  * [Vector drawables overview](VectorDrawablesOverview.md)
+  * [矢量可绘制对象概览](矢量可绘制对象概览.md)
   
   * [处理位图](处理位图.md)
   
-  * [Hardware acceleration](HardwareAcceleration.md)
+  * [ImageView](ImageView.md)
   
-  * [Gallery](Gallery.md)
-  
-  * [缓存](缓存.md)
+  * [Photo](Photo.md)
 
 * 服务
   
@@ -289,6 +275,8 @@
   * [保存到本地数据库](保存到本地数据库.md)
   
   * Android存储用例和最佳做法
+  
+  * [缓存](缓存.md)
 
 * 用户数据和身份
   

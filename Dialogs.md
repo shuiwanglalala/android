@@ -1,5 +1,0 @@
-# Dialogs
-
-AlertDialog
-
-DialogFragment

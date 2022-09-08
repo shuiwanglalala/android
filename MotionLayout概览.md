@@ -7,3 +7,7 @@
 ## 使用入门
 
 请注意，MotionScene 中的定义优先于 `MotionLayout` 中的任何类似定义。
+
+https://medium.com/google-developers/introduction-to-motionlayout-part-i-29208674b10d
+
+https://medium.com/google-developers/introduction-to-motionlayout-part-ii-a31acc084f59

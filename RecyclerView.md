@@ -24,6 +24,8 @@ https://github.com/erikjhordan-rey/RecyclerView-ConcatAdapter
 
 很清爽的例子 ConcatAdapter ListAdapter ViewBinding
 
+## DiffUtil
+
 ### ItemDecoration
 
 https://github.com/cabriole/Decorator

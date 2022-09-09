@@ -78,10 +78,6 @@
       
       * dumpsys
 
-* Material Design
-  
-  * [Material库](Material库.md)
-
 * 设备兼容性
   
   * [设备兼容性概览](设备兼容性概览.md)
@@ -191,6 +187,10 @@
   * Intent概览
   
   * 常见Intent
+
+* Material Design
+  
+  * [Material库](Material库.md)  
 
 * 界面
   

@@ -2,6 +2,8 @@
 
 https://github.com/KunMinX/RxJava2-Operators-Magician
 
+https://github.com/jiang111/RxJavaApp
+
 https://mcxiaoke.gitbooks.io/rxdocs/content/
 
 ## 创建操作

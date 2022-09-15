@@ -6,24 +6,12 @@ https://stackoverflow.com/questions/2521277/what-are-the-hot-and-cold-observable
 
 [给 Android 开发者的 RxJava 详解](https://gank.io/post/560e15be2dca930e00da1083)
 
-https://github.com/rengwuxian/RxJavaSamples/tree/1.x
-
 ## 2.0
-
-[这可能是最好的RxJava 2.x 教程（完结版）](https://www.jianshu.com/p/0cd258eecf60)
-
-一般般
 
 https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
 
 各类operator
 
-https://github.com/jiang111/RxJavaApp
-
-同上
-
 https://github.com/kaushikgopal/RxJava-Android-Samples
 
 各类实际用法
-
-https://medium.com/android-news/rxjava-single-maybe-and-completable-8686db42bac8

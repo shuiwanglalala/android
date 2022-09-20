@@ -42,6 +42,8 @@ https://github.com/iPaulPro/Android-ItemTouchHelper-Demo
 
 主动触发拖曳，自定义选中及拖曳的动画
 
+https://github.com/TradeMe/Covert
+
 ### Snap
 
 https://github.com/MindorksOpenSource/SnapHelperExample

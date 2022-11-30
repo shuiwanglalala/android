@@ -20,4 +20,6 @@ https://github.com/KeepSafe/TapTargetView
 
 https://github.com/faruktoptas/FancyShowCaseView
 
+[GitHub - TakuSemba/Spotlight: Android Library that lights items for tutorials or walk-throughs etc...](https://github.com/TakuSemba/Spotlight)
+
 https://github.com/Bryanx/themed-toggle-button-group

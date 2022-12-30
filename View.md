@@ -9,3 +9,5 @@ https://github.com/MackHartley/RoundedProgressBar
 [GitHub - lopspower/CircularFillableLoaders: Realize a beautiful circular fillable loaders to be used for splashscreen 🌊](https://github.com/lopspower/CircularFillableLoaders)
 
 https://github.com/skydoves/AndroidRibbon
+
+https://github.com/DanielMartinus/Konfetti

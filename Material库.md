@@ -23,3 +23,5 @@ https://github.com/faruktoptas/FancyShowCaseView
 [GitHub - TakuSemba/Spotlight: Android Library that lights items for tutorials or walk-throughs etc...](https://github.com/TakuSemba/Spotlight)
 
 https://github.com/Bryanx/themed-toggle-button-group
+
+[GitHub - cortinico/slidetoact: A simple &#39;Slide to Unlock&#39; Material widget for Android, written in Kotlin 📱🎨🦄](https://github.com/cortinico/slidetoact)

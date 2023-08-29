@@ -2,6 +2,8 @@
 
 https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 
+https://github.com/liangjingkanji/BRV
+
 ## Google方案
 
 ### 多类型
